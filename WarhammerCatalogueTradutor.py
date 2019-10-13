@@ -298,3 +298,4 @@ with open(newFile, "wb") as file:
 print "Registros nao localizados no dicionario {i}".format(i=str(naoLocalizados))
 
 dtIdx.createIndexBsr()
+
