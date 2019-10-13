@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="eb0f-c144-a282-8bdc" name="Imperium - Blood Angels" revision="93" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="eb0f-c144-a282-8bdc" name="Imperium - Blood Angels" revision="97" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@WindstormSCR" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="eb0f-c144-pubN65537" name="Codex: Blood Angels"/>
     <publication id="eb0f-c144-pubN68947" name="Index: Imperium 1"/>
@@ -211,7 +211,12 @@
     <entryLink id="2ed8-1316-2c2b-af86" name="Captain in Phobos Armour" hidden="false" collective="false" import="true" targetId="b1ee-e4ba-0123-cba4" type="selectionEntry"/>
     <entryLink id="3a2b-20de-6fbd-437a" name="Infiltrator Squad" hidden="false" collective="false" import="true" targetId="66fe-5358-b5ed-1397" type="selectionEntry"/>
     <entryLink id="f627-f293-4387-feba" name="Suppressor Squad" hidden="false" collective="false" import="true" targetId="8dc5-2f9d-96d0-3db6" type="selectionEntry"/>
-    <entryLink id="8039-469d-a355-88b8" name="Chaplain Venerable Dreadnought" hidden="false" collective="false" import="true" targetId="28af-fce8-2f9c-0145" type="selectionEntry"/>
+    <entryLink id="8039-469d-a355-88b8" name="Chaplain Venerable Dreadnought" hidden="false" collective="false" import="true" targetId="28af-fce8-2f9c-0145" type="selectionEntry">
+      <entryLinks>
+        <entryLink id="4722-9dc9-2153-9e5e" name="Warlord" hidden="false" collective="false" import="true" targetId="fe32-ce90-4d6d-1883" type="selectionEntry"/>
+        <entryLink id="4d79-9d85-2154-5c7b" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="c25d-2fbc-47b3-9e39" type="selectionEntryGroup"/>
+      </entryLinks>
+    </entryLink>
     <entryLink id="d680-8513-94be-b0db" name="Damocles Command Rhino" hidden="false" collective="false" import="true" targetId="7f53-6376-cd1f-8356" type="selectionEntry"/>
     <entryLink id="0d5b-6860-a0fe-64b0" name="Deimos Pattern Relic Predator" hidden="false" collective="false" import="true" targetId="b048-66f2-3f07-e5ec" type="selectionEntry"/>
     <entryLink id="16e8-f1f0-fb0b-958a" name="Deimos Pattern Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="1cc4-d166-fe8b-d4c7" type="selectionEntry"/>
@@ -275,6 +280,7 @@
     <entryLink id="23b4-7224-1b8a-9508" name="Impulsor" hidden="false" collective="false" import="true" targetId="f1c7-528e-2287-bde6" type="selectionEntry"/>
     <entryLink id="fe20-cadf-17fe-f9e0" name="Invictor Tactical Warsuit" hidden="false" collective="false" import="true" targetId="1618-0ec1-f6e4-87bd" type="selectionEntry"/>
     <entryLink id="1a12-5630-43ae-2335" name="Incursor Squad" hidden="false" collective="false" import="true" targetId="9313-9b96-05a3-f870" type="selectionEntry"/>
+    <entryLink id="263c-6b2a-d3e8-c134" name="Malakim Phoros" hidden="false" collective="false" import="true" targetId="09f8-7f2b-a70e-eeb7" type="selectionEntry"/>
   </entryLinks>
   <infoLinks>
     <infoLink id="59cb-0435-fbd6-d3d2" name="Defenders of Humanity" hidden="false" targetId="d8df-0f76-de5e-42a0" type="rule"/>
@@ -11550,6 +11556,9 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="fe32-ce90-4d6d-1883" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cb8f-864b-94f0-cede" type="max"/>
+      </constraints>
       <categoryLinks>
         <categoryLink id="40bc-f8c4-fb86-7b4a" name="New CategoryLink" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
@@ -12440,7 +12449,7 @@
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                    <cost name="pts" typeId="points" value="0.0"/>
+                    <cost name="pts" typeId="points" value="5.0"/>
                   </costs>
                 </selectionEntry>
               </selectionEntries>
@@ -12500,7 +12509,7 @@
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If you make a wound roll of 6+ for this weapon, it inflicts 1 mortal wound in addition to its normal damage.</characteristic>
@@ -12510,7 +12519,7 @@
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target units that are not visible to the bearer. Add 2 to hit rolls made for this weapon. Units do not receive the benefit of cover to their saving throws against attacks made with this weapon.</characteristic>
@@ -12520,7 +12529,7 @@
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D3</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
@@ -12806,7 +12815,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="22.0"/>
+            <cost name="pts" typeId="points" value="32.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -13002,12 +13011,12 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3cfd-391a-0d00-bb77" type="min"/>
               </constraints>
               <selectionEntries>
-                <selectionEntry id="050d-8be9-0c25-ea53" name="Occulus Bolt" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="050d-8be9-0c25-ea53" name="Master Crafted Occulus Bolt Carbine, Paired Combat Blades, Bolt Pistol, and Grav Ghute" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="033e-be9a-c84d-5baa" type="max"/>
                   </constraints>
                   <selectionEntries>
-                    <selectionEntry id="82ba-f3ce-32be-4c60" name="Master-crafted occulus bolt rifle" hidden="false" collective="false" import="true" type="upgrade">
+                    <selectionEntry id="82ba-f3ce-32be-4c60" name="Master-crafted Occulus Bolt Carbine" hidden="false" collective="false" import="true" type="upgrade">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d1d-e1b6-74bc-841f" type="min"/>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="365f-1b48-7df4-5666" type="max"/>
@@ -13086,7 +13095,7 @@
                     <cost name="pts" typeId="points" value="0.0"/>
                   </costs>
                 </selectionEntry>
-                <selectionEntry id="c0f0-95f5-4cfb-2974" name="Reiver" hidden="false" collective="false" import="true" type="upgrade">
+                <selectionEntry id="c0f0-95f5-4cfb-2974" name="Heavy Bolt Pistol, Combat Knife, and Smoke Grenades" hidden="false" collective="false" import="true" type="upgrade">
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97fc-f257-1311-eaba" type="max"/>
                   </constraints>
@@ -13340,7 +13349,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="15.0"/>
+        <cost name="pts" typeId="points" value="10.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="c94c-7108-c4a6-7480" name="Repulsor Executioner" hidden="false" collective="false" import="true" type="unit">
@@ -14315,7 +14324,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="pts" typeId="points" value="15.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -14978,7 +14987,7 @@ The Primed Haywire Mine is represented by the Primed Haywire Mine model, but doe
           <profiles>
             <profile id="c9c6-347b-f5ae-9325" name="Master of the Vanguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1&quot; to the Movement characteristic of friendly BLOOD ANGELS units whilst they are within 6&quot; of your Warlord. In addition, add 1 to advance and charge rolls for friendly DARK ANGELS units whilst they are within 6&quot; of your warlord.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1&quot; to the Movement characteristic of friendly BLOOD ANGELS units whilst they are within 6&quot; of your Warlord. In addition, add 1 to advance and charge rolls for friendly BLOOD ANGELS units whilst they are within 6&quot; of your warlord.</characteristic>
               </characteristics>
             </profile>
           </profiles>

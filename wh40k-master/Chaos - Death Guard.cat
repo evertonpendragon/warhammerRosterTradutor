@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="66" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="ce57-cc1c-37cb-cb71" name="Chaos - Death Guard" revision="69" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="ce57-cc1c-pubN85391" name="Index: Chaos FAQ"/>
     <publication id="ce57-cc1c-pubN85402" name="Index: Chaos"/>
@@ -133,6 +133,193 @@
         <categoryLink id="8854-9b1e-d048-2b77" name="New CategoryLink" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="true"/>
       </categoryLinks>
     </entryLink>
+    <entryLink id="a78a-dbec-9dd0-a0a6" name="Greater Blight Drone" hidden="false" collective="false" import="true" targetId="3ffd-e386-5370-dbb4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fc8a-2aab-2700-1cc1" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="06cb-bf4b-5e42-e2d3" name="Plague Hulk of Nurgle" hidden="false" collective="false" import="true" targetId="d9a0-b543-74aa-fe4f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0080-fff0-1346-8a14" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="f60b-e090-6d0c-d012" name="Chaos Decimator" hidden="false" collective="false" import="true" targetId="19d7-59fa-6050-caf8" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f75e-1cb9-848c-7439" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="e2d0-f31c-f4a0-0b6c" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="5700-dcf7-3a26-836f" name="Hellforged Contemptor Dreadnought" hidden="false" collective="false" import="true" targetId="c593-94fc-fbf9-d0df" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8334-2c15-8dc4-272d" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="a48f-b18e-6d16-0146" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="71a5-f506-62bf-69cd" name="Hellforged Land Raider Proteus" hidden="false" collective="false" import="true" targetId="cbe6-e033-9937-7a1d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="680c-edfe-0fba-5546" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="a64c-8765-d48f-c98c" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a28f-b6b8-534d-501f" name="Hellforged Land Raider Achilles" hidden="false" collective="false" import="true" targetId="315a-a3db-0caa-6446" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f1d0-6c9c-f344-a807" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="663e-c245-71ed-a31e" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e494-3e98-c155-7e36" name="Hellforged Predator" hidden="false" collective="false" import="true" targetId="9e4c-e0d2-2ff0-5e95" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="68f9-ecd1-2022-1107" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="2b9f-e5d8-a1fb-8c8a" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ad41-52c4-b509-bc87" name="Hellforged Scorpius" hidden="false" collective="false" import="true" targetId="d174-1eae-f6b8-e293" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="92b9-5b6a-82f0-adff" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="a6df-c464-0ca5-77da" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="897d-a669-4a19-a064" name="Hellforged Sicaran" hidden="false" collective="false" import="true" targetId="f280-8863-be14-0159" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="9339-e9c1-63f7-2067" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="3f5c-65d5-cff2-6f2a" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1782-5b62-f2e4-e056" name="Hellforged Sicaran Venator" hidden="false" collective="false" import="true" targetId="31a0-13f1-0374-f511" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="28e4-b8dc-37ce-317e" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="9907-496b-d403-a77a" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="06b5-c0ff-c739-f77d" name="Hellforged Spartan Assault Tank" hidden="false" collective="false" import="true" targetId="eb46-865e-8ccf-a439" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="2e69-0833-ded9-4c0b" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="54fa-4a90-7615-95c8" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6061-617f-513d-f9c6" name="Hellforged Deredeo Dreadnought" hidden="false" collective="false" import="true" targetId="e261-2875-56c7-caf9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3be1-ff4f-e853-8f10" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="1bcd-b983-71c5-d45a" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="df43-0c72-07e4-bca8" name="Hellforged Rapier Battery" hidden="false" collective="false" import="true" targetId="ffd9-5eea-5484-df0a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="3854-d9f3-bb28-b3da" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="eada-e077-9ee4-405d" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="ef37-eef8-caee-198b" name="Hellforged Leviathan Dreadnought" hidden="false" collective="false" import="true" targetId="f6c4-89ad-891b-4beb" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ae1f-5e90-2178-44a7" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="63ea-fae9-84b1-b1ff" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="392f-387d-90d8-c2e5" name="Hellforged Dreadclaw Drop Pod" hidden="false" collective="false" import="true" targetId="f5b8-443f-f85c-90f1" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="8261-e3e6-6d73-9af8" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="4279-adab-a7ce-9b08" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c422-831f-99ba-8cd3" name="Hellforged Kharybdis Assault Claw" hidden="false" collective="false" import="true" targetId="e730-3bab-f956-9a95" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="4b4e-449b-b627-fc58" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="54f0-6c45-49e9-d083" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="063b-c4c3-2dcd-312e" name="Hellforged Cerberus Heavy Destroyer" hidden="false" collective="false" import="true" targetId="0c8f-8122-f2dc-ba7b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="a5f7-9d19-70b4-26a5" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="bc44-8468-c879-8ea5" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9cd3-a626-47c0-2743" name="Hellforged Typhon Heavy Siege Tank" hidden="false" collective="false" import="true" targetId="c011-cf2f-ae1e-3b1a" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="306e-5331-5935-a08b" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="31e3-2701-c6c3-2d3b" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4b31-e75a-d11c-a926" name="Hellforged Fellblade" hidden="false" collective="false" import="true" targetId="6fe4-b1d3-46d1-3481" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7fb4-a9aa-49a9-936b" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="a9ba-b8d9-bb03-3388" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="fb80-01e9-f2aa-e516" name="Hellforged Falchion" hidden="false" collective="false" import="true" targetId="a308-f638-e0af-3e5e" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="071b-a2dc-760f-c687" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="cd0c-56c2-5d42-a622" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="57cd-7965-c355-bda4" name="Hellforged Mastodon" hidden="false" collective="false" import="true" targetId="3099-f431-71d0-f357" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0254-e555-077c-8322" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="5a27-fdfb-cf06-ec5e" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a9e2-5dc9-6f08-0c50" name="Chaos Hell Blade" hidden="false" collective="false" import="true" targetId="5d38-a97d-a864-dd4b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="50a6-43a3-b9d3-f7cb" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="b4b8-741e-4008-99e0" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="9536-9fa9-cb77-4176" name="Chaos Hell Talon" hidden="false" collective="false" import="true" targetId="dc79-77bc-6adb-dfbe" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="df24-dff3-1b89-9b60" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="b6c5-b9e7-e3a0-d5d4" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c5ed-8fad-6c17-5f00" name="Chaos Storm Eagle Assault Gunship" hidden="false" collective="false" import="true" targetId="0ebf-e4c7-f8ca-ce1b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="dce6-2c8b-72a7-0fd0" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="bbae-448a-76e2-50f7" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="e84e-2680-5862-ce6f" name="Chaos Fire Raptor Assault Gunship" hidden="false" collective="false" import="true" targetId="ceaa-1081-bed7-f249" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="98fb-4164-86c3-8758" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="baec-2005-e374-ea9a" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="a2ad-978e-8334-2d31" name="Chaos Thunderhawk Assault Gunship" hidden="false" collective="false" import="true" targetId="5994-ab72-97e3-f36b" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bca7-fb0f-6a51-efdf" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="c720-1714-53f0-d64c" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="6124-49f4-50eb-fa4e" name="Chaos Sokar Pattern Stormbird Gunship" hidden="false" collective="false" import="true" targetId="086a-3326-18e2-477f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7a18-e41c-3d2d-3b75" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="87b2-1ff9-e880-c3b8" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="d21c-5d1f-b46d-6c5a" name="Chaos Xiphon Interceptor" hidden="false" collective="false" import="true" targetId="a096-b74b-efa6-9bb4" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="fe69-7eb4-7c80-9d26" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="48a6-cf66-4d4c-62f4" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="7eb8-268e-a903-9c87" name="Chaos Vindicator Laser Destroyer" hidden="false" collective="false" import="true" targetId="f957-f774-e452-34ea" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ce5e-17db-92b0-7d6e" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="4927-2a0a-0b80-38cd" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="b347-af60-1407-512f" name="Ferrum Infernus Dreadnought" hidden="false" collective="false" import="true" targetId="2cc8-0e93-7906-cdf0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="bc53-3caa-1e72-e9de" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="3cf5-8f21-7289-1939" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="015c-3781-991d-e4fd" name="Terrax-Pattern Termite Assault Drill" hidden="false" collective="false" import="true" targetId="732b-967e-1bca-5846" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="273b-aea6-06af-7900" name="Faction: Death Guard" hidden="false" targetId="8308-6393-0ce1-4bf9" primary="false"/>
+        <categoryLink id="2e58-b6e1-fcb5-b9a4" name="Faction: Nurgle" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
+        <categoryLink id="b5e7-9a9a-ca4b-6c67" name="New CategoryLink" hidden="false" targetId="1b66-3f5f-6705-079a" primary="true"/>
+        <categoryLink id="0d74-05a5-107a-65ea" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="0de3-c407-ee9c-74e1" name="Faction: Heretic Astartes" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <rules>
     <rule id="f7c7-963e-3fda-16f4" name="Plague Weapon" hidden="false">
@@ -151,10 +338,6 @@ Instead of following the normal rules for Rapid Fire weapons, models in this uni
 • The firing model is INFANTRY and every model in its unit remained stationary in your previous Movement phase.
 • The firing model is a TERMINATOR, BIKER, CENTURION, DREADNOUGHT or HELBRUTE.
 For the purposes of this ability, a Rapid Fire bolt weapon is any weapon with the Rapid Fire type whose profile includes the word ‘bolt’ (e.g. boltgun, bolt rifle, storm bolter, combi-bolter, hurricane bolter, inferno boltgun, etc.). This also applies when firing the boltgun profile of combi-weapons (including the bolt weapon profile of Relics such as Blood Song and the Lion’s Wrath) and when firing relics that replace a Rapid Fire bolt weapon, so long as the relic is also a Rapid Fire weapon (e.g. Primarch’s Wrath and Fury of Deimos). The Gauntlets of Ultramar and the Talon of Horus are also Rapid Fire bolt weapons, as is the guardian spear used by Deathwatch Watch Masters.</description>
-    </rule>
-    <rule id="cea3-0e24-7020-d1e3" name="Hateful Assault" hidden="false">
-      <description>Add the following ability to all datasheets that have the HERETIC ASTARTES or FALLEN keyword (excluding units with the CHAOS CULTISTS keyword):
-If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn.</description>
     </rule>
   </rules>
   <infoLinks>
@@ -181,6 +364,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="a271-ad31-2800-23e0" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="4da1-37f8-a2e0-faf8" name="Sigil of Corruption" hidden="false" targetId="88cc-1fee-7767-1ab4" type="profile"/>
         <infoLink id="6a3d-307f-ee7b-0a4d" name="Lord of Nurgle" hidden="false" targetId="766d-c385-bb6c-01a3" type="profile"/>
+        <infoLink id="95e9-7657-8094-803d" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5fc1-46d1-60bd-bf52" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -267,6 +451,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       </profiles>
       <infoLinks>
         <infoLink id="113f-c728-f886-9d6d" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="f66f-df94-0706-84d5" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c962-e65e-be8e-8607" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
@@ -392,6 +577,9 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
           </characteristics>
         </profile>
       </profiles>
+      <infoLinks>
+        <infoLink id="e456-bb11-9708-a293" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
+      </infoLinks>
       <categoryLinks>
         <categoryLink id="f330-5ae9-9fce-cf70" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
         <categoryLink id="f4f6-0bf4-9ef0-3c4f" name="New CategoryLink" hidden="false" targetId="7892-58f7-e769-4d87" primary="false"/>
@@ -500,6 +688,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="a861-3c9c-1034-761d" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
         <infoLink id="b080-0b1c-99fd-343f" name="Prince of Chaos" hidden="false" targetId="b2bf-eff2-2fa6-efcd" type="profile"/>
         <infoLink id="9bb2-8b4f-ea7f-1632" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="9fbe-72bb-5905-dfdb" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c5a2-5d3b-99c9-7b99-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -638,11 +827,16 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
             <characteristic name="Characteristic 3" typeId="df06-8eca-150f-90ba">2</characteristic>
           </characteristics>
         </profile>
+        <profile id="2fa1-26ac-6fac-a66f" name="Infernal Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, this model heals one wound.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="c736-96a1-f303-347b" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
-        <infoLink id="7890-822a-4a71-8c31" name="Infernal Regeneration" hidden="false" targetId="5528-f83b-71b3-0383" type="profile"/>
         <infoLink id="e096-2e7a-fdc8-702d" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="f64c-1870-696d-184b" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1eac-cd86-fbf1-b28e" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
@@ -783,6 +977,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       </profiles>
       <infoLinks>
         <infoLink id="e3a5-1035-6513-5ead" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
+        <infoLink id="3929-9b78-a9b5-b0d5" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9832-6438-ea96-d6d6-848a6ff2-0def-4c72-8433-ff7da70e6bc7" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -865,9 +1060,13 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can add 1 to all hit rolls for this unit in the Fight phase if it contains more than 10 models.</characteristic>
           </characteristics>
         </profile>
+        <profile id="5253-68c5-efc6-18ef" name="Mindless" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit never has to take Morale tests.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
-        <infoLink id="637c-6286-0fb5-ce17" name="Mindless" hidden="false" targetId="d147-d281-9501-00b9" type="profile"/>
         <infoLink id="eeb9-93c7-49aa-e063" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
       </infoLinks>
       <categoryLinks>
@@ -998,6 +1197,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="ba63-d7c1-1129-2705" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
         <infoLink id="020a-3e9f-3c5b-4a8a" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
+        <infoLink id="ecda-6b81-9ccc-cca1" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6d89-ecbe-c338-d0a4" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
@@ -1151,6 +1351,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="3fc8-d436-34a0-8ceb" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="0cb3-227c-566d-b9e3" name="Sigil of Corruption" hidden="false" targetId="88cc-1fee-7767-1ab4" type="profile"/>
         <infoLink id="bf26-5f68-7652-f746" name="Teleport Strike" hidden="false" targetId="51dc-2e9c-f739-4584" type="profile"/>
+        <infoLink id="9b95-ff93-3f2e-cfca" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c40e-745f-42eb-7bdc" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -1205,6 +1406,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="3714-95b3-8aba-37b4" name="Sigil of Corruption" hidden="false" targetId="88cc-1fee-7767-1ab4" type="profile"/>
         <infoLink id="61bb-67f7-e7e0-7a3c" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
+        <infoLink id="d9a8-ca60-605a-893d" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="8741-004e-9a3b-3279" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -1287,6 +1489,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="a042-0bc1-8591-23f3" name="Sigil of Corruption" hidden="false" targetId="88cc-1fee-7767-1ab4" type="profile"/>
         <infoLink id="9617-d732-bb4d-0435" name="Lord of Nurgle" hidden="false" targetId="766d-c385-bb6c-01a3" type="profile"/>
         <infoLink id="c3c6-10e9-d23a-cd79" name="Jump Pack Assault" hidden="false" targetId="33cd-6a54-ffea-e5c0" type="profile"/>
+        <infoLink id="c0ff-66d0-05a1-8418" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="417a-12f9-53b4-8489" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -1465,11 +1668,16 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
+        <profile id="aac5-0015-3a1d-b8ed" name="Terminator Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="2370-ad7a-4106-a343" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="e03d-68c6-ea69-b375" name="Teleport Strike" hidden="false" targetId="51dc-2e9c-f739-4584" type="profile"/>
-        <infoLink id="003d-95c4-1498-c261" name="Terminator Armour" hidden="false" targetId="3b9c-0848-e334-fcce" type="profile"/>
+        <infoLink id="cb33-e6bf-bd09-d372" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9cf5-d450-a020-1687" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -1539,6 +1747,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="b394-4dae-b58d-112c" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="fcfd-79c3-d17c-771d" name="Jump Pack Assault" hidden="false" targetId="33cd-6a54-ffea-e5c0" type="profile"/>
+        <infoLink id="65c4-af85-a355-841f" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b8e7-a8fc-641d-e3c0" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -1587,9 +1796,18 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       </costs>
     </selectionEntry>
     <selectionEntry id="262d-dbbf-8474-791c" name="Chainaxe" hidden="false" collective="false" import="true" type="upgrade">
-      <infoLinks>
-        <infoLink id="deb2-33c4-6887-1bd8" name="New InfoLink" hidden="false" targetId="fc56-4e98-3cdc-3659" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile id="b5f5-b02e-2039-53c0" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="pts" typeId="points" value="1.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1676,9 +1894,18 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7d57-f1e2-256b-3b45" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="9c56-bdb6-f5f5-3344" name="New InfoLink" hidden="false" targetId="e89b-a409-4ab4-e6db" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile id="de48-fc4a-6610-72a8" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name="pts" typeId="points" value="6.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -1721,6 +1948,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="ba1b-47f4-2a1a-108d" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="b3fe-34c0-9e85-3c13" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
+        <infoLink id="c9e9-c0ce-2c9d-c0b4" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="5b04-0506-2b4c-bc1b" name="New CategoryLink" hidden="false" targetId="0bc5-6451-5612-4a25" primary="false"/>
@@ -1876,6 +2104,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       </profiles>
       <infoLinks>
         <infoLink id="e4fe-c10e-22f9-8378" name="Explodes (Helbrute)" hidden="false" targetId="ac12-6fa2-ee31-ac66" type="profile"/>
+        <infoLink id="dc5e-0be1-15ea-8be3" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="69fa-3679-e364-db5c" name="New CategoryLink" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
@@ -2075,6 +2304,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       </profiles>
       <infoLinks>
         <infoLink id="05a1-3e72-2b75-58c9" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
+        <infoLink id="fbbe-3dfb-f64c-3a52" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="58d0-94d5-39ac-8754" name="New CategoryLink" hidden="false" targetId="ca10-a5dd-f54f-0ed5" primary="false"/>
@@ -2157,6 +2387,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="c6bc-ca41-6e69-0863" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="61eb-e78c-279e-a97a" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -2271,6 +2502,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="68e6-537c-ca3a-ccae" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
         <infoLink id="7c74-1ed6-7ee4-5db4" name="Cataphractii Armour" hidden="false" targetId="057a-5462-ce7c-192e" type="profile"/>
         <infoLink id="48e5-d53d-99d8-23c2" name="Nurgle&apos;s Gift" hidden="false" targetId="c1eb-0be8-7b52-a516" type="profile"/>
+        <infoLink id="1d70-6ce3-f2ca-a982" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1cf8-5f4c-0a18-06c6" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -2386,6 +2618,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="e06a-2b3c-40b3-871d" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="1b35-1ed9-4133-cbff" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="52f9-a82e-c1b8-1a57" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="d6e4-6c44-27bd-4096" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
@@ -2719,6 +2952,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="ba3a-8726-0882-9bf6" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="c256-891c-7350-b2f0" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="06b6-ba97-e40b-6215" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="459e-9f4e-246b-a8d2" name="New CategoryLink" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
@@ -2850,6 +3084,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       </profiles>
       <infoLinks>
         <infoLink id="aa8d-8a09-2e52-0ea3" name="Daemonic Machine Spirit" hidden="false" targetId="0a51-a58b-8738-a51f" type="profile"/>
+        <infoLink id="5064-3d1e-319f-3777" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="e239-3419-f605-54ce" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
@@ -2921,6 +3156,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       </profiles>
       <infoLinks>
         <infoLink id="2bb5-390d-7100-fb2c" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
+        <infoLink id="7754-7459-7635-4909" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="9c63-7e93-6f17-2562" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3084,7 +3320,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1dcf-5177-66df-85b2" type="min"/>
       </constraints>
       <infoLinks>
-        <infoLink id="d9ae-6195-2590-c58b" name="Blight Grenades" hidden="false" targetId="1287-6659-b04f-fe37" type="profile"/>
+        <infoLink id="d9ae-6195-2590-c58b" name="Blight Grenade" hidden="false" targetId="ec60-653d-07f3-d44a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3098,7 +3334,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0359-03b2-4dac-4b0d" type="max"/>
       </constraints>
       <infoLinks>
-        <infoLink id="019f-4807-568f-96e5" hidden="false" targetId="1287-6659-b04f-fe37" type="profile"/>
+        <infoLink id="019f-4807-568f-96e5" name="Blight Grenade" hidden="false" targetId="ec60-653d-07f3-d44a" type="profile"/>
       </infoLinks>
       <costs>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3110,9 +3346,15 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="689e-372a-d2e0-f3d9" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="2e21-9a57-7311-5fbc" name="Infernal Gaze" hidden="false" targetId="3db4-da59-6233-9d52" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile id="ead4-36b9-06ca-ab74" name="Infernal Gaze" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
+            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible enemy unit within 18&quot; of the psyker and roll 3 dice. The target suffers one mortal wound for each roll of 4+.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3123,9 +3365,15 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9a86-9c45-47fe-a1c4" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="077e-cf97-3633-fdc8" name="Warptime" hidden="false" targetId="ed9e-f5b3-1d95-faaf" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile id="a8b0-e34b-81c5-e1b4" name="Warptime" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
+            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3&quot;</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick a friendly HERETIC ASTARTES unit within 3&quot; of the psyker. That unit can immediately move as if it were its Movement phase. You cannot use Warptime on a unit ,pre than once in each Psychic phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3136,9 +3384,15 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="766b-0ebd-5f0f-9198" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="e0a9-92aa-282a-cbb6" name="Prescience" hidden="false" targetId="e0ef-08d9-8f70-b6b7" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile id="07d6-ecae-4110-b837" name="Prescience" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
+          <characteristics>
+            <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
+            <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
+            <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a HERETIC ASTARTES unit within 18&quot; of the psyker. You can add 1 to all hit rolls made for that unit until the start of your next Psychic phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3149,9 +3403,18 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <constraints>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bad0-98ad-dced-8edf" type="max"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="db6b-6b5a-0ae4-0b97" name="Brutal assault weapon" hidden="false" targetId="df9c-41ec-8b5e-b19c" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile id="e1c9-066d-b1dc-cd55" name="Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon. This extra attack is included in its profile.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -3243,6 +3506,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
             </modifier>
           </modifiers>
         </infoLink>
+        <infoLink id="94cc-5d08-74a9-40cc" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7078-de25-5dc6-0c26" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3427,6 +3691,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="0b63-fc71-f1b2-5584" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="3d29-9dac-a6fb-fec3" name="Cataphractii Armour" hidden="false" targetId="057a-5462-ce7c-192e" type="profile"/>
         <infoLink id="3426-9655-e7b7-74ab" name="Teleport Strike" hidden="false" targetId="51dc-2e9c-f739-4584" type="profile"/>
+        <infoLink id="3627-5e65-d042-1353" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="3f04-7e86-5125-7cd8" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -3626,6 +3891,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="3ec4-d169-f21c-da37" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="a892-f595-47da-ada5" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="7c7f-9c08-13c0-dd8b" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="33f7-2349-b559-a517" name="New CategoryLink" hidden="false" targetId="0fb6-fcaf-b180-5dda" primary="false"/>
@@ -3986,7 +4252,20 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="3c25-2ca3-1f1e-1c58" name="Plague Marine (Vectors)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                            <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                            <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4000,6 +4279,21 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="228a-a3ff-449b-9237" type="max"/>
                       </constraints>
+                      <profiles>
+                        <profile id="3a95-8630-ee41-4305" name="Plague Marine (Vectors)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                            <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                            <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                          </characteristics>
+                        </profile>
+                      </profiles>
                       <costs>
                         <cost name="pts" typeId="points" value="0.0"/>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4019,17 +4313,30 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls of 1 for this weapon.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
                           </characteristics>
                         </profile>
-                        <profile id="3eb6-bc41-af09-2eff" name="Mace of Contagion and bubotic axe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                        <profile id="3eb6-bc41-af09-2eff" name="Mace of Contagion" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
                           <characteristics>
                             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, you must subtract 1 from the hit roll. You can re-roll wound rolls of 1 for this weapon.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. When attacking with this weapon, you must subtract 1 from the hit roll.</characteristic>
+                          </characteristics>
+                        </profile>
+                        <profile id="b9c3-a58f-6873-e3fb" name="Plague Marine (Vectors)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                          <characteristics>
+                            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                            <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                            <characteristic name="W" typeId="f330-5e6e-4110-0978">1</characteristic>
+                            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">7</characteristic>
+                            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4041,7 +4348,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
                     </selectionEntry>
                     <selectionEntry id="d80e-9e85-5652-20c6" name="Great plague cleaver" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
-                        <modifier type="decrement" field="5bc3-d4aa-2364-f763" value="1">
+                        <modifier type="decrement" field="5bc3-d4aa-2364-f763" value="1.0">
                           <repeats>
                             <repeat field="selections" scope="4124-8ae3-177a-4767" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5f1f-bfbd-b009-f6b9" repeats="1" roundUp="false"/>
                           </repeats>
@@ -4059,13 +4366,10 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
                             <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
                             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When attacking with this weapon, you must subtract 1 from the hit roll. You can re-roll wound rolls of 1 for this weapon.</characteristic>
+                            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. When attacking with this weapon, you must subtract 1 from the hit roll.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
-                      <infoLinks>
-                        <infoLink id="72f3-9589-086a-abdd" name="Plague knife" hidden="false" targetId="b62d-7cc2-1b2a-ca61" type="profile"/>
-                      </infoLinks>
                       <costs>
                         <cost name="pts" typeId="points" value="15.0"/>
                         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -4074,7 +4378,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
                     </selectionEntry>
                     <selectionEntry id="5f1f-bfbd-b009-f6b9" name="Flail of Corruption" hidden="false" collective="false" import="true" type="upgrade">
                       <modifiers>
-                        <modifier type="decrement" field="218c-c14e-0042-dc9e" value="1">
+                        <modifier type="decrement" field="218c-c14e-0042-dc9e" value="1.0">
                           <repeats>
                             <repeat field="selections" scope="4124-8ae3-177a-4767" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d80e-9e85-5652-20c6" repeats="1" roundUp="false"/>
                           </repeats>
@@ -4085,7 +4389,6 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
                         <constraint field="selections" scope="4124-8ae3-177a-4767" value="2.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="218c-c14e-0042-dc9e" type="max"/>
                       </constraints>
                       <infoLinks>
-                        <infoLink id="82c9-b15d-6a02-cf88" name="Plague knife" hidden="false" targetId="b62d-7cc2-1b2a-ca61" type="profile"/>
                         <infoLink id="bfb4-1856-ada9-535c" name="Flail of Corruption" hidden="false" targetId="bf08-247d-4629-3225" type="profile"/>
                       </infoLinks>
                       <costs>
@@ -4263,6 +4566,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="3be0-1eee-8b9e-b4cf" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="f02d-86e0-0ac2-907e" name="Cataphractii Armour" hidden="false" targetId="057a-5462-ce7c-192e" type="profile"/>
         <infoLink id="9383-0685-0eb9-ac09" name="Teleport Strike" hidden="false" targetId="51dc-2e9c-f739-4584" type="profile"/>
+        <infoLink id="9cfb-fc73-ecda-81e7" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="7697-24c2-2f9e-5e54" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4518,6 +4822,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="d52a-775c-f996-0afd" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
         <infoLink id="2c6f-50b6-bd90-db27" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
+        <infoLink id="4fcb-ee80-5423-67e7" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="c3f9-bac2-ea56-0d32" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4682,6 +4987,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="5eb0-c95d-4ee5-7840" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
         <infoLink id="e802-8b6f-313a-f077" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="cec4-3056-ae47-fe1e" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="1fdd-599f-8950-05ab" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -4915,14 +5221,14 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
     </selectionEntry>
     <selectionEntry id="66c9-8e12-9b38-aadc" name="Blight launcher" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="481d-7e3e-58cf-d425" name="Blight launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="2e2f-4574-a55f-e761" name="Blight launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
             <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll wound rolls of 1 for this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -4961,6 +5267,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="4eb0-d599-5cd2-d8bc" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="0ca5-f106-913d-b18c" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="e794-36ca-552f-41b5" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="b175-6256-3896-87ec" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5037,9 +5344,18 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="489d-a46d-79cf-1597" type="max"/>
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9370-15e4-589d-dc46" type="min"/>
       </constraints>
-      <infoLinks>
-        <infoLink id="a87c-605e-f36e-a41f" name="Hyper Blight Grenades" hidden="false" targetId="72dc-a928-857a-53ef" type="profile"/>
-      </infoLinks>
+      <profiles>
+        <profile id="7632-8345-d400-63f7" name="Hyper Blight Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Each wound roll of 6+ made for this weapon inflicts a mortal wound in addition to any other damage.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
@@ -5075,6 +5391,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="b452-4800-e6fe-0530" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="051c-54f4-d536-ce82" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="ef3a-3cff-0409-4c97" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6987-5e2c-adf2-708a" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5156,6 +5473,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="9984-5544-80e8-66a4" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="f9de-1329-0a7d-6d4a" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="0386-7bd4-af4e-a3e5" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="95a1-b7e7-74bc-6dc2" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5248,6 +5566,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="49f5-750e-c935-23fe" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
         <infoLink id="c9ec-19f0-2d3c-b2f2" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
+        <infoLink id="5ea8-fdfd-d11b-a8af" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="beb9-1c69-b47a-e002" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5434,6 +5753,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
       <infoLinks>
         <infoLink id="2e33-5ce8-8c72-c69f" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
         <infoLink id="f1d0-9a77-5eb2-0ffc" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
+        <infoLink id="e45b-3c6c-c6c1-d58e" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="6846-2423-baa4-6778" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
@@ -5638,6 +5958,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="0e47-c232-b78e-8de5" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="fa8b-0ee1-c249-db4c" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
         <infoLink id="c8d6-a343-aa5b-2a9f" name="Teleport Strike" hidden="false" targetId="51dc-2e9c-f739-4584" type="profile"/>
+        <infoLink id="67de-7ebe-452c-5315" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="72a8-d4cf-f9ce-aeea" name="New CategoryLink" hidden="false" targetId="1e74-2c48-7179-152e" primary="false"/>
@@ -5790,6 +6111,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="85f3-3d16-0d04-9506" name="Death to the False Emperor" hidden="false" targetId="c365-8ca4-3ee1-1677" type="profile"/>
         <infoLink id="e4b8-00df-8602-5f62" name="Sigil of Corruption" hidden="false" targetId="88cc-1fee-7767-1ab4" type="profile"/>
         <infoLink id="dc53-4ea3-a86f-a766" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
+        <infoLink id="7c28-1e8c-a608-e9a3" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="13c4-38ca-ea95-9d2b" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -5951,6 +6273,7 @@ If this unit makes a charge move, is charged or performs a Heroic Intervention, 
         <infoLink id="8026-0978-659b-fc48" name="Disgustingly Resilient" hidden="false" targetId="8f11-6c2b-25e0-d130" type="profile"/>
         <infoLink id="3a75-8d30-220c-f56d" name="Daemonic Ritual" hidden="false" targetId="bbee-472d-f29f-4288" type="rule"/>
         <infoLink id="7f8d-267c-f7ff-a3fa" name="Daemonic" hidden="false" targetId="5511-cb37-e1c1-5391" type="profile"/>
+        <infoLink id="4835-c3ec-3774-7f79" name="Hateful Assault" hidden="false" targetId="6625-1efb-fc0e-69f2" type="rule"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="ce37-25f8-9119-62af" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
@@ -6762,18 +7085,11 @@ Roll up to 3 dice - this is your summoning roll. You can summon one new NURGLE D
 
 If your summoning roll included any doubles, your character then suffers a mortal wound. If it contained any triples, it instead suffers D3 mortal wounds.</description>
     </rule>
+    <rule id="6625-1efb-fc0e-69f2" name="Hateful Assault" hidden="false">
+      <description>If this unit makes a charge move, is charged or performs a Heroic Intervention, add 1 to the Attacks characteristic of models in this unit until the end of the turn.</description>
+    </rule>
   </sharedRules>
   <sharedProfiles>
-    <profile id="1287-6659-b04f-fe37" name="Blight Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
-      </characteristics>
-    </profile>
     <profile id="b62d-7cc2-1b2a-ca61" name="Plague knife" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
         <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
@@ -6792,106 +7108,6 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">You can re-roll failed wound rolls for this weapon.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="137e-59b4-ea0e-f84a" name="Blight launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fef2-642b-6b1b-e7e6" name="Hellforged siege claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="435f-fe1d-1c75-30ac" name="Hellforged siege drill" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">x2</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="8161-3115-546e-5d70" name="Hellflamer" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Attacks made by this weapon automatically hit.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="04f5-04e0-d29e-5873" name="Reaper Chainsword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">+4</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3351-60e7-b298-81aa" name="Hades autocannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="f355-e723-8b2a-1b41" name="Twin lascannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">heavy 2</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e89b-a409-4ab4-e6db" name="Havoc launcher" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">48&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="fc56-4e98-3cdc-3659" name="Chainaxe" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="db16-c410-7ac0-3148" name="Combi-bolter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
       </characteristics>
     </profile>
     <profile id="8f11-6c2b-25e0-d130" name="Disgustingly Resilient" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6914,35 +7130,9 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All DEATH GUARD units within 7&quot; of a friendly LORD OF CONTAGION are surrounded by a deadly aura of plague and disease. Roll a dice for each enemy unit that is within 1&quot; of any affected friendly units at the start of your turn; on a 4+ that enemy unit suffers a mortal wound.</characteristic>
       </characteristics>
     </profile>
-    <profile id="d147-d281-9501-00b9" name="Mindless" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit never has to take Morale tests.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="5511-cb37-e1c1-5391" name="Daemonic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3db4-da59-6233-9d52" name="Infernal Gaze" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-      <characteristics>
-        <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">5</characteristic>
-        <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a visible enemy unit within 18&quot; of the psyker and roll 3 dice. The target suffers one mortal wound for each roll of 4+.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="ed9e-f5b3-1d95-faaf" name="Warptime" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-      <characteristics>
-        <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">6</characteristic>
-        <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">3&quot;</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, pick a friendly HERETIC ASTARTES unit within 3&quot; of the psyker. That unit can immediately move as if it were its Movement phase. You cannot use Warptime on a unit ,pre than once in each Psychic phase.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="e0ef-08d9-8f70-b6b7" name="Prescience" hidden="false" typeId="ae70-4738-0161-bec0" typeName="Psychic Power">
-      <characteristics>
-        <characteristic name="Warp Charge" typeId="5ffd-b800-c317-532a">7</characteristic>
-        <characteristic name="Range" typeId="fd64-cbc4-94de-24cc">18&quot;</characteristic>
-        <characteristic name="Details" typeId="ad96-dfa4-b4ed-656d">If manifested, select a HERETIC ASTARTES unit within 18&quot; of the psyker. You can add 1 to all hit rolls made for that unit until the start of your next Psychic phase.</characteristic>
       </characteristics>
     </profile>
     <profile id="766d-c385-bb6c-01a3" name="Lord of Nurgle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -6955,29 +7145,9 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
       </characteristics>
     </profile>
-    <profile id="5528-f83b-71b3-0383" name="Infernal Regeneration" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of each of your turns, this model heals one wound.</characteristic>
-      </characteristics>
-    </profile>
     <profile id="0a51-a58b-8738-a51f" name="Daemonic Machine Spirit" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Ignore the -1 to hit modifier for moving and shooting Heavy weapons for this model.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="3b9c-0848-e334-fcce" name="Terminator Armour" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 5+ invulnerable save.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="df9c-41ec-8b5e-b19c" name="Brutal assault weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, it can make 1 additional attack with this weapon. This extra attack is included in its profile.</characteristic>
       </characteristics>
     </profile>
     <profile id="b2bf-eff2-2fa6-efcd" name="Prince of Chaos" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7008,16 +7178,6 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon.This weapon automatically hits its target.</characteristic>
-      </characteristics>
-    </profile>
-    <profile id="72dc-a928-857a-53ef" name="Hyper Blight Grenades" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-      <characteristics>
-        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
-        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
-        <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
-        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
-        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon. Each wound roll of 6+ made for this weapon inflicts a mortal wound in addition to any other damage.</characteristic>
       </characteristics>
     </profile>
     <profile id="33cd-6a54-ffea-e5c0" name="Jump Pack Assault" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -7065,11 +7225,6 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Re-roll all failed wound rolls when resolving attacks made with a plague weapon (i.e. a plaguesword or any weapon with the Plague Weapon ability) for any friendly DEATH GUARD unit within 7&quot; of your Warlord.</characteristic>
       </characteristics>
     </profile>
-    <profile id="97ac-5cfa-84fd-8a85" name="Daemonic Ritual" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-      <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
-      </characteristics>
-    </profile>
     <profile id="ac12-6fa2-ee31-ac66" name="Explodes (Helbrute)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <modifiers>
         <modifier type="set" field="name" value="Explodes"/>
@@ -7078,5 +7233,18 @@ If your summoning roll included any doubles, your character then suffers a morta
         <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a D6 before removing the model from the battlefield; on a 6 it explodes, and each unit within 3&quot; suffers D3 mortal wounds.</characteristic>
       </characteristics>
     </profile>
+    <profile id="ec60-653d-07f3-d44a" name="Blight Grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Grenade D6</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Plague Weapon</characteristic>
+      </characteristics>
+    </profile>
   </sharedProfiles>
+  <catalogueLinks>
+    <catalogueLink id="769d-751a-9765-b4da" name="Chaos - FW Heretic Astartes" targetId="2128-f196-8f1c-b352" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>
