@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="2ebb-7865-3983-640d" name="Chaos - Renegades &amp; Heretics" revision="45" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="7" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="2ebb-7865-3983-640d" name="Chaos - Renegades &amp; Heretics" revision="51" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="158" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="2ebb-7865-pubN65537" name="Imperial Armour - Index: Forces of the Astra Militarum"/>
     <publication id="2ebb-7865-pubN72363" name="Codex: Astra Militarum"/>
   </publications>
   <categoryEntries>
@@ -349,7 +348,7 @@
         <categoryLink id="550a-90c4-d4de-3874" name="New CategoryLink" hidden="false" targetId="05a7-e634-b238-5f56" primary="false"/>
       </categoryLinks>
     </entryLink>
-    <entryLink id="578c-04f3-3650-3f15" name="Renegade Diciple Squad" hidden="false" collective="false" import="true" targetId="478b-40b6-b779-32f7" type="selectionEntry">
+    <entryLink id="578c-04f3-3650-3f15" name="Renegade Disciple Squad" hidden="false" collective="false" import="true" targetId="478b-40b6-b779-32f7" type="selectionEntry">
       <categoryLinks>
         <categoryLink id="8e01-ef80-e36a-7b5d" name="New CategoryLink" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
         <categoryLink id="4146-5674-b01b-1a7c" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
@@ -479,7 +478,7 @@
     </entryLink>
     <entryLink id="04e9-e376-c98e-fca0" name="Chaos Covenant" hidden="false" collective="false" import="true" targetId="6a6f-327e-1b3b-154e" type="selectionEntry">
       <categoryLinks>
-        <categoryLink id="c2d8-4361-2b52-2556" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+        <categoryLink id="1cf1-093f-97a5-139a" name="New CategoryLink" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
       </categoryLinks>
     </entryLink>
     <entryLink id="3ed7-04c8-7e1c-c938" name="Valdor Tank Hunter" hidden="false" collective="false" import="true" targetId="6100-9b7a-6db6-c0b4" type="selectionEntry">
@@ -519,7 +518,7 @@
       </profiles>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="5.0"/>
+        <cost name="pts" typeId="points" value="9.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1181,7 +1180,7 @@
             </profile>
             <profile id="0058-c1e6-d079-b15f" name="Supersonic" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model moves, first pivot it on the spot up to 90&quot; (this does not contribute to how far the model moves), and then move the model straight forwards. Note that it cannot pivot again after the initial pivot. When this model Advances,  increase it&apos;s Move characteristic by 20&quot; until the end of the phase - do not roll a dice.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Each time this model moves, first pivot it on the spot up to 90&quot; (this does not contribute to how far the model moves), and then move the model straight forwards. Note that it cannot pivot again after the initial pivot. When this model Advances,  increase its Move characteristic by 20&quot; until the end of the phase - do not roll a dice.</characteristic>
               </characteristics>
             </profile>
             <profile id="4c41-8af4-7e8b-31a3" name="Grav Chute Insertion" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1370,7 +1369,7 @@
                 <entryLink id="ffc6-6021-d4dc-6d55" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="122.0"/>
+                <cost name="pts" typeId="points" value="107.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="10.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -1456,7 +1455,7 @@
         <infoLink id="58eb-7bde-ac9c-6b78" name="Punisher Gatling Cannon" hidden="false" targetId="9fac-07c9-3595-784e" type="profile"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="20.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1555,7 +1554,7 @@
             <infoLink id="b316-d4cd-bf21-8979" name="Explodes" hidden="false" targetId="3541-94a7-a138-358b" type="rule"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="3912-36f5-b0c1-8796" name="Wyven Quad Stormshard Mortar" page="0" hidden="false" collective="false" import="true" type="upgrade">
+            <selectionEntry id="3912-36f5-b0c1-8796" name="Wyvern Quad Stormshard Mortar" page="0" hidden="false" collective="false" import="true" type="upgrade">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="0ef2-0734-c6ae-3188" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="false" includeChildSelections="false" includeChildForces="false" id="29ec-4c25-daba-3d8a" type="max"/>
@@ -1587,7 +1586,7 @@
             <entryLink id="ca42-5a9a-c98d-a18c" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="95.0"/>
+            <cost name="pts" typeId="points" value="105.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -1799,7 +1798,7 @@
         </entryLink>
         <entryLink id="2a00-2c07-f6a8-5d7e" name="Demolisher cannon" hidden="false" collective="false" import="true" targetId="1f7e-32c4-61af-510f" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="points" value="40"/>
+            <modifier type="set" field="points" value="20.0"/>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4dd9-6ed2-ef24-eb05" type="min"/>
@@ -1824,7 +1823,7 @@
         <entryLink id="5916-cb45-a75b-14d1" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="390.0"/>
+        <cost name="pts" typeId="points" value="350.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="28.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -2153,7 +2152,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">12</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If this weapon succesfully inflicts damage, roll an additional D6. On a result of a 3-5 the weapon&apos;s damage is increased to 2D6 on a result of 6 the weapons damage is increased to 3D6</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">If this weapon successfully inflicts damage, roll an additional D6. On a result of a 3-5 the weapon&apos;s damage is increased to 2D6 on a result of 6 the weapons damage is increased to 3D6</characteristic>
               </characteristics>
             </profile>
             <profile id="8c42-31dd-d6cc-4493" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2379,7 +2378,7 @@
             <infoLink id="74e1-bb76-9581-546f" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
           </infoLinks>
           <selectionEntries>
-            <selectionEntry id="ad00-b847-3a95-5fd2" name="3 X Renegade Crew" hidden="false" collective="false" import="true" type="unit">
+            <selectionEntry id="ad00-b847-3a95-5fd2" name="3 x Renegade Crew" hidden="false" collective="false" import="true" type="unit">
               <constraints>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="469e-cea0-d471-fe46" type="min"/>
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d603-fea0-09b8-3a38" type="max"/>
@@ -2491,14 +2490,14 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7af2-bc46-b7fc-f621" type="max"/>
           </constraints>
           <profiles>
-            <profile id="4c76-e033-a4d7-652c" name="Twin eartshaker cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="4c76-e033-a4d7-652c" name="Twin earthshaker cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">240&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll four dice for the number of attacks when firing this weapon and discard the two lowest results. This weapon can target units that are not visible to the bearer</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Roll four dice for the number of attacks when firing this weapon and discard the two lowest results. This weapon can target units that are not visible to the bearer.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -2832,7 +2831,7 @@
             </profile>
             <profile id="f361-dc8f-c9f3-6f40" name="Artillery Battery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this unit is set up, all models must be placed within 6&quot; of each other. From that point onwards, each operates independently and is treated as a seperate unit for all rule purposes.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this unit is set up, all models must be placed within 6&quot; of each other. From that point onwards, each operates independently and is treated as a separate unit for all rule purposes.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -3044,7 +3043,7 @@
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">2 Renegade and Heretics Dicipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">2 Renegade and Heretics Discipline</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b"/>
           </characteristics>
         </profile>
@@ -3093,7 +3092,7 @@
           <characteristics>
             <characteristic name="Cast" typeId="5afb-9914-904b-d3b3">1</characteristic>
             <characteristic name="Deny" typeId="b5ac-9c20-5d5a-6f9b">1</characteristic>
-            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">1 Renegade and Heretics Dicipline</characteristic>
+            <characteristic name="Powers Known" typeId="69d7-b45e-00a2-7e46">1 Renegade and Heretics Discipline</characteristic>
             <characteristic name="Other" typeId="c2e2-f115-0003-5d7b">If this unit suffers Perils of the Warp, it suffers D3 mortal wounds, but units within 6&quot; will only suffer damage if Perils of the Warp causes the last model in the manifesting unit to be slain.</characteristic>
           </characteristics>
         </profile>
@@ -3405,7 +3404,7 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="517d-ad0d-cf72-801f" name="Renegade Militia Squad" publicationId="2ebb-7865-pubN65537" page="85" hidden="false" collective="false" import="true" type="unit">
+    <selectionEntry id="517d-ad0d-cf72-801f" name="Renegade Militia Squad" publicationId="53e9d88f-pubN134105" page="85" hidden="false" collective="false" import="true" type="unit">
       <modifiers>
         <modifier type="increment" field="e356-c769-5920-6e14" value="3">
           <conditions>
@@ -3578,23 +3577,17 @@
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="45af-19f9-62c0-1702" type="min"/>
                   </constraints>
                   <entryLinks>
-                    <entryLink id="d438-9ba2-2f3c-c968" name="Lascannon" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="points" value="20"/>
-                      </modifiers>
+                    <entryLink id="d438-9ba2-2f3c-c968" name="Lascannon" hidden="false" collective="false" import="true" targetId="0b65-01bf-2161-a357" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5150-0600-d41c-5115" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="3351-9ff2-664d-89b8" name="Missile launcher" hidden="false" collective="false" import="true" targetId="1469-1964-7a91-94d4" type="selectionEntry">
+                    <entryLink id="3351-9ff2-664d-89b8" name="Missile launcher" hidden="false" collective="false" import="true" targetId="406e-f61c-d8d3-0c3f" type="selectionEntry">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="da94-66bb-da7d-ac48" type="max"/>
                       </constraints>
                     </entryLink>
                     <entryLink id="82b7-8b07-4ab0-e9c5" name="Heavy bolter" hidden="false" collective="false" import="true" targetId="0c5c-2a4f-0e90-8aaa" type="selectionEntry">
-                      <modifiers>
-                        <modifier type="set" field="points" value="8"/>
-                      </modifiers>
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94d5-b748-6fa7-f25d" type="max"/>
                       </constraints>
@@ -4178,7 +4171,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
               </characteristics>
             </profile>
             <profile id="f788-e599-cd27-19e9" name="Mutated Beyond Reason" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -4188,7 +4181,7 @@
             </profile>
             <profile id="8f9c-2109-d520-919e" name="Fearsome" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units within 1&quot; of any Chaos Spawn must substract 1 from their Leadership.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units within 1&quot; of any Chaos Spawn must subtract 1 from their Leadership.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4445,9 +4438,9 @@
                   <selectionEntries>
                     <selectionEntry id="7e10-5ac4-c5e4-ce8d" name="Banner of the Apostate" hidden="false" collective="false" import="true" type="upgrade">
                       <profiles>
-                        <profile id="ef83-d43c-e19f-661d" name="Banner of the apostate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                        <profile id="ef83-d43c-e19f-661d" name="Banner of the Apostate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                           <characteristics>
-                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy &lt;IMPERIUM&gt; units substract 1 from their Leadership characteristic whilst they are within 6&quot; of any models with a Banner of the Apostate.</characteristic>
+                            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy &lt;IMPERIUM&gt; units subtract 1 from their Leadership characteristic whilst they are within 6&quot; of any models with a Banner of the Apostate.</characteristic>
                           </characteristics>
                         </profile>
                       </profiles>
@@ -4645,7 +4638,7 @@
                 <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7597-b521-d0a2-211f" type="max"/>
               </constraints>
               <profiles>
-                <profile id="ac97-52c7-fa9f-8874" name="Diciple Heavy Weapon Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                <profile id="ac97-52c7-fa9f-8874" name="Disciple Heavy Weapon Team" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
                   <characteristics>
                     <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
                     <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -4974,7 +4967,7 @@
               <profiles>
                 <profile id="a1a4-f362-8b4d-708c" name="Stalkers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must substract 1 from hit rolls for attacks that target this unit in the Shooting phase. Additionally, models in the unit gain +1 for their saving throw if they are in cover.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your opponent must subtract 1 from hit rolls for attacks that target this unit in the Shooting phase. Additionally, models in the unit gain +1 for their saving throw if they are in cover.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5005,7 +4998,7 @@
               <profiles>
                 <profile id="88e1-7154-3b2a-948e" name="Murder Cultists" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
                   <characteristics>
-                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can reroll failed hit rolls for this unit in the Fight phase.</characteristic>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for this unit in the Fight phase.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5048,12 +5041,12 @@
                   <modifiers>
                     <modifier type="set" field="7def-6134-185c-3e46" value="2">
                       <conditions>
-                        <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="04f5-91a2-8ab9-7b32" type="equalTo"/>
+                        <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb2c-02f8-88b3-7f35" type="equalTo"/>
                       </conditions>
                       <conditionGroups>
                         <conditionGroup type="and">
                           <conditions>
-                            <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b90a-3482-2bb6-aad6" type="equalTo"/>
+                            <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19e7-3448-5df2-5ec0" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -5062,8 +5055,8 @@
                       <conditionGroups>
                         <conditionGroup type="or">
                           <conditions>
-                            <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="b90a-3482-2bb6-aad6" type="equalTo"/>
-                            <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="04f5-91a2-8ab9-7b32" type="equalTo"/>
+                            <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="19e7-3448-5df2-5ec0" type="equalTo"/>
+                            <condition field="selections" scope="90f3-c2a6-a422-8331" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="eb2c-02f8-88b3-7f35" type="equalTo"/>
                           </conditions>
                         </conditionGroup>
                       </conditionGroups>
@@ -5094,15 +5087,17 @@
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cceb-cfc7-c830-4003" type="max"/>
                       </constraints>
                     </entryLink>
-                    <entryLink id="a14a-163e-184f-cbc1" name="Boltgun" hidden="false" collective="false" import="true" targetId="76b1-0d23-d98a-8c72" type="selectionEntry">
-                      <constraints>
-                        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f91-fa8c-46fc-0c80" type="max"/>
-                      </constraints>
-                    </entryLink>
                     <entryLink id="04f5-91a2-8ab9-7b32" name="Ranged Weapons" hidden="false" collective="false" import="true" targetId="eb2c-02f8-88b3-7f35" type="selectionEntryGroup">
                       <constraints>
                         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9c70-f17a-1f2c-d8f5" type="max"/>
                       </constraints>
+                      <entryLinks>
+                        <entryLink id="55c0-30ae-4c44-4c61" name="Boltgun" hidden="false" collective="false" import="true" targetId="76b1-0d23-d98a-8c72" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c3a1-700f-4f3a-d191" type="max"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
                     </entryLink>
                   </entryLinks>
                 </selectionEntryGroup>
@@ -5603,7 +5598,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Reroll failed wound rolls on &lt;VEHICLE&gt;</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Against VEHICLES, re-roll failed wound rolls.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5697,7 +5692,7 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Reroll failed wound rolls on Non - &lt;VEHICLE&gt; models</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Re-roll failed wound rolls against non-VEHICLE models.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
@@ -5936,13 +5931,13 @@
         <infoLink id="bd7e-dbcd-048f-4332" name="Explodes" hidden="false" targetId="9446-1148-da70-4028" type="profile"/>
       </infoLinks>
       <selectionEntries>
-        <selectionEntry id="c511-db75-07ac-451e" name="Battle Canon" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="c511-db75-07ac-451e" name="Battle Cannon" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9bfd-9841-fc23-7ce0" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="64c9-7130-b139-7611" type="max"/>
           </constraints>
           <infoLinks>
-            <infoLink id="d6c7-af71-9e82-8a1c" name="Battle Cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
+            <infoLink id="d6c7-af71-9e82-8a1c" name="Battle cannon" hidden="false" targetId="bc34-f1ec-56fa-2829" type="profile"/>
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="22.0"/>
@@ -6257,12 +6252,12 @@
       <profiles>
         <profile id="73a5-1a4d-ec6f-3e11" name="Artillery Battery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An Eathshaker Carriage Battery and its Guardsmen Crew must be deployed as a single group within 3&quot; of each othe, and must remain within this distance throughot the battle, but are otherwise treated as seperate units. The guardsmen Crew may only be chosen as a target in the shooting phase if they are the closest visible unit to the model that is shooting.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An Earthshaker Carriage Battery and its Guardsmen Crew must be deployed as a single group within 3&quot; of each other, and must remain within this distance throughout the battle, but are otherwise treated as separate units. The Guardsmen Crew may only be chosen as a target in the shooting phase if they are the closest visible unit to the model that is shooting.</characteristic>
           </characteristics>
         </profile>
         <profile id="5f0b-0f18-4af0-6eb5" name="Artillery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An Eartshaker Carriage Battery can only fire its ranged weapon if a friendly &lt;RENEGADE&gt; guardsman crew model is within 3&quot;. A single Guardsman model cannot operate multiple Earthshaker Carriages in this way in a single turn, if all of the guardsmen crew within 6&quot; of an earthshaker Carriage are slain, it immediately shuts down and is removed from play.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">An Earthshaker Carriage Battery can only fire its ranged weapon if a friendly &lt;RENEGADE&gt; guardsman crew model is within 3&quot;. A single Guardsman model cannot operate multiple Earthshaker Carriages in this way in a single turn, if all of the guardsmen crew within 6&quot; of an Earthshaker Carriage are slain, it immediately shuts down and is removed from play.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6349,7 +6344,7 @@
         </profile>
         <profile id="c12f-8cc8-d9c2-8eb5" name="Artillery Battery" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Medusa Carriage Battery and its Guardsmen Crew must be deployed as a single group within 3&quot; of each othe, and must remain within this distance throughot the battle, but are otherwise treated as seperate units. The guardsmen Crew may only be chosen as a target in the shooting phase if they are the closest visible unit to the model that is shooting.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A Medusa Carriage Battery and its Guardsmen Crew must be deployed as a single group within 3&quot; of each other, and must remain within this distance throughout the battle, but are otherwise treated as separate units. The guardsmen Crew may only be chosen as a target in the shooting phase if they are the closest visible unit to the model that is shooting.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -6993,63 +6988,6 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="ff43-294e-d69d-8ba2" name="Hideous Mutations" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ed1a-c984-46b3-f98b" name="Hideous Mutations" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-            <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="8fd4-ea48-bc06-c19e" name="Ogryn Weapon" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="ea54-5276-5bed-872f" name="Ogryn Weapon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">+1</characteristic>
-            <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
-            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410"/>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="1.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="7778-8533-beff-fb28" name="Ogryn Power drill" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="55e0-f167-d3b1-7579" name="Ogryn Power drill" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
-            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Reroll failed wound rolls on &lt;VEHICLE&gt;</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="10.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
     <selectionEntry id="411b-7e25-7056-4577" name="Power fist" hidden="false" collective="false" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="31d0-f8a0-1e4a-103b" name="Power fist" hidden="false" targetId="3520-0bb4-90f2-084b" type="profile"/>
@@ -7606,7 +7544,7 @@
           <entryLinks>
             <entryLink id="fa8e-029b-439e-2a50" name="Lascannon" hidden="false" collective="false" import="true" targetId="a908-4664-11cd-f8b2" type="selectionEntry">
               <modifiers>
-                <modifier type="set" field="points" value="20"/>
+                <modifier type="set" field="points" value="20.0"/>
               </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2bd6-993d-71eb-943b" type="min"/>
@@ -7641,9 +7579,6 @@
               </constraints>
             </entryLink>
             <entryLink id="1ea9-8dd4-2df6-9294" name="Twin heavy flamer" hidden="false" collective="false" import="true" targetId="8d70-a6af-cbad-f08c" type="selectionEntry">
-              <modifiers>
-                <modifier type="set" field="points" value="30"/>
-              </modifiers>
               <constraints>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e6dc-cb95-e2d9-f0c1" type="min"/>
                 <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="06bb-b4bf-24eb-1632" type="max"/>
@@ -7848,7 +7783,7 @@
           <profiles>
             <profile id="925d-c506-26c6-2f8a" name="Banner of the apostate" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy &lt;IMPERIUM&gt; units substract 1 from their leadership whilst they are within 6&quot; of ony models with a banner of the apostate</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy &lt;IMPERIUM&gt; units subtract 1 from their leadership whilst they are within 6&quot; of ony models with a banner of the apostate</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -7889,7 +7824,7 @@
         <entryLink id="45bb-c893-2fdb-3e2c" name="Grenade Launcher" hidden="false" collective="false" import="true" targetId="6558-8624-4594-a84e" type="selectionEntry"/>
         <entryLink id="fe60-77e8-ab0c-2b97" name="Plasma gun" hidden="false" collective="false" import="true" targetId="8c14-22cc-93ce-b85a" type="selectionEntry">
           <modifiers>
-            <modifier type="set" field="points" value="7">
+            <modifier type="set" field="points" value="7.0">
               <conditions>
                 <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3967-cabf-7c9a-6b8b" type="instanceOf"/>
               </conditions>
@@ -8005,18 +7940,9 @@
       </modifiers>
       <entryLinks>
         <entryLink id="5268-2b94-8b8e-cb92" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="3161-21fb-eecc-9fad" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
-  <sharedRules>
-    <rule id="cc56-4c8d-55d6-3671" name="Specialists" hidden="false">
-      <description>Before the game starts, choose one of the following abilities, these apply for the duration of the battle.
-- Stalkers: Your oponent must substract 1 from hit rolls for attacks that target this unit in the shooting phase. additionally, models in the unit gain +1 for their saving throw if they are in cover
-- Murder Cultists: You can reroll failed hit rolls for this unit in the fight phase
-- Hereteks: All models in this unit have a save characteristic of 4+ instead of 5+. The entire unit also gains Krak grenades</description>
-    </rule>
-  </sharedRules>
   <sharedProfiles>
     <profile id="3ff3-4bf6-293a-d9b4" name="Ripper claw" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
       <characteristics>
@@ -8102,7 +8028,7 @@
     </profile>
     <profile id="dfbb-346d-f8f4-b5aa" name="Combat Stimms" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the fight phase you may activate the combat stimms - If so, roll a D6. On a 1. One Ogryn in the unit is immediately slain. on a 2-6, each Ogryn increases their attack characteristick by 1. On a 6, each Ogryn in the unit gains D3 Attacks (roll for each unit)</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of the fight phase you may activate the combat stimms - If so, roll a D6. On a 1. One Ogryn in the unit is immediately slain. on a 2-6, each Ogryn increases their attack characteristic by 1. On a 6, each Ogryn in the unit gains D3 Attacks (roll for each unit).</characteristic>
       </characteristics>
     </profile>
     <profile id="837e-423b-9d3b-7772" name="Scout Vehicle" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

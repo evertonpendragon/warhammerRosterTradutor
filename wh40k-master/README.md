@@ -1,23 +1,22 @@
-Warhammer 40,000 8th Edition
+Warhammer 40,000 9th Edition
 ============================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/wh40k.svg?style=flat-square)](https://github.com/BSData/wh40k/releases/latest)
 ![Github commits (since latest release)](https://img.shields.io/github/commits-since/BSData/wh40k/latest.svg?style=flat-square)
 [![Open Bug issues](https://img.shields.io/github/issues/bsdata/wh40k/Type%3A%20bug.svg?style=flat-square&label=bugs)](https://github.com/BSData/wh40k/issues?q=is%3Aissue+is%3Aopen+label%3A%22Type%3A+bug%22)
-[![Azure DevOps builds (branch)](https://img.shields.io/azure-devops/build/bsdata-devs/70736e70-cd5f-4af7-9ea5-541b66c3e4cb/1/master.svg?label=build%3A%20master&logo=azure-pipelines&style=flat-square)](https://dev.azure.com/bsdata-devs/data-repos/_build?definitionId=1)
 [![GitHub contributors](https://img.shields.io/github/contributors/BSData/wh40k.svg?style=flat-square)](https://github.com/BSData/wh40k/graphs/contributors)
 ![GitHub commit activity the past year](https://img.shields.io/github/commit-activity/y/BSData/wh40k.svg?style=flat-square)
 
-[![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/KqPVhds)
+[![Chat on Discord](https://img.shields.io/discord/558412685981777922?style=popout-square)](https://discord.gg/KqPVhds)
 
 
 ## Important ##
 [Important]: #important
 
-__The Battlescribe data editor can cause problems when merging updates. Because of this, and also to avoid duplicated effort where multiple people are working on the same files, please join us on Gitter before you commit changes to the files.__
+__The Battlescribe data editor can cause problems when merging updates. Because of this, and also to avoid duplicated effort where multiple people are working on the same files, please join us on Discord before you commit changes to the files.__
 
 
-__Previous editions__: _However we don't support older editions actively, the files are available from [7th Edition repo](https://github.com/BSData/wh40k-7th-edition) - also there you can find archived files for 7th and 6th edition for BattleScribe v1.15._
+__Previous editions__: _However we don't support older editions actively, the files are available from [8th Edition repo](https://github.com/BSData/wh40k-8th-edition) - also there you can find archived files for 8th, 7th, and 6th edition for BattleScribe v1.15. **You also should upgrade your Windows XP to 10.**_
 
 #### Contents ####
 [Contents]: #contents
@@ -58,7 +57,7 @@ __Previous editions__: _However we don't support older editions actively, the fi
 
   Then join us on Discord!
   
-  [![Chat on Discord](https://img.shields.io/discord/558412685981777922.svg?logo=discord&style=popout-square)](https://discord.gg/KqPVhds)
+  [![Chat on Discord](https://img.shields.io/discord/558412685981777922?style=popout-square)](https://discord.gg/KqPVhds)
  
   _Otherwise, the easiest way is through issues mentioned above. We are a community and that's the only place we all have access to. We don't have any group e-mail. So if you want to stay anonymous, contact us by reporting bug on Appspot (point 1 above)._
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8c3d-93c3-7a7a-5a11" name="Chaos - Titanicus Traitoris" revision="6" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8c3d-93c3-7a7a-5a11" name="Chaos - Titanicus Traitoris" revision="10" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="158" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="8c3d-93c3-pubN65537" name="Imperial Armour - Index: Forces of Chaos"/>
   </publications>
@@ -122,9 +122,10 @@
         <entryLink id="907e-f0e6-174e-33b2" name="Carapace mounted weapons" hidden="false" collective="false" import="true" targetId="512e-2935-3305-3ac8" type="selectionEntryGroup"/>
         <entryLink id="9dce-12c7-1a96-d460" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
         <entryLink id="6511-396e-6c08-9402" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="c116-7186-6317-719a" name="Titanic Stride" hidden="false" collective="false" import="true" targetId="8035-18bf-471c-9733" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="120.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="200.0"/>
         <cost name="pts" typeId="points" value="4000.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -200,31 +201,6 @@
         <categoryLink id="72ec-8a6a-c37d-a934" name="New CategoryLink" hidden="false" targetId="5f88-bd69-1096-78b6" primary="false"/>
         <categoryLink id="3bc1-cc32-1508-98e3" name="New CategoryLink" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
       </categoryLinks>
-      <selectionEntries>
-        <selectionEntry id="328c-ee6f-ec63-1211" name="Titanic Stride" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="12ea-f6e2-d3d5-1065" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e7-ff2b-81c6-b857" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="d1d4-cc6b-2b3a-7058" name="Titanic Stride" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-              <characteristics>
-                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-                <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 hit rolls for each attack made with this weapon, instead of 1.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-            <cost name="pts" typeId="points" value="0.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="b16a-68ce-af9e-f7dd" name="Arm mounted weapons" hidden="false" collective="false" import="true">
           <constraints>
@@ -242,9 +218,10 @@
       <entryLinks>
         <entryLink id="6693-db57-5294-74c7" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
         <entryLink id="6abb-2dd9-bd14-543e" name="Has Battle Honours" hidden="false" collective="false" import="true" targetId="4763-757f-499f-d998" type="selectionEntry"/>
+        <entryLink id="23b2-1b16-b6f4-c628" name="Titanic Stride" hidden="false" collective="false" import="true" targetId="8035-18bf-471c-9733" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="75.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="100.0"/>
         <cost name="pts" typeId="points" value="2000.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -371,7 +348,7 @@
         <entryLink id="7e8e-1900-e2c0-c060" name="Battle Honours" hidden="false" collective="false" import="true" targetId="5518-d0f5-a880-d71c" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="200.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="300.0"/>
         <cost name="pts" typeId="points" value="6000.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -386,25 +363,6 @@
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
             <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 4 hit rolls for each attack made with this weapon, instead of 1.</characteristic>
-          </characteristics>
-        </profile>
-      </profiles>
-      <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-      </costs>
-    </selectionEntry>
-    <selectionEntry id="3c3a-491c-1118-c777" name="Titanic stride" hidden="false" collective="false" import="true" type="upgrade">
-      <profiles>
-        <profile id="9b7a-fbdc-fcc1-4ca4" name="Titanic stride" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
-          <characteristics>
-            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
-            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
-            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
-            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
-            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 hit rolls for each attack made with this weapon, instead of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -483,7 +441,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">20</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units hit by this weapon must half their Move characteristic and cannot Advance in their following Movement phase.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Units hit by this weapon must half their Move characteristic and cannot Advance in their following Movement phase. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -502,7 +460,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving all damage on the target unit, roll a D6 for every other unit within 6&quot; of the target unit; on a 4+ that unit also suffers D3 hits using the weapon&apos;s profile.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">After resolving all damage on the target unit, roll a D6 for every other unit within 6&quot; of the target unit; on a 4+ that unit also suffers D3 hits using the weapon&apos;s profile. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -578,7 +536,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made by this attack automatically inflicts an additional D3 mortal wounds on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made by this attack automatically inflicts an additional D3 mortal wounds on the target. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -626,7 +584,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this weapon inflicts an additional D3 mortal wounds on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this weapon inflicts an additional D3 mortal wounds on the target. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -645,7 +603,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">30</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-6</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">12</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this weapon inflicts an additional D6 mortal wounds on the target.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Any wound roll of a 6 made with this weapon inflicts an additional D6 mortal wounds on the target. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -664,7 +622,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
           </characteristics>
         </profile>
         <profile id="e3c0-7940-38aa-5ed0" name="Titan plasma blastgun, overcharged" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -674,7 +632,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">10</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When using this firing mode, for each hit roll of 1, the Titan suffers a mortal wound after all of this weapon&apos;s shots have been resolved. These mortal wounds may nto be stopped by the Titan&apos;s own void shields.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When using this firing mode, for each hit roll of 1, the Titan suffers a mortal wound after all of this weapon&apos;s shots have been resolved. These mortal wounds may not be stopped by the Titan&apos;s own void shields. Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -750,7 +708,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Overwatch attacks with this wepaon hit on a 5+ regardless of modifiers. These weapons may only fire at targets behind the Titan.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Overwatch attacks with this weapon hit on a 5+ regardless of modifiers. These weapons may only fire at targets behind the Titan.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -788,7 +746,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">16</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -827,6 +785,29 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
+    <selectionEntry id="8035-18bf-471c-9733" name="Titanic Stride" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="623f-0305-f8db-5ead" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e076-c993-f641-c0c3" type="min"/>
+      </constraints>
+      <profiles>
+        <profile id="c6dc-491b-13f9-d175" name="Titanic Stride" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 hit rolls for each attack made with this weapon, instead of 1.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
     <selectionEntryGroup id="512e-2935-3305-3ac8" name="Carapace mounted weapons" hidden="false" collective="false" import="true">
@@ -848,7 +829,8 @@
   <sharedProfiles>
     <profile id="a0ea-57a5-f34a-ad4b" name="Infernal God-engine" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can Fall Back in the Movement phase and still shoot and/or charge during its turn. When the model Falls Back, it can move over enemy Infantry models, though at the end of its move it must be more than 1&quot; away from all enemy units. The model can fire its shooting weapons even if there are enemy models within 1&quot; unless those enemy models are Titanic. In this case, it can shoot the enemy unit that is within 1&quot; of it or any other visible enemy unit that is within range and more than 1&quot; away from any friendly models. In addition, this model can move and fire Heavy weapons without any penalty to its hit rolls. Finally, the model only gains a bonus to its save in cover if at least half of the model is obscured from the bearer.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model is eligible to declare a charge in a turn in which it Fell Back. Each time this model makes a Normal Move, Advances or Falls Back, it can be moved across other models (excluding Monster and Vehicle models) as if they were not
+there, and when it does so it can be moved within Engagement Range of such models, but cannot finish its move within Engagement Range of any of them.</characteristic>
       </characteristics>
     </profile>
     <profile id="eba7-5f8d-c2a0-3165" name="Titan Void Shields" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">

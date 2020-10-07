@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="9837-3435-7452-d14b" name="Chaos - Servants of the Abyss" revision="8" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="@Mad_Spy" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="58" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="9837-3435-7452-d14b" name="Chaos - Servants of the Abyss" revision="15" battleScribeVersion="2.03" authorName="BSData Developers" authorUrl="https://discord.gg/KqPVhds" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="158" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
-    <publication id="9837-3435-pubN65537" name="Warhammer Quest: Blackstone Fortress"/>
     <publication id="8259-2a22-78ba-716a" name="Warhammer Quest: Blackstone Fortress - Escalation"/>
   </publications>
   <categoryEntries>
@@ -21,7 +20,87 @@
     <categoryEntry id="c1b2-f117-cdcc-9145" name="Traitor Commissar" hidden="false"/>
     <categoryEntry id="1f31-34ea-bcdb-de6e" name="Chaos Ogryn" hidden="false"/>
     <categoryEntry id="1aad-1bc4-6055-639e" name="Cultists of the Abyss" hidden="false"/>
+    <categoryEntry id="229e-a9ea-94e2-b13e" name="Cultist Firebrand" hidden="false"/>
   </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="15c2-7ea7-860e-ede6" name="Cultist Firebrand" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="02d2-4824-d932-9800" name="Cultist Firebrand" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">6</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d6c-aea8-b49a-fea1" name="Explosive Demise" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is reduced to 0 wounds, roll a dice before removing it from the battlefield; on a 5+ the warp energies contained within it burst out, and each unit within 3” suffers 1 mortal wound.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="5bc6-cf09-1553-ca2b" name="Servants of the Abyss" hidden="false" targetId="50ce-cc4f-7ac1-6a22" type="rule"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d620-e7ac-72ee-41b5" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="0446-3a16-de42-e4e4" name="Faction: Chaos" hidden="false" targetId="5cf1-acf2-ca3b-c2e5" primary="false"/>
+        <categoryLink id="b06c-c54e-df90-facd" name="Faction: Servants of the Abyss" hidden="false" targetId="b0c7-cff4-f82b-2007" primary="false"/>
+        <categoryLink id="ec11-86d2-d3b4-fc4b" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="c4aa-5441-98c6-5679" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="e956-46f4-f34a-b85d" name="Cultist Firebrand" hidden="false" targetId="229e-a9ea-94e2-b13e" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="d1de-ed03-a861-ae56" name="Hellfire torch" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5af6-1b5f-8247-dd71" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c175-d134-7603-cab2" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4807-fbd2-cbb2-56fb" name="Hellfire torch" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D6</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="c13c-4793-6fd4-3969" name="Laspistol" hidden="false" collective="false" import="true" targetId="c10b-e1a4-c913-ae15" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="173d-fbe6-8409-bda0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8d50-7699-0548-4eb4" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="2d64-a89d-3d1a-66ad" name="Frag &amp; Krak grenades" hidden="false" collective="false" import="true" targetId="cddf-945e-1335-e681" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bb88-9a8c-3dc9-c465" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="628b-7c2f-6d1c-8849" type="max"/>
+          </constraints>
+        </entryLink>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
   <entryLinks>
     <entryLink id="254c-526d-2d8b-1a4b" name="Obsidius Mallex" hidden="false" collective="false" import="true" targetId="25bc-f094-37a2-21fe" type="selectionEntry"/>
     <entryLink id="2cad-26fa-a45d-3995" name="Rogue Psyker" hidden="false" collective="false" import="true" targetId="ff93-aa12-825c-1a53" type="selectionEntry">
@@ -100,26 +179,7 @@
     </entryLink>
     <entryLink id="a233-6294-11f8-ec93" name="Chaos Ogryn" hidden="false" collective="false" import="true" targetId="2484-a240-4b43-4bbd" type="selectionEntry"/>
     <entryLink id="1468-f116-994c-52a2" name="Traitor Commissar" hidden="false" collective="false" import="true" targetId="2b45-2846-0bd4-2201" type="selectionEntry"/>
-    <entryLink id="387e-75c7-eccb-27c6" name="Cultists of the Abyss" hidden="false" collective="false" import="true" targetId="69b4-3c70-f40b-f1b9" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cd3-3a95-3ba5-f6a8" type="lessThan"/>
-          </conditions>
-        </modifier>
-      </modifiers>
-      <categoryLinks>
-        <categoryLink id="ded7-eff6-4679-b78e" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
     <entryLink id="8b16-3101-dd68-f578" name="Cultists of the Abyss" hidden="false" collective="false" import="true" targetId="69b4-3c70-f40b-f1b9" type="selectionEntry">
-      <modifiers>
-        <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2cd3-3a95-3ba5-f6a8" type="atLeast"/>
-          </conditions>
-        </modifier>
-      </modifiers>
       <categoryLinks>
         <categoryLink id="be9c-6068-b54a-1529" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
       </categoryLinks>
@@ -204,10 +264,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8997-a992-88ff-b246" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="8964-fc41-4ca3-5f26" name="Warlord" hidden="false" collective="false" import="true" targetId="59af-707f-d03b-8ea2" type="selectionEntry"/>
+        <entryLink id="06d4-d29f-145b-d239" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e308-7d16-1cd6-f8a5" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
-        <cost name="pts" typeId="points" value="102.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+        <cost name="pts" typeId="points" value="130.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -296,7 +358,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -379,7 +441,7 @@
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" typeId="points" value="45.0"/>
+        <cost name="pts" typeId="points" value="50.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -462,7 +524,7 @@
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
-        <cost name="pts" typeId="points" value="26.0"/>
+        <cost name="pts" typeId="points" value="28.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -736,7 +798,7 @@
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -847,7 +909,7 @@
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
-        <cost name="pts" typeId="points" value="24.0"/>
+        <cost name="pts" typeId="points" value="26.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -906,10 +968,12 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f76-a2ab-830b-9970" type="max"/>
           </constraints>
         </entryLink>
+        <entryLink id="06ab-2771-c2d6-317a" name="Warlord" hidden="false" collective="false" import="true" targetId="59af-707f-d03b-8ea2" type="selectionEntry"/>
+        <entryLink id="90af-1111-23b6-8549" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="e308-7d16-1cd6-f8a5" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="50.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+        <cost name="pts" typeId="points" value="55.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -935,7 +999,7 @@
         </profile>
         <profile id="db76-1b3f-f8e4-769e" name="Bodyguard" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a TRAITOR COMMISSAR loses a wound whilst it is within 3&quot; of any friendly models with this ability; on a 3+ the TRAITOR COMMISSAR does not lose a wound but one of theose friendly models suffers a mortal wound.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time a TRAITOR COMMISSAR loses a wound whilst it is within 3&quot; of any friendly models with this ability; on a 3+ the TRAITOR COMMISSAR does not lose a wound but one of those friendly models suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
         <profile id="6c82-8fb9-d2b4-c1ce" name="Blasphemous Icon" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -989,7 +1053,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, before the bearer makes any other attacks, it can make one (and only one) attack with this weapon. If the attack hits, you can re-roll hit rolls for attacks made by the bearer that targer that unit until the end of the phase.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time the bearer fights, before the bearer makes any other attacks, it can make one (and only one) attack with this weapon. If the attack hits, you can re-roll hit rolls for attacks made by the bearer that target that unit until the end of the phase.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1002,7 +1066,7 @@
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1071,6 +1135,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -1087,6 +1156,11 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0f63-3ac7-de6c-9f05" name="Cultists" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1107,6 +1181,11 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="08bb-dfd1-3363-aaef" name="Cultist w/ Heavy Stubber" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1130,6 +1209,11 @@
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="731e-d276-2d6b-e67b" name="Cultist w/ Grenade Launcher" hidden="false" collective="false" import="true" type="model">
           <constraints>
@@ -1174,21 +1258,67 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="85e4-602d-e3a1-92b0" name="Autogun" hidden="false" collective="true" import="true" type="upgrade">
       <infoLinks>
         <infoLink id="e54e-5606-d70b-1bca" name="Autogun" hidden="false" targetId="fcde-3e6a-e240-1157" type="profile"/>
       </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="59af-707f-d03b-8ea2" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="21e4-4b3f-f8cf-4d2e" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="8a04-46b0-bd08-1d7a" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="e308-7d16-1cd6-f8a5" name="Warlord Traits" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="59af-707f-d03b-8ea2" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d1e4-5f74-1d4f-f18e" type="max"/>
+      </constraints>
+      <entryLinks>
+        <entryLink id="7408-0804-7833-e4e7" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="50ce-cc4f-7ac1-6a22" name="Servants of the Abyss" hidden="false">
       <description>This ability has no effect unless your army includes OBSIDIUS MALLEX. If it does, you cannot set up any units with this ability before you have set up OBSIDIUS MALLEX. When you set up OBSIDIUS MALLEX during deployment, all units with this ability are immediately set up at the same time. When you set up OBSIDIUS MALLEX on the battlefield for the first time, all units with this ability must be set up within 6&quot; of him (or they must be in the same TRANSPORT as him). If they cannot be set up, they count as destroyed.</description>

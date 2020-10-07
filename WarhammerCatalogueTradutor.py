@@ -14,9 +14,10 @@ from shutil import copyfile,rmtree
 from bs4 import BeautifulSoup
 from googletrans import Translator
 import DataIndexer as dtIdx
-
+import GitApi
 translator = Translator()
 ########################################################################################################################
+# PROGRAMA PRINCIPAL
 # Faz download do repositório oficial
 # Lê os arquivos cat da pasta wh40k-master, traduz utilizando o dicionário e
 # gera os arquivos catz prontos para serem importados no Battlescribe
@@ -88,7 +89,10 @@ projectDir= 'C:/Users/evert/Documents/PycharmProjects/WarhammerRosterTradutor/'
 
 
 
-gameSystemId='49b6-bc6f-0390-1e40'
+#gameSystemId ='49b6-bc6f-0390-1e40'#8th edition
+gameSystemId='28ec-711c-d87f-3aeb'
+gameSystemRevision="153" #usado na migracao para a 9th edicao, automatizar para ler do arquivo gst
+
 
 print 'Download do repositório de origem'
 downloadWh40kSource()
@@ -141,6 +145,7 @@ for cfile in catz:
             catalogues["name"] += "-BR"
 
             catalogues["gameSystemId"] = gameSystemId
+            catalogues["gameSystemRevision"] = gameSystemRevision
 
             for catalogue in catalogues.children:
                 # print catalogue.name, type(catalogue)
@@ -212,6 +217,7 @@ for cfile in catz:
         for catalogues in cat.find_all("gameSystem"):
             catalogues["name"] += "-BR"
             catalogues["gameSystemId"] = gameSystemId
+            catalogues["gameSystemRevision"] = gameSystemRevision
             catalogues["id"] = gameSystemId
             for catalogue in catalogues.children:
                 # print catalogue.name, type(catalogue)
@@ -297,5 +303,16 @@ with open(newFile, "wb") as file:
 
 print "Registros nao localizados no dicionario {i}".format(i=str(naoLocalizados))
 
+########################################################################################################################
+# Gera arquivo BSR
+########################################################################################################################
 dtIdx.createIndexBsr()
+########################################################################################################################
 
+
+
+
+########################################################################################################################
+# Faz Upload do arquivo BSR
+########################################################################################################################
+GitApi.uploadBsr()
