@@ -1,0 +1,680 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d6e87b94-945b-42f2-bc24-db97cf190559" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/WarhammerRosterTradutor.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Space Wolves 1500 pts-PTBR.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Space Wolves 1500 pts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarhammerRosterGoogleTradutor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarhammerRosterGoogleTradutor.spec" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarhammerRosterGoogleTradutorManual.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarhammerRosterTradutor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WarhammerRosterTradutorReadCat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/Analysis-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/EXE-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PKG-00.pkg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PKG-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PYZ-00.pyz" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PYZ-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/Tree-00.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/Tree-01.toc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/WarhammerRosterGoogleTradutor.exe.manifest" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/warn-WarhammerRosterGoogleTradutor.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/xref-WarhammerRosterGoogleTradutor.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicionario.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dicionario2.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/Space Wolves 1500 pts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/WarhammerRosterGoogleTradutor.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/.gitattributes" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Craftworlds.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Drukhari.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - FW Corsairs.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Harlequins.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Ynnari.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Chaos Space Marines.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Daemons.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Dark Mechanicum.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Death Guard.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - FW Heretic Astartes.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - FW Renegade and Heretics.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Gellerpox Infected.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Questor Traitoris.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Servants of the Abyss.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Thousand Sons.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Titanicus Traitoris.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Astra Telepathica.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Custodes.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Mechanicus.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Ministorum.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Titanicus.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Astra Militarum.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Blackstone Fortress.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Blood Angels.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Dark Angels.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Deathwatch.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Elucidian Starstriders.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - FW Adeptus Astartes.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - FW Death Korps of Krieg.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - FW Elysians.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Grey Knights.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Inquisition.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Legion of the Damned.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Officio Assassinorum.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Questor Imperialis.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Sisters of Silence.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Space Marines.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Space Wolves.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Necrons.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Orks.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/T'au Empire.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Tyranids - Genestealer Cults.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Tyranids.cat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/wh40k-master/Warhammer 40,000 8th Edition.gst" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/venv/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WarhammerCatalogueTradutor.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DataIndexer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2805">
+              <caret line="172" selection-start-line="172" selection-end-line="172" />
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/GitApi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WarhammerRosterTradutorReadCat.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1683">
+              <caret line="99" column="83" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/testes.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&gt;&gt;</find>
+      <find>If a unit is affected by this saga, they automatically pass Morale tests</find>
+      <find>saga</find>
+      <find>Each time the bearer fights, it can make 1 additional attack with this weapon.</find>
+      <find>htmlDoc</find>
+      <find>./wh40k-master/&quot;</find>
+      <find>game</find>
+      <find>PTBR</find>
+      <find>wh40k_BR</find>
+      <find>system</find>
+      <find>existe</find>
+      <find>id</find>
+      <find>GitHub</find>
+      <find>dicionario</find>
+      <find>falha</find>
+      <find>diciona</find>
+      <find>nao existe</find>
+      <find>&gt;&gt;&gt;</find>
+      <find>compactCat</find>
+      <find>repositoryUrls</find>
+      <find>tempDir</find>
+      <find>latest</find>
+      <find>bsr</find>
+      <find>copyCatToRepoDir</find>
+      <find>ppath</find>
+      <find>battleScribeVersion</find>
+      <find>dataBattleScribeVersion</find>
+      <find>compactBsr</find>
+      <find>bsrDir</find>
+      <find>brDir</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>xmlDoc</replace>
+      <replace>originPath</replace>
+      <replace>BR</replace>
+      <replace>wh40k_BR</replace>
+      <replace>wh40kBR</replace>
+      <replace>bsrDir</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wh40k_PTBR-master/zipo.py" />
+        <option value="$PROJECT_DIR$/zipo.py" />
+        <option value="$PROJECT_DIR$/zipo2.py" />
+        <option value="$PROJECT_DIR$/testes.py" />
+        <option value="$PROJECT_DIR$/WarhammerRosterTradutor.py" />
+        <option value="$PROJECT_DIR$/WarhammerRosterTradutorReadCat.py" />
+        <option value="$PROJECT_DIR$/WarhammerIndexer.py" />
+        <option value="$PROJECT_DIR$/GitApi.py" />
+        <option value="$PROJECT_DIR$/DataIndexer.py" />
+        <option value="$PROJECT_DIR$/WarhammerCatalogueTradutor.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="980" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WarhammerRosterTradutor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WarhammerRosterTradutor" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\evert\Documents\PycharmProjects\WarhammerRosterTradutor" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\evert\Documents\PycharmProjects\WarhammerRosterTradutor" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.WarhammerCatalogueTradutor">
+    <configuration name="DataIndexer" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WarhammerRosterTradutor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataIndexer.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="GitApi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WarhammerRosterTradutor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/GitApi.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WarhammerCatalogueTradutor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WarhammerRosterTradutor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WarhammerCatalogueTradutor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WarhammerRosterTradutor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WarhammerRosterTradutor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WarhammerRosterTradutor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="WarhammerRosterTradutorReadCat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WarhammerRosterTradutor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WarhammerRosterTradutorReadCat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.WarhammerCatalogueTradutor" />
+        <item itemvalue="Python.DataIndexer" />
+        <item itemvalue="Python.GitApi" />
+        <item itemvalue="Python.WarhammerRosterTradutorReadCat" />
+        <item itemvalue="Python.WarhammerRosterTradutor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d6e87b94-945b-42f2-bc24-db97cf190559" name="Default Changelist" comment="" />
+      <created>1545875547956</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1545875547956</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17382683" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3838527" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297546" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2247191" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3838527" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3297546" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286119" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Python Console" order="10" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/testes.py</url>
+          <line>12</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog>
+          <selected-grouping-rules>
+            <grouping-rule id="by-file" />
+          </selected-grouping-rules>
+        </breakpoints-dialog>
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="python-exception">
+          <properties notifyOnlyOnFirst="true" exception="BaseException">
+            <option name="notifyOnlyOnFirst" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="f" />
+        <watch expression="os.path.split(originFileFullPath)[1]" />
+        <watch expression="os.path.splitext(originFileFullPath)[1]" />
+        <watch expression="originPath+catFilesToRead" />
+        <watch expression="rulePT" />
+        <watch expression="rule" />
+        <watch expression="catalogue.name" language="Python" />
+        <watch expression="characteristicsTag[&quot;name&quot;]" />
+        <watch expression="characteristicsTag.text" />
+        <watch expression="descriptionPT" />
+        <watch expression="dicionario" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>catalogue.name</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>xml</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>characteristicsTag[&quot;value&quot;]</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>characteristicsTag.value</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>characteristicsTag.name</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>type(catalogue)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/WarhammerRosterTradutorReadCat" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="1740" selection-start-line="1740" selection-end-line="1740" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dicionario2.json" />
+    <entry file="file://$PROJECT_DIR$/WarhammerRosterGoogleTradutorManual.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="272" selection-start-line="272" selection-end-line="272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/sre_compile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarhammerRosterGoogleTradutor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="79" column="9" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/dammit.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/sre_parse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="236" selection-start-line="236" selection-end-line="236" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/encodings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="144" selection-start-line="144" selection-end-line="144" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipo.py" />
+    <entry file="file://$PROJECT_DIR$/dicionario.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/zipo2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="17" selection-start-line="17" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/json/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="338" selection-start-line="338" selection-end-line="338" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../teste/teste.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/venv/Lib/site-packages/bs4/element.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="1070" selection-start-line="1070" selection-end-line="1070" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarhammerRosterTradutor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-345">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarhammerIndexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarhammerCatalogueTradutor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataIndexer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2805">
+          <caret line="172" selection-start-line="172" selection-end-line="172" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/GitApi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WarhammerRosterTradutorReadCat.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="83" selection-start-line="99" selection-start-column="83" selection-end-line="99" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
