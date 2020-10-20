@@ -74,8 +74,7 @@ def downloadWh40kSource():
 def downloadWh40kLatestSource():
     # faz o download dos da ultima versao publicada (stable)
     latest = requests.get("https://github.com/BSData/wh40k/releases/latest")
-    html = BeautifulSoup(latest.text, "html")
-    a = html.find_all("a")
+    html = BeautifulSoup(latest.text, "lxml")
     d = html.find_all(href=re.compile("bsr"))
     link = "https://github.com/" + d[0]["href"]
     print "Efetuando download"
@@ -84,7 +83,7 @@ def downloadWh40kLatestSource():
     open('wh40k-master.zip', 'wb').write(r.content)
     print 'Download completo'
     with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
-        zip_ref.extractall(path='.')
+        zip_ref.extractall(path='./wh40k-master')
     print 'Arquivos extraídos'
 
 def translateText(description,dicionario):
@@ -103,12 +102,8 @@ originPath = "./wh40k-master/"
 destPath = "./wh40kBR-master/"
 catRepoDir = 'C:/Users/evert/Documents/GitHub/BSDataBrasil/wh40kBR/'
 projectDir= 'C:/Users/evert/Documents/PycharmProjects/WarhammerRosterTradutor/'
-
-
-
-
 #gameSystemId ='49b6-bc6f-0390-1e40'#8th edition
-gameSystemId='28ec-711c-d87f-3aec'
+gameSystemId='38ec-711c-d87f-3aec'
 gameSystemRevision="153" #usado na migracao para a 9th edicao, automatizar para ler do arquivo gst
 
 
@@ -143,9 +138,21 @@ for f in os.listdir(originPath):
 with open('dicionario.json', "r") as file:
     dicionario = json.loads(file.read())
     file.close()
+with open('dicionario_termos.json', "r") as file:
+    dicionario_termos = json.loads(file.read())
+    file.close()
 
 dicionario = {k.upper():v for k,v in dicionario.items()}
 #dicionarioNew = {}
+
+#traducao literal de termos
+for k in dicionario:
+    for kk in dicionario_termos:
+        if kk in dicionario[k]:
+            print "Traducao Literal"
+            print dicionario[k]
+            print k.replace(kk,dicionario_termos[kk])
+            dicionario[k]=dicionario[k].replace(kk,dicionario_termos[kk])
 
 naoLocalizados=0
 catz = os.listdir(destPath)
@@ -192,7 +199,7 @@ for cfile in catz:
                                             sys.exc_clear()
 
                                     else:
-                                        if rule <> '-' and rule <> "" and rule <> " " and type(rule)<>None:
+                                        if rule <> "-" and rule <> "" and rule <> " " and rule <> "0" and type(rule)<>None:
                                             if rule <> "":
                                                 print "Nao existe no dicionario", rule
                                                 textPT = translate(ruleTag.get_text(), dest='pt')
@@ -224,7 +231,7 @@ for cfile in catz:
                                                 print "falha na traducao {e}".format(e=str(e))
                                                 sys.exc_clear()
                                         else:
-                                            if description <> '-' and description <> "":
+                                            if  description <> "-" and description <> "" and description <> " " and description <> "0":
                                                 print "nao existe no dicionario", description
                                                 if description<>"":
                                                     naoLocalizados+=1
@@ -264,7 +271,7 @@ for cfile in catz:
 
                                     else:
 
-                                        if description <> "":
+                                        if description<>"" and description <> "-" and description <> " " and description <> "0":
                                             print "Nao existe no dicionario", rule
                                             naoLocalizados += 1
                                             textPT = translate(ruleTag.get_text(), dest='pt')
@@ -293,7 +300,7 @@ for cfile in catz:
                                                     print "falha na traducao"
                                                     sys.exc_clear()
                                             else:
-                                                if description<>"":
+                                                if description<>"" and description <> "-" and description <> "" and description <> " " and description <> "0":
                                                     print "nao existe no dicionario", description
                                                     naoLocalizados+=1
                                                     textPT = translate(characteristicsTag.text, dest='pt')
@@ -318,7 +325,7 @@ compactCat(destPath)
 #newFile = "{projectDir}dicionario_new.json".format(projectDir=projectDir)
 #with open(newFile, "wb") as file:
  #   file.write(json.dumps(dicionarioNew,indent=4, sort_keys=True, ensure_ascii=False))
-with open("dicionario.json", "wb") as file:
+with open("C:\\Users\\evert\\Documents\\PycharmProjects\\WarhammerRosterTradutor\\dicionario.json", "wb") as file:
     file.write(json.dumps(dicionario,indent=4, sort_keys=True, ensure_ascii=False))
 
 
