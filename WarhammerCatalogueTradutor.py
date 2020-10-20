@@ -15,6 +15,7 @@ from bs4 import BeautifulSoup
 from googletrans import Translator
 import DataIndexer as dtIdx
 import GitApi
+import re
 translator = Translator()
 ########################################################################################################################
 # PROGRAMA PRINCIPAL
@@ -62,7 +63,24 @@ def copyCatToRepoDir(ppath, destPath):
         copyfile(ppath+f, destPath+f)
 
 def downloadWh40kSource():
+    #faz o download dos ultimos commits, que ainda nao foram publicados (beta)
     r = requests.get('https://github.com/BSData/wh40k/archive/master.zip')
+    open('wh40k-master.zip', 'wb').write(r.content)
+    print 'Download completo'
+    with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
+        zip_ref.extractall(path='.')
+    print 'Arquivos extraídos'
+
+def downloadWh40kLatestSource():
+    # faz o download dos da ultima versao publicada (stable)
+    latest = requests.get("https://github.com/BSData/wh40k/releases/latest")
+    html = BeautifulSoup(latest.text, "html")
+    a = html.find_all("a")
+    d = html.find_all(href=re.compile("bsr"))
+    link = "https://github.com/" + d[0]["href"]
+    print "Efetuando download"
+    print link
+    r = requests.get(link)
     open('wh40k-master.zip', 'wb').write(r.content)
     print 'Download completo'
     with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
@@ -90,12 +108,13 @@ projectDir= 'C:/Users/evert/Documents/PycharmProjects/WarhammerRosterTradutor/'
 
 
 #gameSystemId ='49b6-bc6f-0390-1e40'#8th edition
-gameSystemId='28ec-711c-d87f-3aeb'
+gameSystemId='28ec-711c-d87f-3aec'
 gameSystemRevision="153" #usado na migracao para a 9th edicao, automatizar para ler do arquivo gst
 
 
 print 'Download do repositório de origem'
-downloadWh40kSource()
+#downloadWh40kSource()
+downloadWh40kLatestSource()
 
 if os.path.exists(destPath):
     rmtree(destPath, True)
@@ -126,7 +145,7 @@ with open('dicionario.json', "r") as file:
     file.close()
 
 dicionario = {k.upper():v for k,v in dicionario.items()}
-dicionarioNew = {}
+#dicionarioNew = {}
 
 naoLocalizados=0
 catz = os.listdir(destPath)
@@ -177,7 +196,7 @@ for cfile in catz:
                                             if rule <> "":
                                                 print "Nao existe no dicionario", rule
                                                 textPT = translate(ruleTag.get_text(), dest='pt')
-                                                dicionarioNew[rule]=textPT
+                                                dicionario[rule]=textPT
                                                 naoLocalizados += 1
 
                                 for characteristicsTag in catElement.find_all("characteristic"):
@@ -210,7 +229,7 @@ for cfile in catz:
                                                 if description<>"":
                                                     naoLocalizados+=1
                                                     textPT = translate(characteristicsTag.text, dest='pt')
-                                                    dicionarioNew[description] = textPT
+                                                    dicionario[description] = textPT
 
 
         # TRADUS ARQUIVO GST
@@ -249,7 +268,7 @@ for cfile in catz:
                                             print "Nao existe no dicionario", rule
                                             naoLocalizados += 1
                                             textPT = translate(ruleTag.get_text(), dest='pt')
-                                            dicionarioNew[rule] = textPT
+                                            dicionario[rule] = textPT
 
                                 for characteristicsTag in catElement.find_all("characteristic"):
                                     if characteristicsTag["name"] in ["Abilities", "Description","Details","Capacity"]:
@@ -278,7 +297,7 @@ for cfile in catz:
                                                     print "nao existe no dicionario", description
                                                     naoLocalizados+=1
                                                     textPT = translate(characteristicsTag.text, dest='pt')
-                                                    dicionarioNew[description] = textPT
+                                                    dicionario[description] = textPT
 
 
 
@@ -296,9 +315,11 @@ copyCatToRepoDir(destPath, catRepoDir)
 compactCat(destPath)
 
 
-newFile = "{projectDir}dicionario_new.json".format(projectDir=projectDir)
-with open(newFile, "wb") as file:
-    file.write(json.dumps(dicionarioNew,indent=4, sort_keys=True, ensure_ascii=False))
+#newFile = "{projectDir}dicionario_new.json".format(projectDir=projectDir)
+#with open(newFile, "wb") as file:
+ #   file.write(json.dumps(dicionarioNew,indent=4, sort_keys=True, ensure_ascii=False))
+with open("dicionario.json", "wb") as file:
+    file.write(json.dumps(dicionario,indent=4, sort_keys=True, ensure_ascii=False))
 
 
 print "Registros nao localizados no dicionario {i}".format(i=str(naoLocalizados))
