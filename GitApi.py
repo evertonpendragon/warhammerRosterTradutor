@@ -3,12 +3,13 @@ import json
 
 
 def uploadBsr():
-
+    # token 896b6df09bde1ec0d4f0778af03009e0e1a48c56
     print "Upload..."
     auth = ("evertonpendragon","Av@lon1985")
+    headers = {'Authorization': 'token 896b6df09bde1ec0d4f0778af03009e0e1a48c56'}
     url="https://api.github.com/repos/BSDataBrasil/wh40kBR/releases/14823253/assets"
 
-    a=requests.get (url,auth=auth)
+    a=requests.get (url,headers=headers)
 
 
     assets= json.loads(a.content)
@@ -28,11 +29,13 @@ def uploadBsr():
             #url="https://api.github.com/repos/BSDataBrasil/wh40kBR/releases/assets/13358556"
 
             print "Deletando arquivo existente..."
-            ret=requests.delete(url,auth=auth)
+            #ret = requests.delete(url, auth=auth, headers=headers)
+            ret = requests.delete(url,  headers=headers)
+
             #print ret, ret.text,ret.content
             #upload
 
-    headers = {'Content-type': 'application/binary'}#, 'Accept': 'text/plain'
+    headers = {'Content-type': 'application/binary','Authorization': 'token 896b6df09bde1ec0d4f0778af03009e0e1a48c56'}#, 'Accept': 'text/plain'
     url="https://uploads.github.com/repos/BSDataBrasil/wh40kBR/releases/14823253/assets?name=wh40kBR.bsr"
 
     #posta arquivo criado por esse programa
@@ -45,7 +48,9 @@ def uploadBsr():
     #print filesd
 
     print "Upload do arquivo bsr..."
-    a=requests.post (url,auth=auth,headers=headers,data=f                )
+    #a=requests.post (url,auth=auth,headers=headers,data=f                )
+    a = requests.post(url,   headers=headers, data=f)
+
     #a=requests.post (url,auth=auth  ,files=files                 )
 
 
