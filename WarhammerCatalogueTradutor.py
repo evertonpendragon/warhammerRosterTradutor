@@ -96,6 +96,15 @@ def translateText(description,dicionario):
         descriptionPT=description
     return descriptionPT
 
+def traducaoLiteral(text,dicionario_termos):
+        for kk in dicionario_termos:
+            if kk in text:
+                print "Traducao Literal"
+                print text
+                print text.replace(kk, dicionario_termos[kk])
+                return text.replace(kk, dicionario_termos[kk])
+
+
 ########################################################################################################################
 
 originPath = "./wh40k-master/"
