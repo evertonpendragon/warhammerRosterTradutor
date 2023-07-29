@@ -1,85 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6e87b94-945b-42f2-bc24-db97cf190559" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/WarhammerRosterTradutor.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Space Wolves 1500 pts-PTBR.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Space Wolves 1500 pts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarhammerRosterGoogleTradutor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarhammerRosterGoogleTradutor.spec" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarhammerRosterGoogleTradutorManual.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarhammerRosterTradutor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WarhammerRosterTradutorReadCat.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/Analysis-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/EXE-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PKG-00.pkg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PKG-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PYZ-00.pyz" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/PYZ-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/Tree-00.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/Tree-01.toc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/WarhammerRosterGoogleTradutor.exe.manifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/warn-WarhammerRosterGoogleTradutor.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/WarhammerRosterGoogleTradutor/xref-WarhammerRosterGoogleTradutor.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicionario.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dicionario2.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/Space Wolves 1500 pts.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/WarhammerRosterGoogleTradutor.exe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/testes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Craftworlds.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Drukhari.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - FW Corsairs.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Harlequins.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Aeldari - Ynnari.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Chaos Space Marines.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Daemons.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Dark Mechanicum.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Death Guard.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - FW Heretic Astartes.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - FW Renegade and Heretics.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Gellerpox Infected.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Questor Traitoris.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Servants of the Abyss.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Thousand Sons.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Chaos - Titanicus Traitoris.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Astra Telepathica.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Custodes.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Mechanicus.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Ministorum.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Titanicus.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Astra Militarum.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Blackstone Fortress.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Blood Angels.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Dark Angels.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Deathwatch.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Elucidian Starstriders.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - FW Adeptus Astartes.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - FW Death Korps of Krieg.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - FW Elysians.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Grey Knights.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Inquisition.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Legion of the Damned.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Officio Assassinorum.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Questor Imperialis.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Sisters of Silence.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Space Marines.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Space Wolves.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Necrons.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Orks.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/T'au Empire.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Tyranids - Genestealer Cults.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Tyranids.cat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/wh40k-master/Warhammer 40,000 8th Edition.gst" afterDir="false" />
+    <list default="true" id="d6e87b94-945b-42f2-bc24-db97cf190559" name="Default Changelist" comment="1th">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/venv/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -214,6 +141,7 @@
     <option name="width" value="980" />
     <option name="height" value="1040" />
   </component>
+  <component name="ProjectId" id="2TFKDRKfB23huN6YfOc1VBngM1T" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
   </component>
@@ -236,11 +164,16 @@
       </pane>
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\evert\Documents\PycharmProjects\WarhammerRosterTradutor" />
@@ -248,18 +181,6 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\evert\Documents\PycharmProjects\WarhammerRosterTradutor" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.WarhammerCatalogueTradutor">
     <configuration name="DataIndexer" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -377,6 +298,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -388,6 +310,14 @@
       <option name="presentableId" value="Default" />
       <updated>1545875547956</updated>
     </task>
+    <task id="LOCAL-00001" summary="1th">
+      <created>1690633362794</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690633362794</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView">
@@ -440,10 +370,23 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
+    <MESSAGE value="1th" />
+    <option name="LAST_COMMIT_MESSAGE" value="1th" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -600,7 +543,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/json/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../../../../Python27/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="392">
           <caret line="338" selection-start-line="338" selection-end-line="338" />
