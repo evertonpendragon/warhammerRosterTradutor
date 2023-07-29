@@ -48,7 +48,7 @@ class DataIndexer():
         dataIndex = ET.Element("dataIndex" )
         dataIndex
         dataIndex.attrib["battleScribeVersion"]="2.03" #alterar para pegar automaticamente
-        dataIndex.attrib["name"] = "wh40kPTBR"
+        dataIndex.attrib["name"] = "wh40kPTBR - 10th Edition"
         #dataIndex.attrib["indexUrl"] = "https://github.com/evertonpendragon/warhammerRosterTradutor/releases/download/10e/wh40k-10e.latest.bsi"
         dataIndex.attrib["xmlns"] = "http://www.battlescribe.net/schema/dataIndexSchema"
         return dataIndex
@@ -178,4 +178,4 @@ def createIndexBsr():
 #alterar as versoes dos arquivos
 
 
-createIndexBsr()
+#createIndexBsr()

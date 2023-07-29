@@ -6,7 +6,7 @@
 # Unless a later match takes precedence, @BSData/data-authors-wh40k
 # will be requested for review when someone opens a pull request.
 
-*       @BSData/data-authors-wh40k
+*       @BSData/data-admins-wh40k
 
 # # # # # # # # # # #
 # Generic "owners"  #
@@ -22,29 +22,28 @@ Tyranids*   @GenWilhelm
 # # # # # # # # # # # # # # # # # # # # #
 
 # Aeldari
-*Craftworlds.cat              @WindstormSCR @FarseerVeraenthis
+*Craftworlds.cat              @FarseerVeraenthis
 
 # Imperium
 *Adeptus\ Custodes.cat            @Thairne
 *Adeptus\ Mechanicus.cat          @Thairne
-*Adeptus\ Titanicus.cat           @DrTobogganMD
 *Blood\ Angels.cat                @alphalas
-*Dark\ Angels.cat                 @Thairne @FarseerVeraenthis
-*Deathwatch.cat                   @Technoblazed
+*Dark\ Angels.cat                 @FarseerVeraenthis
+*Deathwatch.cat                   @FarseerVeraenthis
 *Elucidian\ Starstriders.cat      @GenWilhelm
 *FW\ Adeptus\ Astartes.cat        @alphalas
 *FW\ Death\ Korps\ of\ Krieg.cat  @CrusherJoe @alphalas
 *Grey\ Knights.cat                @tekton
 *Legion\ of\ the\ Damned.cat      @alphalas
-*Questor\ Imperialis.cat          @DrTobogganMD
+*Questor\ Imperialis.cat          @AbonShell
 # Space Marines require 'Imperium' prefix/full name to prevent confusion with Chaos Space Marines
 Imperium\ -\ Space\ Marines.cat   @acebaur
-*Space\ Wolves.cat                @CrusherJoe
+*Space\ Wolves.cat                @Mad-Spy
 *Titan\ Legions.cat               @DrTobogganMD
 
-# Other 
+# Other
 Fallen.cat         @Mad-Spy
 Necrons.cat        @DrTobogganMD
-Orks.cat           @tag8833
-T?au\ Empire.cat   @amis92
+T?au\ Empire.cat   @AbonShell
 # the above question mark is a hack until GitHub fixes support for single quotes in CODEOWNERS
+Leagues\ of\ Votann.cat @Mad-Spy

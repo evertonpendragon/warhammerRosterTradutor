@@ -121,8 +121,8 @@ def copyCatToRepoDir(ppath, destPath):
 
 def downloadWh40kSource():
     #faz o download dos ultimos commits, que ainda nao foram publicados (beta)
-    r = requests.get('https://github.com/BSData/wh40k/archive/master.zip')
-    open('wh40k-master.zip', 'wb').write(r.content)
+    r = requests.get('https://github.com/BSData/wh40k-10e/archive/master.zip')
+    open('wh40k-10e-main.zip', 'wb').write(r.content)
     print ('Download completo')
     with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
         zip_ref.extractall(path='.')
@@ -131,13 +131,16 @@ def downloadWh40kSource():
 def downloadWh40kLatestSource():
     #parou de funcionar pq o git mudou sua pagina e os links ficaram ocultos, visiveis somente quando o cursor do mouse eh apontado para eles
     # faz o download dos da ultima versao publicada (stable)
-    latest = requests.get("https://github.com/BSData/wh40k/releases/latest")
+    #latest = requests.get("https://github.com/BSData/wh40k/releases/latest")
+    latest = requests.get("https://github.com/BSData/wh40k-10e/releases/latest")
+
     html = BeautifulSoup(latest.text, "lxml")
     d = html.find_all(href=re.compile("bsr"))
     link = "https://github.com/" + d[0]["href"]
     print ("Efetuando download")
     print (link)
     r = requests.get(link)
+    exit(0)
     open('wh40k-master.zip', 'wb').write(r.content)
     print ('Download completo')
     with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
@@ -183,11 +186,13 @@ if __name__ == '__main__':
 
     originPath = "./wh40k-master/"
     destPath = "./wh40kBR-master/"
-    catRepoDir = 'C:/Users/evert/Documents/GitHub/BSDataBrasil/wh40kBR/'
-    projectDir= 'C:/Users/evert/Documents/PycharmProjects/WarhammerRosterTradutor/'
+    catRepoDir = 'C:/Users/evert/PycharmProjects/warhammerRosterTradutor/BSDataBrasil/wh40kBR/'
+    projectDir = 'C:/Users/evert/PycharmProjects/warhammerRosterTradutor'
+    dic_dir = projectDir
+    dic_path = os.path.join(dic_dir,"dicionario.json")
     #gameSystemId ='49b6-bc6f-0390-1e40'#8th edition
     gameSystemId='38ec-711c-d87f-3aec'
-    gameSystemRevision="153" #usado na migracao para a 9th edicao, automatizar para ler do arquivo gst
+    gameSystemRevision="1" #usado na migracao para a 9th edicao, automatizar para ler do arquivo gst
 
     print ('Download do repositório de origem')
     #downloadWh40kSource()
@@ -420,7 +425,7 @@ if __name__ == '__main__':
 
         try:
             jdumps = json.dumps(new_dicionario, indent=4, sort_keys=True, ensure_ascii=False)
-            with open("C:\\Users\\evert\\Documents\\PycharmProjects\\WarhammerRosterTradutor\\dicionario.json","w",encoding='utf8') as file:
+            with open(dic_path,"w",encoding='utf8') as file:
                 file.write(jdumps)
         except Exception as e:
             print(e)
@@ -444,7 +449,7 @@ if __name__ == '__main__':
 
     try:
         jdumps = json.dumps(new_dicionario,indent=4, sort_keys=True, ensure_ascii=False)
-        with open("C:\\Users\\evert\\Documents\\PycharmProjects\\WarhammerRosterTradutor\\dicionario.json", "w",encoding='utf8') as file:
+        with open(dic_path, "w",encoding='utf8') as file:
             file.write(jdumps)
     except Exception as e:
         print (e)
@@ -452,7 +457,7 @@ if __name__ == '__main__':
         print (type(jdumps))
 
     # try:
-    #     with open("C:\\Users\\evert\\Documents\\PycharmProjects\\WarhammerRosterTradutor\\dicionario.json", "w") as file:
+    #     with open("C:/Users/evert/Documents/PycharmProjects/WarhammerRosterTradutor/dicionario.json", "w") as file:
     #         file.write(json.dumps(dicionario,indent=4, sort_keys=True, ensure_ascii=False) )
     # except Exception as e:
     #     print (e)

@@ -27,9 +27,7 @@
 #ifdef LIBXML_ICONV_ENABLED
 #include <iconv.h>
 #endif
-#ifdef LIBXML_ICU_ENABLED
-#include <unicode/ucnv.h>
-#endif
+
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -128,14 +126,6 @@ typedef int (* xmlCharEncodingOutputFunc)(unsigned char *out, int *outlen,
  * Block defining the handlers for non UTF-8 encodings.
  * If iconv is supported, there are two extra fields.
  */
-#ifdef LIBXML_ICU_ENABLED
-struct _uconv_t {
-  UConverter *uconv; /* for conversion between an encoding and UTF-16 */
-  UConverter *utf8; /* for conversion between UTF-8 and UTF-16 */
-};
-typedef struct _uconv_t uconv_t;
-#endif
-
 typedef struct _xmlCharEncodingHandler xmlCharEncodingHandler;
 typedef xmlCharEncodingHandler *xmlCharEncodingHandlerPtr;
 struct _xmlCharEncodingHandler {
@@ -147,8 +137,8 @@ struct _xmlCharEncodingHandler {
     iconv_t                    iconv_out;
 #endif /* LIBXML_ICONV_ENABLED */
 #ifdef LIBXML_ICU_ENABLED
-    uconv_t                    *uconv_in;
-    uconv_t                    *uconv_out;
+    struct _uconv_t            *uconv_in;
+    struct _uconv_t            *uconv_out;
 #endif /* LIBXML_ICU_ENABLED */
 };
 
@@ -163,8 +153,10 @@ extern "C" {
 /*
  * Interfaces for encoding handlers.
  */
+XML_DEPRECATED
 XMLPUBFUN void XMLCALL
 	xmlInitCharEncodingHandlers	(void);
+XML_DEPRECATED
 XMLPUBFUN void XMLCALL
 	xmlCleanupCharEncodingHandlers	(void);
 XMLPUBFUN void XMLCALL

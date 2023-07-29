@@ -14,7 +14,7 @@ def uploadBsr():
     #auth = ("evertonpendragon","Av@lon1985")
     # auth = ("evertonpendragon","bc39071775e1c39394ab2d8fa550283779c0ce88"),
     #headers = {'Authorization': 'token bc39071775e1c39394ab2d8fa550283779c0ce88'}
-    headers = {'Authorization': 'token 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'}
+    headers = {'Authorization': 'token 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'}
 
     #headers = {"Accept": "application/vnd.github.v3+json" }
     url="https://api.github.com/repos/BSDataBrasil/wh40kBR/releases/14823253/assets"
@@ -61,7 +61,7 @@ def uploadBsr():
 
     #posta arquivo criado pelo Battle Scribe, utilizar esse caso haja problema com o criado por esse programa
     #files = {'file': open('C:/Users/evert/Documents/GitHub/BSDataBrasil/wh40kBR.bsr', 'rb')}
-    f=open('C:/Users/evert/Documents/PycharmProjects/WarhammerRosterTradutor/bsr/wh40kBR.bsr', 'rb')
+    f=open('C:/Users/evert/PycharmProjects/WarhammerRosterTradutor/bsr/wh40kBR.bsr', 'rb')
     files = {'file': f}
     #print filesd
 
@@ -76,4 +76,4 @@ def uploadBsr():
     print (a.text,a.content)
     return 0
 
-#uploadBsr()
+uploadBsr()

@@ -1,4 +1,4 @@
-#!C:\Users\evert\Documents\PycharmProjects\WarhammerRosterTradutor\venv\Scripts\python.exe
+#!C:\Users\evert\PycharmProjects\warhammerRosterTradutor\venv\Scripts\python.exe
 # -*- coding: utf-8 -*-
 import argparse
 import sys
