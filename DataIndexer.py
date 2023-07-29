@@ -9,7 +9,7 @@ from bs4 import BeautifulSoup
 
 
 def compactBsr(ppath):
-    print '\n\n\n\n',  'Compactando arquivo BSR'
+    print ('\n\n\n\n',  'Compactando arquivo BSR')
     os.chdir(ppath)
 
 
@@ -21,7 +21,7 @@ def compactBsr(ppath):
 
 
     for f in destCatFiles:
-        print f
+        #print (f)
         compression = zip.ZIP_DEFLATED
         with zip.ZipFile("wh40kBR.bsr", mode='a') as zip_ref:
             zip_ref.write( f, compress_type=compression)
@@ -95,16 +95,22 @@ def createIndexBsr():
     for file in os.listdir(brDir):
 
         if file.endswith( 'z'):
-            print file
+            #print (file)
             unzip( os.path.join(brDir,file),bsrDir)
 
     for cfile in os.listdir(bsrDir):
         CatFileNameFullPath = os.path.join(bsrDir ,cfile)
-        with open(CatFileNameFullPath, "r") as file:
-            catFile = file.read()
-            file.close()
-        cat = BeautifulSoup(catFile, "xml")
-
+        try:
+            with open(CatFileNameFullPath, "r", encoding="utf8") as file: #, encoding   ="utf8"
+                catFile = file.read()
+                file.close()
+            cat = BeautifulSoup(catFile, "xml")
+        except Exception as e:
+            print ("ERROR")
+            print("DIR",bsrDir)
+            print("FILE",cfile)
+            print("ERROR",e)
+            raise(e)
 
 
         elements = cat.find_all("catalogue")
@@ -145,8 +151,8 @@ def createIndexBsr():
     tree =   prettify(dataIndex)
     indexFile=os.path.join(bsrDir,"index.xml")
 
-    print "Criando", indexFile
-    with open(indexFile,'w') as xmlfile:
+    print ("Criando", indexFile)
+    with open(indexFile,'wb') as xmlfile:
         xmlfile.write(tree)
 
 
