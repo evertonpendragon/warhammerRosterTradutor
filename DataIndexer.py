@@ -49,7 +49,7 @@ class DataIndexer():
         dataIndex
         dataIndex.attrib["battleScribeVersion"]="2.03" #alterar para pegar automaticamente
         dataIndex.attrib["name"] = "wh40kPTBR"
-        dataIndex.attrib["indexUrl"] = "https://github.com/BSDataBrasil/wh40kBR/releases/download/latest/wh40kBR.bsi"
+        #dataIndex.attrib["indexUrl"] = "https://github.com/evertonpendragon/warhammerRosterTradutor/releases/download/10e/wh40k-10e.latest.bsi"
         dataIndex.attrib["xmlns"] = "http://www.battlescribe.net/schema/dataIndexSchema"
         return dataIndex
 
@@ -82,7 +82,7 @@ def createIndexBsr():
 
     path = os.path.abspath(__file__)
     rootDir = os.path.dirname(path)
-
+    #bsr_dir =
 
     bsrDir = os.path.join(rootDir , "bsr")
     brDir  = os.path.join(rootDir , 'wh40kBR-master')
@@ -176,3 +176,6 @@ def createIndexBsr():
     #os.rmdir(bsrDir)
 
 #alterar as versoes dos arquivos
+
+
+createIndexBsr()

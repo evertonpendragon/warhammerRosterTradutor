@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d6e87b94-945b-42f2-bc24-db97cf190559" name="Default Changelist" comment="1th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.bsi" beforeDir="false" afterPath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.bsi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataIndexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataIndexer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -135,6 +138,9 @@
       </list>
     </option>
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
@@ -190,9 +196,10 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\evert\PycharmProjects\warhammerRosterTradutor\venv\Scripts\python.exe" />
+      <option name="SDK_NAME" value="Python 3.10 (warhammerRosterTradutor)" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DataIndexer.py" />
@@ -317,7 +324,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690633362794</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1th">
+      <created>1690634062796</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1690634062796</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView">

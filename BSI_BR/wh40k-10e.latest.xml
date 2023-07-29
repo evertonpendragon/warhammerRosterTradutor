@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<dataIndex battleScribeVersion="2.03" name="Warhammer 40,000 - 10th Edition" indexUrl="https://github.com/BSData/wh40k-10e/releases/latest/download/wh40k-10e.latest.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
+<dataIndex battleScribeVersion="2.03" name="Warhammer 40,000 - 10th Edition" indexUrl="https://github.com/evertonpendragon/warhammerRosterTradutor/releases/download/10e/wh40k-10e.latest.bsi" xmlns="http://www.battlescribe.net/schema/dataIndexSchema">
   <dataIndexEntries>
     <dataIndexEntry filePath="Library.-.Titans.catz" dataType="catalogue" dataId="7481-280e-b55e-7867" dataName="Library - Titans" dataBattleScribeVersion="2.03" dataRevision="1"/>
     <dataIndexEntry filePath="Chaos.-.Chaos.Knights.catz" dataType="catalogue" dataId="46d8-abc8-ef3a-9f85" dataName="Chaos - Chaos Knights" dataBattleScribeVersion="2.03" dataRevision="1"/>
