@@ -8,13 +8,13 @@ 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
 
 """
 
-def uploadBsr():
+def uploadBsr(tipo):
     # token bc39071775e1c39394ab2d8fa550283779c0ce88
     print ("Upload...")
     #auth = ("evertonpendragon","Av@lon1985")
     # auth = ("evertonpendragon","bc39071775e1c39394ab2d8fa550283779c0ce88"),
     #headers = {'Authorization': 'token bc39071775e1c39394ab2d8fa550283779c0ce88'}
-    headers = {'Authorization': 'token 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'}
+    headers = {'Authorization': 'token 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'}
 
     #headers = {"Accept": "application/vnd.github.v3+json" }
     url="https://api.github.com/repos/BSDataBrasil/wh40kBR/releases/14823253/assets"
@@ -28,7 +28,7 @@ def uploadBsr():
     for  asset in assets:
         #print asset,type(asset)
         #asset=dict(asset)
-        if  asset["name"]=="wh40kBR.bsr":
+        if  asset["name"] in ["wh40kBR.bsr","wh40k-10e.latest.bsi"]:
             # print json.dump(asset)
             bsrId=asset["id"]
 
@@ -61,19 +61,28 @@ def uploadBsr():
 
     #posta arquivo criado pelo Battle Scribe, utilizar esse caso haja problema com o criado por esse programa
     #files = {'file': open('C:/Users/evert/Documents/GitHub/BSDataBrasil/wh40kBR.bsr', 'rb')}
-    f=open('C:/Users/evert/PycharmProjects/WarhammerRosterTradutor/bsr/wh40kBR.bsr', 'rb')
-    files = {'file': f}
+    if tipo == "bsr":
+        f=open('C:/Users/evert/PycharmProjects/WarhammerRosterTradutor/bsr/wh40kBR.bsr', 'rb')
+        print("Upload do arquivo BSR...")
+        a = requests.post(url, headers=headers, data=f)
+        print(a.text, a.content)
+        return 0
+
+    elif tipo == 'bsi':
+        f = open('C:/Users/evert/PycharmProjects/WarhammerRosterTradutor/BSI_BR/wh40k-10e.latest.bsi', 'rb')
+        print("Upload do arquivo BSI...")
+        a = requests.post(url, headers=headers, data=f)
+        print(a.text, a.content)
+        return 0
+    #files = {'file': f}
     #print filesd
 
-    print ("Upload do arquivo bsr...")
-    #a=requests.post (url,auth=auth,headers=headers,data=f                )
-    a = requests.post(url,  headers=headers, data=f)
+
     #a = requests.post(url,  headers=headers, data=f)
 
     #a=requests.post (url,auth=auth  ,files=files                 )
 
 
-    print (a.text,a.content)
-    return 0
 
-uploadBsr()
+
+#uploadBsr()

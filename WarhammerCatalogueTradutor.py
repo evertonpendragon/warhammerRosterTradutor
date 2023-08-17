@@ -76,7 +76,7 @@ def googleTranslateText(text, dest):
 
             textTransl = translator.translate(text, dest=dest).text
             textTransl = traducaoLiteral(textTransl,dicionario_termos)
-            print (textTransl)
+            #print (textTransl)
             qtd_traducoes_google+=1
             return textTransl
 
@@ -140,11 +140,10 @@ def downloadWh40kLatestSource():
     print ("Efetuando download")
     print (link)
     r = requests.get(link)
-    exit(0)
     open('wh40k-master.zip', 'wb').write(r.content)
     print ('Download completo')
-    with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
-        zip_ref.extractall(path='./wh40k-master')
+    with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:        zip_ref.extractall(path='./wh40k-master')
+
     print('Arquivos extraídos')
 
 def downloadWh40kLatestSource_vjan2023():
@@ -153,7 +152,7 @@ def downloadWh40kLatestSource_vjan2023():
     # latest = requests.get("https://github.com/BSData/wh40k/releases/latest")
     # html = BeautifulSoup(latest.text, "lxml")
     # d = html.find_all(href=re.compile("bsr"))
-    link = "https://github.com/BSData/wh40k/archive/refs/heads/master.zip"
+    link = "https://github.com/BSData/wh40k-10e/archive/refs/heads/master.zip"
     print ("Efetuando download")
     print (link)
     r = requests.get(link)
@@ -162,6 +161,35 @@ def downloadWh40kLatestSource_vjan2023():
     with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
         zip_ref.extractall(path='./')
     print('Arquivos extraídos')
+
+def downloadWh40kLatestSource_vjul2023():
+    # faz o download dos da ultima versao publicada (stable)
+
+    # latest = requests.get("https://github.com/BSData/wh40k/releases/latest")
+    # html = BeautifulSoup(latest.text, "lxml")
+    # d = html.find_all(href=re.compile("bsr"))
+    link = "https://github.com/BSData/wh40k-10e/archive/refs/heads/master.zip"
+    #link = "https://github.com/BSData/wh40k-10e/releases/download/v10.0.4/wh40k-10e.v10.0.4.bsr"
+    print ("Efetuando download")
+    print (link)
+    r = requests.get(link)
+    open('wh40k-master.zip', 'wb').write(r.content)
+    print ('Download completo')
+#    with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:        zip_ref.extractall(path='./')
+    with zip.ZipFile('./wh40k-master.zip', mode='r') as zip_ref:
+        for file in zip_ref.namelist():
+            if file.startswith('wh40k-10e-main/') and not file.endswith('/')  and ( not file.startswith('wh40k-10e-main/.') and not file.startswith('wh40k-10e-main/.git') and not file.startswith('wh40k-10e-main/git')):
+                arq = file#os.path.split(file)[1]
+                zip_ref.extract(member =arq ,path='./wh40k-master')
+    if os.path.exists("./wh40k-master/wh40k-10e-main"):
+       for arq in os.listdir("./wh40k-master/wh40k-10e-main"):
+           arq = os.path.join("./wh40k-master/wh40k-10e-main",arq).replace("\\","/")
+           os.replace(arq,arq.replace("wh40k-10e-main/",""))
+           #print(arq,arq.replace("wh40k-10e-main/",""))
+    os.chmod("./wh40k-master/wh40k-10e-main", 0o777)
+    os.removedirs("./wh40k-master/wh40k-10e-main")
+    print('Arquivos extraídos')
+
 def translateText(description,dicionario):
     #description=description.upper()
     if description.upper() in dicionario:
@@ -197,7 +225,7 @@ if __name__ == '__main__':
     print ('Download do repositório de origem')
     #downloadWh40kSource()
     #downloadWh40kLatestSource()  #parou de funcionar em jan-2023
-    downloadWh40kLatestSource_vjan2023()
+    downloadWh40kLatestSource_vjul2023()
 
     if os.path.exists(destPath):
         rmtree(destPath, True)
@@ -239,15 +267,15 @@ if __name__ == '__main__':
         for kk in dicionario_termos:
             # print( dicionario[k])
             # print(dicionario[k])
-            if dicionario[k] is None:
-                print (">>",k)
+            # if dicionario[k] is None:
+            #     print (">>",k)
 
             if kk in dicionario[k]:
                 try:
-                    print(">>>", kk, dicionario[k])
-                    print( "Traducao Literal")
-                    print(dicionario[k])
-                    print (k.replace(kk,dicionario_termos[kk]))
+                    # print(">>>", kk, dicionario[k])
+                    # print( "Traducao Literal")
+                    # print(dicionario[k])
+                    # print (k.replace(kk,dicionario_termos[kk]))
                     dicionario[k]=dicionario[k].replace(kk,dicionario_termos[kk])
                 except Exception as e:
                     print(str(e))
@@ -479,7 +507,7 @@ if __name__ == '__main__':
         ########################################################################################################################
         # Faz Upload do arquivo BSR
         ########################################################################################################################
-        GitApi.uploadBsr()
-
+        GitApi.uploadBsr('bsr')
+        GitApi.uploadBsr('bsi')
     print( "qtd_traducoes_google",qtd_traducoes_google)
     print( "qtd_traducoes_literais",qtd_traducoes_literais)
