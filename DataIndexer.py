@@ -148,7 +148,7 @@ def createIndexBsr():
             dataType = "gameSystem"
 
         for catalogue in elements:
-            filePath = cfile
+            filePath = cfile#+"z"
             dataId = catalogue["id"]
             dataName = catalogue["name"]
             dataBattleScribeVersion = catalogue["battleScribeVersion"]
@@ -257,7 +257,7 @@ def createBSI():
             dataType = "gameSystem"
 
         for catalogue in elements:
-            filePath = cfile + "z"
+            filePath = cfile + "z" #nao tenho certeza se deve ter o z ou nao 2023.08.17
             dataId = catalogue["id"]
             dataName = catalogue["name"]
             dataBattleScribeVersion = catalogue["battleScribeVersion"]

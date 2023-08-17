@@ -7,28 +7,9 @@
     <list default="true" id="d6e87b94-945b-42f2-bc24-db97cf190559" name="Default Changelist" comment="10th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.bsi" beforeDir="false" afterPath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.bsi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/DataIndexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataIndexer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/GitApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/GitApi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WarhammerCatalogueTradutor.py" beforeDir="false" afterPath="$PROJECT_DIR$/WarhammerCatalogueTradutor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dicionario.json" beforeDir="false" afterPath="$PROJECT_DIR$/dicionario.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master.zip" beforeDir="false" afterPath="$PROJECT_DIR$/wh40k-master.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.appveyor.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.azure-pipelines.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.github/CODEOWNERS" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.github/ISSUE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.github/RELEASE_TEMPLATE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.github/workflows/ReleaseIssue.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.github/workflows/chatops.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.github/workflows/ci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.github/workflows/publish-catpkg.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/Fallen.cat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/Necrons.cat" beforeDir="false" afterPath="$PROJECT_DIR$/wh40k-master/Necrons.cat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/Orks.cat" beforeDir="false" afterPath="$PROJECT_DIR$/wh40k-master/Orks.cat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/wh40k-master/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wh40k-master/Tyranids.cat" beforeDir="false" afterPath="$PROJECT_DIR$/wh40k-master/Tyranids.cat" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -366,7 +347,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690642430017</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="10th">
+      <created>1692245657138</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1692245657138</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -445,6 +433,15 @@
           <url>file://$PROJECT_DIR$/testes.py</url>
           <line>12</line>
           <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/GitApi.py</url>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/WarhammerCatalogueTradutor.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>

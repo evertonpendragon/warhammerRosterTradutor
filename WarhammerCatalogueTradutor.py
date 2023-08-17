@@ -509,5 +509,6 @@ if __name__ == '__main__':
         ########################################################################################################################
         GitApi.uploadBsr('bsr')
         GitApi.uploadBsr('bsi')
+        GitApi.uploadMasterFiles()
     print( "qtd_traducoes_google",qtd_traducoes_google)
     print( "qtd_traducoes_literais",qtd_traducoes_literais)
