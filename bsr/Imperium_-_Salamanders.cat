@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="2261-79a5-19d9-1668" library="false" name="Imperium - Adeptus Astartes - Salamanders-BR" revision="3" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <catalogueLinks>
+  <catalogueLink id="8bc3-7260-40f5-5674" importRootEntries="true" name="Imperium - Space Marines" targetId="e0af-67df-9d63-8fb7" type="catalogue"/>
+  <catalogueLink id="3100-654a-4c35-f95c" name="Imperium - Imperial Knights" targetId="1b6d-dc06-5db9-c7d1" type="catalogue"/>
+  <catalogueLink id="661e-916a-c8ec-22a3" importRootEntries="true" name="Imperium - Imperial Agents" targetId="b00-cd86-4b4c-97ba" type="catalogue"/>
+ </catalogueLinks>
+ <categoryEntries>
+  <categoryEntry hidden="false" id="fca1-9ff0-bf21-b99f" name="Adrax Agatone"/>
+  <categoryEntry hidden="false" id="8425-f97a-408-9f8a" name="Vulkan He'stan"/>
+ </categoryEntries>
+ <sharedSelectionEntries>
+  <selectionEntry hidden="false" id="98c-87ea-f51b-1475" import="true" name="Adrax Agatone" type="model">
+   <constraints>
+    <constraint field="selections" id="9b62-1ccd-b5d2-95cd" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="1282-41e9-8a69-5fd" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="886a-337c-7ab3-337" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="3773-c872-827a-aa54" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="5274-9223-7089-3a8a" name="Captain" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+    <categoryLink id="ab47-e4c8-b31d-9fd" name="Adrax Agatone" primary="false" targetId="fca1-9ff0-bf21-b99f"/>
+    <categoryLink id="d030-3816-5abc-8c0d" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="bf0a-ea82-1240-a05d" name="Faction: Salamanders" primary="false" targetId="65e4-13-4fa8-b36c"/>
+    <categoryLink id="4919-ae01-fd5-1fae" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+   </categoryLinks>
+   <profiles>
+    <profile hidden="false" id="ab0c-f1b5-f23b-8b1b" name="Adrax Agatone" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       5
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="5a40-93b3-6c2a-f7cb" name="Unto the Anvil" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, cada vez que um modelo nessa unidade faz um ataque corpo a corpo, você pode re-rolar a jogada para ferir.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="68e4-3da0-f6ab-8624" name="Lord of the Pyroclasts" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto uma unidade inimiga está dentro da faixa de engajamento deste modelo, reduz a metade a característica de controle objetivo dos modelos nessa unidade inimiga
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="f678-23f8-a491-c7d2" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Assalto Esquadrão de Intercessor
+■ Esquadrão Infernus
+■ Esquadrão de intercessora
+■ Esquadrão veterano de Sternguard
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="d926-c06c-d15e-e1a7" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+    <infoLink hidden="false" id="d0eb-256-1ed9-837f" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="12c-329b-42bb-2cef" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+   </infoLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="b529-1803-d893-87e5" import="true" name="Drakkis" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="b450-fdc-b293-1dc3" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="25c9-9a6b-bb5c-7c65" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="415e-ed00-24ac-5c" name="Drakkis" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         12"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         D6+3
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         N/A
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         1
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Ignores Cover, Pistol, Torrent
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="a796-62f8-d409-b383" name="Ignores Cover" targetId="4640-43e7-30b-215a" type="rule"/>
+      <infoLink hidden="false" id="b23d-de3c-4855-89a8" name="Torrent" targetId="5edf-d619-23e0-9b56" type="rule"/>
+      <infoLink hidden="false" id="29cf-7bf3-972c-40f0" name="Pistol" targetId="8bf7-8812-923d-29e4" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="d249-ea36-1254-17cb" import="true" name="Malleus Noctum" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="ef53-d523-4899-8835" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="c9b5-ca7c-2739-e2f4" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="f92a-9295-1bfb-2942" name="Malleus Noctum" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         5
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         10
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         3
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+   </selectionEntries>
+   <entryLinks>
+    <entryLink hidden="false" id="62fb-9eb1-d30b-2c9d" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="b351-fccc-2121-1e1e" import="true" name="Vulkan He'stan" type="model">
+   <profiles>
+    <profile hidden="false" id="6fee-8346-c51-d116" name="Vulkan He'stan" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       5
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="b423-2ef4-b87c-b65d" name="Forgefather" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Na sua fase de tiro, selecione uma unidade inimiga dentro de 24" de e visível para este modelo. Até o final da fase, cada vez que um modelo aliada de Adeptus Astartes faz um ataque de longo alcance com uma arma de torrente ou fusão que tem como alvo a unidade inimiga, vocêpode re-rolar a jogada para ferir
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="22fa-126d-31e4-6a5a" name="Seeker of Lost Relics" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       No início da batalha, selecione um marcador objetivo no campo de batalha.Enquanto esse modelo está dentro do alcance desse marcador objetivo, ele possui uma característica de controle objetivo de 10, uma característica de liderança de 5+ e a capacidade de sentir não dor 4+.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="56bf-fb53-c81d-ff4a" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Esquadrão de assalto
+■ Esquadrão de comando
+■ Esquadrão Infernus
+■ Esquadrão tático
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="eba3-2766-a36f-5c3e" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+    <infoLink hidden="false" id="c49e-c9ab-25f7-7030" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="8d4b-f29e-31ec-3b3f" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="a1db-d524-ec90-a522" name="Feel No Pain" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+     <modifiers>
+      <modifier field="name" type="append" value="6+"/>
+     </modifiers>
+    </infoLink>
+   </infoLinks>
+   <entryLinks>
+    <entryLink hidden="false" id="8e3-ab74-8815-3767" import="true" name="Bolt Pistol" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="247e-8f8f-3853-db0b" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="4773-1cf3-40de-74a" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+    <entryLink hidden="false" id="30af-5b98-54a-b316" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="76b1-5886-1825-8e3b" import="true" name="Gauntlet of the Forge" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="4f8a-9686-99fb-d433" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="d049-8744-7444-6312" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="ff1f-1295-8a6d-5d8b" name="Gauntlet of the Forge" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         12"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         D6+3
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         N/A
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         6
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         1
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Ignores Cover, Torrent
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="fb12-a5c8-5040-4ebf" name="Ignores Cover" targetId="4640-43e7-30b-215a" type="rule"/>
+      <infoLink hidden="false" id="9bca-1939-59b-4827" name="Torrent" targetId="5edf-d619-23e0-9b56" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="ee9-93ca-662-362b" import="true" name="Spear of Vulkan" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="e985-e962-8c99-3b5" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="c151-e24d-f8be-af5" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="2c29-73e2-c601-b9ec" name="Spear of Vulkan" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         6
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         6
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+   </selectionEntries>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="3cdc-7e-724d-4abf" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="6c65-c32d-44c5-ed9d" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="c4e0-d666-ae8-8863" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="5c33-3b29-a317-9d86" name="Captain" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+    <categoryLink id="fb9b-35f9-91b4-68e4" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="44cd-fed9-6c00-20e0" name="Grenades" primary="false" targetId="5a61-81ac-eb7c-a87e"/>
+    <categoryLink id="a2ee-f7d7-7b7f-cd29" name="Vulkan He'stan" primary="false" targetId="8425-f97a-408-9f8a"/>
+    <categoryLink id="1cb3-b8ed-c64e-bb98" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="7eb1-2884-2ae1-1ae2" name="Faction: Salamanders" primary="false" targetId="65e4-13-4fa8-b36c"/>
+   </categoryLinks>
+  </selectionEntry>
+ </sharedSelectionEntries>
+ <entryLinks>
+  <entryLink hidden="false" id="287a-5c60-5a7e-80a8" import="true" name="Adrax Agatone" targetId="98c-87ea-f51b-1475" type="selectionEntry"/>
+  <entryLink hidden="false" id="e1d6-3316-2209-dc77" import="true" name="Vulkan He'stan" targetId="b351-fccc-2121-1e1e" type="selectionEntry"/>
+  <entryLink hidden="false" id="1021-bd0b-f23-d7e1" import="true" name="Show/Hide Options" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+   <entryLinks>
+    <entryLink hidden="false" id="8cd8-aaab-6fbb-6e37" import="true" name="Show Titans" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
+    <entryLink hidden="false" id="a9b2-4543-b127-f07e" import="true" name="Show Imperial Knights" targetId="e82c-6f8c-2b97-a287" type="selectionEntry"/>
+    <entryLink hidden="false" id="fddf-53b9-351e-10c8" import="true" name="Show Agents of the Imperium" targetId="e08b-2448-5606-fefb" type="selectionEntry"/>
+   </entryLinks>
+  </entryLink>
+ </entryLinks>
+</catalogue>

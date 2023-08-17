@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="1f1-47f9-a3a4-9bfb" library="false" name="Aeldari - Ynnari-BR" revision="5" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <entryLinks>
+  <entryLink collective="false" hidden="false" id="3f04-147d-a258-897d" import="true" name="Yvraine" targetId="ada5-25ce-d5d5-4ccb" type="selectionEntry">
+   <constraints>
+    <constraint field="selections" id="49fd-5cbe-7133-a26c" scope="parent" shared="true" type="min" value="1"/>
+    <constraint field="selections" id="ebba-ae9a-a495-af9e" scope="parent" shared="true" type="max" value="1"/>
+   </constraints>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="afaf-a0ee-8041-369c" import="true" name="The Visarch" targetId="dd79-c2fe-59d6-d2" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="a338-a383-df35-31bf" import="true" name="The Yncarne" targetId="68fb-4b6f-2bf8-7105" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="38be-9baa-a205-5802" import="true" name="Archon" targetId="5c1c-fa4a-3234-c711" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="28e3-434a-9d6a-43a5" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="bbaa-7b8b-ed03-2323" import="true" name="Autarch" targetId="df57-7a59-75eb-ce63" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="9b09-b4e6-3b59-e27d" import="true" name="Autarch Skyrunner" targetId="69f4-c990-93b4-20fc" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="183a-cc03-de8-c505" import="true" name="Autarch Wayleaper" targetId="497a-263e-966a-5a15" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="3363-42d1-cbb5-7be8" import="true" name="Beastmaster" targetId="f99a-af49-64c0-9bed" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="4be4-b9ce-2466-19a1" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="9057-1e76-bac3-fad5" import="true" name="Court of the Archon" targetId="b221-43a3-8bee-117c" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="7b70-af45-e5ce-76ff" import="true" name="Devotees from the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="decf-9b28-e618-9c9f" import="true" name="Crimson Hunter" targetId="90c9-aaac-5ef8-f043" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="df03-78d0-f94a-d793" import="true" name="Dark Reapers" targetId="6863-bf42-238a-fd0b" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="fd53-9378-ca7e-f3dd" import="true" name="Death Jester" targetId="5768-1f87-3a16-d901" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="8f9a-ddbc-2835-5b29" import="true" name="Dire Avengers" targetId="e6c2-f3b2-6d3e-c3d3" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="6540-c367-e662-3550" import="true" name="Drazhar" targetId="a30b-b966-d264-e935" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="c23c-aaaf-9ed0-db28" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="c7a2-ed21-cd0-1305" import="true" name="Eldrad Ulthran" targetId="f48e-276e-a997-c90e" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="e1d5-78c9-1478-8bd3" import="true" name="Falcon" targetId="1d83-167-486c-bac4" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="3660-b2cd-e8ae-ecde" import="true" name="Farseer" targetId="b2f5-8219-f875-917e" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="7c67-d993-b412-b7f0" import="true" name="Farseer Skyrunner" targetId="833b-55bc-73be-8862" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="2ab8-29ae-4c12-720a" import="true" name="Fire Dragons" targetId="5374-9e93-8af2-819e" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="92ed-bb2a-a3f8-ad9c" import="true" name="Fire Prism" targetId="9940-a69b-682e-ccf4" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="fc1d-39da-8f9f-7f8e" import="true" name="Guardian Defenders" targetId="e78a-4442-4ed2-66bf" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="5b03-6874-bdb7-dc13" import="true" name="Hemlock Wraithfighter" targetId="551b-900c-3681-8f11" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="93da-4794-11d7-6e3b" import="true" name="Howling Banshees" targetId="7fcb-9262-474a-7cec" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="e3ec-fad4-f37e-39d2" import="true" name="Illic Nightspear" targetId="2713-f82d-5189-d5de" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="19c2-fb84-5f2c-e7fb" import="true" name="Night Spinner" targetId="908a-fc2b-5a53-599f" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="4598-9d12-f1-4be8" import="true" name="Prince Yriel" targetId="1fbf-55d9-5ca8-4e9e" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="2738-3716-80a9-91ad" import="true" name="Rangers" targetId="b98b-701f-9c0c-5437" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="5249-266b-ad6d-dc23" import="true" name="Shadowseer" targetId="8c34-52ba-cbd0-9ca4" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="c83b-44a9-d4e9-2e73" import="true" name="Shining Spears" targetId="433-faed-ea62-c531" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="1518-bd8-bd91-4eb0" import="true" name="Shroud Runners" targetId="c1ff-dc11-9853-e3e3" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="dffa-1a5b-5d10-8433" import="true" name="Skyweavers" targetId="9270-4b93-ca59-f3ed" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="e534-301f-ce51-ce04" import="true" name="Spiritseer" targetId="e53b-7d09-eb7c-c6c7" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="acf6-f379-1d09-d970" import="true" name="Starweaver" targetId="854b-f8e-28fa-8c24" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="1e8c-b6a7-2857-204c" import="true" name="Storm Guardians" targetId="5452-c4a7-59fb-f05c" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="2b38-909f-4d37-1f11" import="true" name="Support Weapons" targetId="82ac-7d93-df55-5504" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="bf21-bb46-f8-82fc" import="true" name="Swooping Hawks" targetId="240f-70a4-7ba7-a538" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="c092-3e98-2149-177f" import="true" name="Troupe" targetId="dac1-6a7f-a06a-82cf" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="e077-8972-42d-3afa" import="true" name="Troupe Master" targetId="dada-b81b-37bd-1f3b" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="a205-7e9d-5dbc-f57b" import="true" name="Voidweaver" targetId="e011-d99d-f0de-5289" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="eec-5ee0-f7c5-fa1f" import="true" name="Vypers" targetId="d5e3-30bd-71e8-314b" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="fcd5-3116-77c3-ca2" import="true" name="War Walkers" targetId="309a-28be-6cc6-a37c" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="212d-8c5c-fc58-8b9e" import="true" name="Warlock" targetId="291f-2885-4512-f0cd" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="1612-9bda-c991-b559" import="true" name="Warlock Conclave" targetId="d61-c058-6bd1-112f" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="8a49-cf7a-31f7-a413" import="true" name="Warlock Skyrunner" targetId="b98a-4fbb-a3d8-1ada" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="9166-8030-66a7-d732" import="true" name="Warlock Skyrunner Conclave" targetId="ecfe-8994-b61e-f1c5" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="c4f-f6fb-1c03-68b9" import="true" name="Warp Spiders" targetId="57ec-47a8-a59a-6a46" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="30ea-992f-8eef-4347" import="true" name="Wave Serpent" targetId="ad88-f706-318c-e70e" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="ceea-af62-bb8-20cd" import="true" name="Webway Gate" targetId="2f21-23a3-48e0-5788" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="d4dd-c128-9caa-dc6e" import="true" name="Windriders" targetId="592a-b255-6c58-19ec" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="a102-5525-3e27-929f" import="true" name="Wraithblades" targetId="bb4f-4359-cc16-e6d5" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="f715-cd13-2099-5cf4" import="true" name="Wraithguard" targetId="5aa4-107-d7ee-f0f3" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="fcf2-ed55-7084-b188" import="true" name="Wraithknight" targetId="bfd-df5a-b358-4cf9" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="a842-dd9c-e821-ed3c" import="true" name="Wraithlord" targetId="b9e9-397e-d83a-f77a" type="selectionEntry"/>
+  <entryLink collective="false" hidden="false" id="7ae0-e17-967b-14dd" import="true" name="Hellions" targetId="2311-9feb-9d0a-8154" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="8fee-3138-4d39-93e1" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="86d1-6f73-a96a-9694" import="true" name="Incubi" targetId="1529-793d-481b-82bf" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="f988-21a-8807-d313" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="ed33-cd91-f01b-b870" import="true" name="Kabalite Warriors" targetId="d20b-783-ccf6-b29d" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="8e33-6d2-1de2-af39" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="79f2-11f4-3e95-8754" import="true" name="Lelith Hesperax" targetId="ae1b-1a96-5b4c-cecc" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="cdeb-6966-d82f-4e55" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="7321-1f6a-1be5-235a" import="true" name="Mandrakes" targetId="6a3a-7973-b509-532e" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="fe60-6ef1-be2a-1b32" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="ad68-fde5-a0b3-5f3b" import="true" name="Raider" targetId="635b-21f4-f801-453" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="f937-b046-3d60-7720" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="49e5-a92d-c42c-db00" import="true" name="Ravager" targetId="3376-d337-6a33-4bca" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="5f21-6cb3-d88b-b5af" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="1ee3-fc4c-20e4-ec03" import="true" name="Razorwing Jetfighter" targetId="fbc4-c7d0-db5b-91c" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="55fc-c7d7-567c-61ae" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="eb84-6133-5673-8e6b" import="true" name="Reavers" targetId="2c3a-9752-2516-69ab" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="c1f6-187e-6284-91c9" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="34f5-43e3-bc71-c1b3" import="true" name="Scourges" targetId="7c93-baac-e65f-58bd" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="69ee-e412-db1c-9374" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="3393-74c2-da4b-5825" import="true" name="Succubus" targetId="b5a9-c802-10f0-6768" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="4a5b-a120-25ae-b9e4" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="a59b-4717-2fb2-6b26" import="true" name="Venom" targetId="ee2c-6ca0-5e29-37a6" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="7ac5-192f-51fd-5da8" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="4879-d697-e4ee-85df" import="true" name="Voidraven" targetId="71e1-7d54-4856-4ce1" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="429e-f534-eabc-6ab1" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink collective="false" hidden="false" id="f0cf-7ca7-33f9-1188" import="true" name="Wyches" targetId="edca-1a1b-902d-421a" type="selectionEntry">
+   <entryLinks>
+    <entryLink collective="false" hidden="false" id="6323-ca81-c682-baf9" import="true" name="Forces of the Dark City" targetId="7b97-53a1-685-12b2" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="e7-d33a-57d9-ef8d" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="1a48-a063-7cef-17bb" includeChildForces="false" includeChildSelections="false" percentValue="false" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </entryLink>
+  <entryLink hidden="false" id="3238-9812-567a-534b" import="true" name="Cobra" targetId="e2ad-60b4-9678-88aa" type="selectionEntry"/>
+  <entryLink hidden="false" id="1062-da20-4d8e-f728" import="true" name="Hornet" targetId="1224-8735-46d-1919" type="selectionEntry"/>
+  <entryLink hidden="false" id="b829-b985-245-b5d7" import="true" name="Lynx" targetId="e3c5-54ef-44a5-9366" type="selectionEntry"/>
+  <entryLink hidden="false" id="3911-cdba-dcdf-85d5" import="true" name="Nightwing" targetId="af2e-2bff-9813-a5a3" type="selectionEntry"/>
+  <entryLink hidden="false" id="5085-1b1f-bae4-839" import="true" name="Tantalus" targetId="dfe4-d4db-9d04-9e7a" type="selectionEntry"/>
+  <entryLink hidden="false" id="877e-9cd7-2f12-933c" import="true" name="Scorpion" targetId="1420-c80d-66fc-6a" type="selectionEntry"/>
+  <entryLink hidden="false" id="3a9c-39ca-4f28-3cf0" import="true" name="Skathach Wraithknight" targetId="5f15-8ad-1f3b-d6d1" type="selectionEntry"/>
+  <entryLink hidden="false" id="4f81-5885-1809-5ac0" import="true" name="Shadow Spectres" targetId="9c94-b663-fd31-6001" type="selectionEntry"/>
+  <entryLink hidden="false" id="e61c-7dc9-b3fa-7ec0" import="true" name="Phantom Titan" targetId="79b3-2cd1-d7b4-d7b1" type="selectionEntry"/>
+  <entryLink hidden="false" id="fc22-aebf-1e69-d3d0" import="true" name="Revenant Titan" targetId="ca40-4a0d-567-852" type="selectionEntry"/>
+  <entryLink hidden="false" id="8799-8be5-ee5f-a61" import="true" name="Warp Hunter" targetId="ef18-ff32-2be6-7372" type="selectionEntry"/>
+  <entryLink hidden="false" id="25c2-2d02-7949-a275" import="true" name="Wraithseer" targetId="b369-a813-75ac-2dc6" type="selectionEntry"/>
+  <entryLink hidden="false" id="64db-449d-f4f8-1889" import="true" name="Detachment" targetId="68f1-24f4-a4c6-303f" type="selectionEntry"/>
+  <entryLink hidden="false" id="a62b-fff6-f4b4-fd84" import="true" name="Amallyn Shadowguide [Legends]" targetId="965e-3df7-287a-6ac0" type="selectionEntry"/>
+  <entryLink hidden="false" id="11c1-f7bd-1201-849b" import="true" name="Striking Scorpions" targetId="c90f-a8e5-6afa-eb91" type="selectionEntry"/>
+  <entryLink hidden="false" id="c470-b51f-ef47-9744" import="true" name="Bonesinger [Legends]" targetId="2384-4154-b67a-3827" type="selectionEntry"/>
+  <entryLink hidden="false" id="a917-4583-86ff-23a4" import="true" name="Firestorm [Legends]" targetId="d11f-239d-94b4-c194" type="selectionEntry"/>
+  <entryLink hidden="false" id="c1c-4917-6148-7065" import="true" name="Phoenix [Legends]" targetId="6083-affa-5163-a94c" type="selectionEntry"/>
+  <entryLink hidden="false" id="fdf-b09f-4158-7535" import="true" name="Wasp Assault Walker [Legends]" targetId="6c50-7486-7c0d-52d0" type="selectionEntry"/>
+  <entryLink hidden="false" id="59c6-8c79-f300-3f35" import="true" name="Vampire Hunter [Legends]" targetId="22ea-9a4-cda3-a24" type="selectionEntry"/>
+  <entryLink hidden="false" id="7d3a-349e-32f5-b4da" import="true" name="Vampire Raider [Legends]" targetId="4016-44d3-c64b-cc1a" type="selectionEntry"/>
+  <entryLink hidden="false" id="e3d2-65be-d3b-8283" import="true" name="Corsair Voidreavers" targetId="cc68-ad19-7285-7a11" type="selectionEntry"/>
+  <entryLink hidden="false" id="eba4-e94f-5fe-15ef" import="true" name="Corsair Voidscarred" targetId="cbb7-6669-a014-36fe" type="selectionEntry"/>
+  <entryLink hidden="false" id="acc6-57f0-7d08-1b5c" import="true" name="Show/Hide Options" targetId="e8ef-836a-a9d1-901d" type="selectionEntry"/>
+ </entryLinks>
+ <sharedSelectionEntries>
+  <selectionEntry collective="false" hidden="false" id="7b97-53a1-685-12b2" import="true" name="Devotees from the Dark City" type="upgrade">
+   <constraints>
+    <constraint field="51b2-306e-1021-d207" id="539c-c951-af5b-2d47" includeChildForces="true" includeChildSelections="true" percentValue="false" scope="roster" shared="true" type="max" value="500"/>
+   </constraints>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="0"/>
+   </costs>
+  </selectionEntry>
+ </sharedSelectionEntries>
+ <catalogueLinks>
+  <catalogueLink id="ec94-b305-5403-3578" importRootEntries="true" name="Aeldari - Aeldari Library" targetId="dfcf-1214-b57-2205" type="catalogue"/>
+ </catalogueLinks>
+</catalogue>

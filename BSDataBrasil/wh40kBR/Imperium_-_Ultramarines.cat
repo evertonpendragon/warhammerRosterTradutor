@@ -1,0 +1,1621 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="4029-9237-e8db-af55" library="false" name="Imperium - Adeptus Astartes - Ultramarines-BR" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <entryLinks>
+  <entryLink hidden="false" id="7740-af66-ac4f-68b6" import="true" name="Captain Sicarius" targetId="2ae8-40ec-ba34-dfe5" type="selectionEntry"/>
+  <entryLink hidden="false" id="e1e-1c6b-bb62-f9c8" import="true" name="Chaplain Cassius" targetId="b180-3cac-9124-b818" type="selectionEntry"/>
+  <entryLink hidden="false" id="5909-4c97-aba1-e481" import="true" name="Chief Librarian Tigurius" targetId="3ef1-1647-cd7b-a40b" type="selectionEntry"/>
+  <entryLink hidden="false" id="388d-198a-29f-d03e" import="true" name="Marneus Calgar" targetId="5380-5757-2c46-31cc" type="selectionEntry">
+   <categoryLinks>
+    <categoryLink id="2cc7-6dbe-3530-9949" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+   </categoryLinks>
+  </entryLink>
+  <entryLink hidden="false" id="49fb-cb39-f830-9ee" import="true" name="Roboute Guilliman" targetId="4aea-b1cc-6c69-1c44" type="selectionEntry"/>
+  <entryLink hidden="false" id="64be-7146-5008-3e1d" import="true" name="Sergeant Chronus" targetId="2263-82ee-3db6-8be9" type="selectionEntry"/>
+  <entryLink hidden="false" id="e77f-29fb-5f25-9bed" import="true" name="Sergeant Telion" targetId="696a-899e-514b-4a04" type="selectionEntry"/>
+  <entryLink hidden="false" id="8561-6da9-fb56-15f" import="true" name="Tyrannic War Veterans" targetId="8770-b0eb-f430-1dda" type="selectionEntry"/>
+  <entryLink hidden="false" id="22c4-3e9d-987f-d338" import="true" name="Uriel Ventris" targetId="169a-7229-ea50-1c4f" type="selectionEntry"/>
+ </entryLinks>
+ <catalogueLinks>
+  <catalogueLink id="da8e-75bd-17ec-90f8" importRootEntries="true" name="Imperium - Space Marines" targetId="e0af-67df-9d63-8fb7" type="catalogue"/>
+  <catalogueLink id="4797-b324-7691-9186" importRootEntries="true" name="Imperium - Imperial Knights" targetId="1b6d-dc06-5db9-c7d1" type="catalogue"/>
+  <catalogueLink id="fc79-7373-2e12-276b" importRootEntries="true" name="Imperium - Imperial Agents" targetId="b00-cd86-4b4c-97ba" type="catalogue"/>
+ </catalogueLinks>
+ <sharedSelectionEntries>
+  <selectionEntry hidden="false" id="2ae8-40ec-ba34-dfe5" import="true" name="Captain Sicarius" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="7fa2-ca76-701f-d8ca" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="841a-efeb-e75b-247f" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="4913-1cd2-5b31-a3ea" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="95"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="2840-e248-d65e-a81e" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="5cb0-fc69-7c77-b3d4" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="f1c7-6c84-2ff8-3ac6" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="2c29-503c-e3f0-f4d2" name="Captain" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+    <categoryLink id="368e-719b-48d0-8542" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="9db-b60f-38b0-5a90" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="283e-3f47-9a32-5c8a" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+    <categoryLink id="1d78-f882-80d0-34e0" name="Sicarius" primary="false" targetId="8fee-e096-4a53-3790"/>
+   </categoryLinks>
+   <profiles>
+    <profile hidden="false" id="5553-620a-d5da-ecb1" name="Lead From the Front" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, os modelos nessa unidade têm a habilidade Scouts 6" e as armas de longo alcance equipadas por modelos nessa unidade têm a capacidade [Assault].
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="aeb4-b4da-9ad8-5d91" name="Captain Sicarius" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       5
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="c742-ab19-d4ed-607e" name="Lightning Assault" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Uma vez por turno, quando uma unidade inimiga termina um movimento normal, avançar ou recuar dentro de 9" deste modelo, se a unidade deste modelo não estiver dentro do intervalo de engajamento de uma ou mais unidades inimigas, pode fazer um movimento normal de até 6".
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="a3-79c9-601-8467" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Esquadrão de assalto
+■ Esquadrão de comando
+■ Esquadrão veterano de Sternguard
+■ Esquadrão tático
+■ esquadrão veterano da Vanguard
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="9855-a302-b6f-5d15" import="true" name="Artisan Plasma Pistol" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="e1dd-9aba-98ef-bee" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="f5d-a42d-e498-bb7d" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="c943-6018-ba17-c608" name="Artisan Plasma Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         12"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         1
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         8
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -3
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Pistol
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="b54d-93ee-584d-11dc" name="Pistol" targetId="8bf7-8812-923d-29e4" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="9a28-8c88-5392-1c98" import="true" name="Talassarian Tempest Blade" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="8cfb-97e4-4e66-ed39" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="5f5-7363-158d-6387" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="701b-551d-5480-eb67" name="Talassarian Tempest Blade" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         6
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         5
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+         Lethal Hits
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="8360-7d7d-398f-29f9" name="Lethal Hits" targetId="d1d1-611e-5191-1095" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+   </selectionEntries>
+   <constraints>
+    <constraint field="selections" id="ce41-274c-76b4-2dc8" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <entryLinks>
+    <entryLink hidden="false" id="bc92-d482-99ab-6c98" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="b180-3cac-9124-b818" import="true" name="Chaplain Cassius" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="5d50-5e33-55d4-f01b" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="d0b4-8085-80de-997" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="e9d8-e845-e025-d199" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="80"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="3bb7-bfeb-830a-579d" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="2a84-c3bd-24cb-737e" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="13b1-9ffe-f565-9e98" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="2914-609f-11d9-f250" name="Chaplain Cassius" primary="false" targetId="feca-2b5b-3c14-547f"/>
+    <categoryLink id="fce9-c9a9-388f-4938" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="cf91-b273-bfe3-a455" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="45f0-7056-48a3-d2c1" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+   </categoryLinks>
+   <profiles>
+    <profile hidden="false" id="81d0-8039-515-9d8e" name="Chaplain Cassius" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       3+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       4
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       5+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="e4a5-bf61-572d-569b" name="Catechism of Death" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, as armas corpo a corpo equipadas por modelos nessa unidade têm a capacidade [devastadora].
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="d58e-1e52-6332-2f71" name="Inspired Retribution" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, cada vez que um modelo nessa unidade é destruído por um ataque corpo a corpo, se esse modelo não lutou nessa fase, role um D6.Em um 4+, não o remova do jogo;Esse modelo destruído pode lutar depois que a unidade do modelo de ataque terminou de fazer seus ataques e é removida do jogo.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="e2c1-7cbf-bfcd-716a" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Esquadrão de assalto
+■ Esquadrão de comando
+■ Esquadrão veterano de Sternguard
+■ Esquadrão tático
+■ Veteranos de guerra tirânica
+■ esquadrão veterano da Vanguard
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="29d6-c305-6ff-e055" import="true" name="Infernus" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="53bb-6e2e-558f-7bee" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="e473-df53-1fa-21cf" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="ec78-f42f-bbda-b8ad" name="Infernus" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         12"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         D6
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         N/A
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         1
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Anti-Infantry 4+, Devastating Wounds, Ignores Cover, Torrent
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="60be-a23b-1158-5057" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+      <infoLink hidden="false" id="421-9d9-1a6c-8b39" name="Devastating Wounds" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+      <infoLink hidden="false" id="2cb-92f6-44ee-4ef7" name="Ignores Cover" targetId="4640-43e7-30b-215a" type="rule"/>
+      <infoLink hidden="false" id="46f7-550e-f18c-9e2a" name="Torrent" targetId="5edf-d619-23e0-9b56" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="fd26-e418-17b8-7c0a" import="true" name="Artificer Crozius" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="6c71-2849-e206-8f5c" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="fd72-293d-8455-f30e" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="3430-d143-3b86-a365" name="Artificer Crozius" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         5
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         6
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+   </selectionEntries>
+   <constraints>
+    <constraint field="selections" id="85f6-5be8-d8e9-f7c6" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <entryLinks>
+    <entryLink hidden="false" id="a24d-8bc5-1668-721e" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="3ef1-1647-cd7b-a40b" import="true" name="Chief Librarian Tigurius" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="9235-eccd-784c-2ef8" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="820d-2d59-522c-c62d" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="f6b7-65b6-fabe-c676" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="6344-c0ab-95ea-c513" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="1c77-30b8-9e92-b837" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="6d7c-2a3a-961e-4e3" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="6fc3-3d3a-7764-f633" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="1ae7-a004-de10-19e2" name="Psyker" primary="false" targetId="13bf-2bee-3ae0-b414"/>
+    <categoryLink id="a4a1-f9aa-a4f1-2060" name="Chief Librarian Tigurius" primary="false" targetId="2d6b-f80f-ac70-ecc7"/>
+    <categoryLink id="9257-36a2-e9f2-edaf" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="af-ed2c-ee3b-7b1c" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+   </categoryLinks>
+   <profiles>
+    <profile hidden="false" id="9080-53c7-c334-b989" name="Chief Librarian Tigurius" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       3+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       4
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="6d80-d11e-231d-1014" name="Hood of Hellfire" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, os modelos nessa unidade não têm a sensação 4+ habilidade contra ataques psíquicos e ferimentos mortais.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="712b-2536-4360-4d74" name="Master of Prescience (Psychic)" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, cada vez que um ataque tem como alvo essa unidade, subtraia 1 da jogada de acerto.Além disso, uma vez por rodada de batalha, você pode atingir essa unidade com um dos seguintes estratagemas para 0cp: contra-ofensiva;Overwatch de fogo;Vá para o chão;
+Intervenção heróica.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="af75-67b0-4fcb-d9e8" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Assalto Esquadrão de Intercessor
+■ Esquadrão de intercessora
+■ Esquadrão veterano de Sternguard
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <entryLinks>
+    <entryLink hidden="false" id="26f9-c721-b564-d38e" import="true" name="Bolt Pistol" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="55bb-ab92-bb25-e1f6" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="50b-f958-61b5-ea24" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+    <entryLink hidden="false" id="eec5-5f37-c9bd-889" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="4aab-43dc-b23-cff" import="true" name="Storm of the Emperor’s Wrath" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="cac2-53f4-6340-4a4" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="9bd6-1a73-16be-ac64" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="dcf9-9637-5df4-dc5e" name="➤ Storm of the Emperor’s Wrath - Witchfire" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         18"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         D6
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         6
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Blast, Psychic
+        </characteristic>
+       </characteristics>
+      </profile>
+      <profile hidden="false" id="72f9-1db7-ac4d-9fe2" name="➤ Storm of the Emperor’s Wrath - Focused Witchfire" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         18"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         2D6
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         6
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Blast, Hazardous, Psychic
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="555f-d4e-6484-dea6" name="Blast" targetId="6c1f-1cf7-ff25-c99e" type="rule"/>
+      <infoLink hidden="false" id="a9ea-1518-7b4b-9efb" name="Hazardous" targetId="8367-374c-f87-c627" type="rule"/>
+      <infoLink hidden="false" id="b2b-5a0c-7140-55dd" name="Psychic" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="c6ea-3c75-3e25-90aa" import="true" name="Rod of Tigurius" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="3ebe-4780-3664-820d" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="c41c-2241-e829-f6a9" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="969e-a31a-4eb6-4f0c" name="Rod of Tigurius" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         5
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         3+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         7
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         D3
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+         Psychic
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="8f55-d2c4-b473-18b0" name="Psychic" targetId="e9c4-2bb8-12ee-cd1b" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+   </selectionEntries>
+   <constraints>
+    <constraint field="selections" id="971a-45c9-4d1c-1fc" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="5380-5757-2c46-31cc" import="true" name="Marneus Calgar" type="unit">
+   <infoLinks>
+    <infoLink hidden="false" id="5cb2-408a-1f6-3bd6" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="a2f4-78b2-55de-a579" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="8606-4035-22c1-ba02" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="205"/>
+   </costs>
+   <profiles>
+    <profile hidden="false" id="dd59-fc60-ed57-4936" name="Marneus Calgar" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       6
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       6
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="1e8a-bb9c-65cf-6b32" name="Victrix Honour Guard" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       3
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="aa9c-84b5-b51-8755" name="Inspiring Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, essa unidade é elegível para disparar e declarar uma carga em uma curva em que avançou ou caiu.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="7370-225b-feb9-5d86" name="Master Tactician" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       No início da sua fase de comando, se o modelo Marneus Calgar desta unidade estiver no campo de batalha, você ganha 1cp.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="5bb-e17c-f1ac-9efc" name="Honour Guard of Macragge" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esta unidade contém um ou mais modelos de Honor Guard Victrix, o modelo de Marneus Calgar desta unidade tem a capacidade de sentir mais dor 4+.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="19d7-a45d-830a-99" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Esta unidade pode ser anexada às seguintes unidades:
+
+■ Esquadrão agressor
+■ Assalto Esquadrão de Intercessor
+■ Esquadrão veterano de Bladeguard
+■ Esquadrão do erradicador
+■ Esquadrão de intercessora pesada
+■ Esquadrão Infernus
+■ Esquadrão de intercessora
+■ Esquadrão veterano de Sternguard
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="9ee9-60dc-e65-b0c5" import="true" name="Marneus Calgar" type="upgrade">
+     <categoryLinks>
+      <categoryLink id="c855-4504-4bdb-b7dd" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+      <categoryLink id="f5ff-3e6e-99bf-e710" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+      <categoryLink id="3ac-fe0c-b486-d4a8" name="Gravis" primary="false" targetId="81f0-f40e-c36c-5a30"/>
+      <categoryLink id="5bac-672d-533-1427" name="Chapter Master" primary="false" targetId="5bd8-882d-302b-48f3"/>
+      <categoryLink id="c4e7-68d6-edb2-9b1a" name="Marneus Calgar" primary="false" targetId="4623-32ee-a055-6db3"/>
+      <categoryLink id="40b1-c86e-5360-e96b" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+      <categoryLink id="ec3b-bbe2-8a2-ed56" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+     </categoryLinks>
+     <constraints>
+      <constraint field="selections" id="e121-8138-bc71-4480" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="8435-7ba8-1c49-a3ef" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <selectionEntries>
+      <selectionEntry hidden="false" id="482e-2b4f-616-d783" import="true" name="Gauntlets of Ultramar" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="5f7e-bc36-604-144e" scope="parent" shared="true" type="min" value="1"/>
+        <constraint field="selections" id="51d0-3108-dc95-c1c2" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="118c-765f-f6a9-c983" name="Gauntlets of Ultramar" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+           18"
+          </characteristic>
+          <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+           4
+          </characteristic>
+          <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="2229-f494-25db-c5d3">
+           4
+          </characteristic>
+          <characteristic name="AP" typeId="9ead-8a10-520-de15">
+           -1
+          </characteristic>
+          <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+           2
+          </characteristic>
+          <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+           Pistol, Twin-linked
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="d126-71fe-a7b1-b32e" name="Gauntlets of Ultramar" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           6
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           8
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -3
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           3
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+           Twin-linked
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <infoLinks>
+        <infoLink hidden="false" id="f13e-ce0-2276-b2b0" name="Pistol" targetId="8bf7-8812-923d-29e4" type="rule"/>
+        <infoLink hidden="false" id="efbd-ceb6-4896-79b4" name="Twin-linked" targetId="cf93-ad4d-2f08-a79d" type="rule"/>
+       </infoLinks>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="3719-2013-c91c-1838" import="true" name="Victrix Honour Guard" type="upgrade">
+     <selectionEntries>
+      <selectionEntry collective="true" hidden="false" id="639c-f60f-581e-71d" import="true" name="Victrix Power Sword" type="upgrade">
+       <constraints>
+        <constraint field="selections" id="1a5d-5408-3a9f-1760" scope="parent" shared="true" type="min" value="1"/>
+        <constraint field="selections" id="1075-7f1f-ab46-8b4d" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+       <profiles>
+        <profile hidden="false" id="8782-c965-4294-6766" name="Victrix Power Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           5
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           2
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+         </characteristics>
+        </profile>
+       </profiles>
+      </selectionEntry>
+     </selectionEntries>
+     <constraints>
+      <constraint field="selections" id="f42e-e626-6412-8613" scope="parent" shared="true" type="min" value="2"/>
+      <constraint field="selections" id="394f-1ae5-91dd-3b08" scope="parent" shared="true" type="max" value="2"/>
+     </constraints>
+    </selectionEntry>
+   </selectionEntries>
+   <categoryLinks>
+    <categoryLink id="f299-1703-3cc5-66e3" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="7252-c269-18e9-9a11" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+   </categoryLinks>
+   <constraints>
+    <constraint field="selections" id="f645-ed9f-3464-84a0" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <entryLinks>
+    <entryLink hidden="false" id="3dd7-6ab0-2cbc-fe02" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="4aea-b1cc-6c69-1c44" import="true" name="Roboute Guilliman" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="2dfe-84f1-109b-8bf0" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="9773-9a10-7e7a-3bea" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="355"/>
+   </costs>
+   <constraints>
+    <constraint field="selections" id="23e1-7f8c-138e-c249" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <profiles>
+    <profile hidden="false" id="f7d-cd2b-639b-4c7e" name="Roboute Guilliman" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       8"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       9
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       10
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       5+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       4
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="12af-5519-836-3ca5" name="Author of the Codex" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Na sua fase de comando, selecione um autor da habilidade Codex (veja à esquerda).Até o início da sua próxima fase de comando, esse modelo tem essa habilidade.
+
+
+Primarch do XIII (aura): Enquanto uma unidade aliada de Adeptus Astartes está dentro de 6" deste modelo, adicione 1 à característica de controle objetivo dos modelos nessa unidade e você pode re-rolar o choque de batalha e os testes de liderança realizados para essa unidade.
+
+Mestre da Batalha: Depois de selecionar uma unidade inimiga usando o juramento da capacidade do momento, selecione uma segunda unidade inimiga.Até o início da sua próxima fase de comando, se a primeira unidade selecionada foi destruída, cada vez que um modelo aliada de Adeptus Astartes faz um ataque que visa a segunda unidade inimiga, você pode re-rolar a jogada de acerto e pode re-rolar oRolo de ferida.
+
+Estrategista supremo: uma vez por turno, você pode atingir uma unidade aliada de Adeptus Astartes dentro de 12 "deste modelo com um estratagema para 0cp e pode fazê -lo, mesmo que outra unidade do seu exército já tenha sido alvo com esse estratagema nesta fase.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="7a88-482-fa96-f382" name="Ultramarines Bodyguard" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo está dentro de 3" de uma ou mais unidades de infantaria de Adeptus Astartes aliadas, esse modelo tem a única capacidade operacional
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="72ce-755f-7843-e428" name="Armour of Fate" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Na primeira vez em que este modelo é destruído, role um D6 no final da fase: em um 3+, coloque esse modelo no campo de batalha o mais próximo possível de onde foi destruído e não dentro da faixa de engajamento de qualquer modelos inimigos,com 6 feridas restantes.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="ef49-87ed-43b1-1644" name="Supreme Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Se este modelo estiver em seu exército, deve ser o seu senhor da guerra.
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <categoryLinks>
+    <categoryLink id="7c1d-94d1-3f67-959f" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="7ed-e91a-147d-e83c" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="be23-fd46-c5f7-1218" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="9c24-ba2-577d-740d" name="Primarch" primary="false" targetId="6474-0ce3-6b5a-120c"/>
+    <categoryLink id="915e-d660-ce66-308d" name="Roboute Guilliman" primary="false" targetId="8149-45c1-62c1-ff2a"/>
+    <categoryLink id="6aa7-4191-badd-e46a" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="3c82-4f7c-b4ff-ba08" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+    <categoryLink id="2b80-60dc-eae6-7049" name="Monster" primary="false" targetId="9693-cf84-fe69-37a9"/>
+   </categoryLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="b5b2-5c6-e593-69a7" import="true" name="Hand of Dominion" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="199f-e592-e1da-5315" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="a89a-5871-80f-6b6" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="43b-1aed-6bc4-104b" name="Hand of Dominion" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         30"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         2
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         6
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Rapid Fire 2
+        </characteristic>
+       </characteristics>
+      </profile>
+      <profile hidden="false" id="f92b-1723-5e5c-c3e7" name="Hand of Dominion" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         7
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         14
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -4
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         4
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+         Lethal Hits
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="5b08-fb66-844-5202" name="Lethal Hits" targetId="d1d1-611e-5191-1095" type="rule"/>
+      <infoLink hidden="false" id="6800-fd75-5aa-67a5" name="Rapid Fire" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="4c53-6d36-742f-85ca" import="true" name="The Emperor's Sword" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="e40a-a785-634a-6d0a" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="89c0-b175-b338-7733" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="88e5-f730-d6b0-c0a3" name="The Emperor's Sword" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         14
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         8
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -3
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+         Devastating Wounds
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="a166-16b7-1e71-bb7a" name="Devastating Wounds" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+   </selectionEntries>
+   <entryLinks>
+    <entryLink hidden="false" id="fec9-14d-9e5f-2a20" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="3888-567-a5e5-9457" scope="parent" shared="true" type="min" value="1"/>
+     </constraints>
+    </entryLink>
+   </entryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="2263-82ee-3db6-8be9" import="true" name="Sergeant Chronus" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="543b-479e-d041-3c62" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="75"/>
+   </costs>
+   <profiles>
+    <profile hidden="false" id="7a88-def5-fe93-f65e" name="Sergeant Chronus" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       3
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="72c3-d3f3-5ba8-3c67" name="Tank Commander" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto este modelo está comandando um modelo de veículo (consulte reverso):
+
+■ Armas à distância equipadas por esse modelo de veículo têm uma habilidade balística característica de 2+.
+■ Cada vez que o modelo de veículo é selecionado para disparar, você pode re-rolar uma jogada de ferida ao resolver esses ataques.
+
+Se o seu exército incluir um ou mais modelos de veículos listados abaixo, o sargento Chronus deve iniciar a batalha embarcada em um desses modelos como se fosse um transporte.O sargento cronus só pode desembarcar desse veículo se for destruído.Enquanto embarcou dessa maneira, diz -se que o sargento Chronus está comandando esse veículo.
+
+■ Hunter
+■ Land Raider
+■ Cruzado de Raider Land
+■ Redentor de Raider Land
+■ AnniHilator predador
+■ Destruidor de Predator
+■ perseguidor
+■ Vindicador
+■ Whirlwind
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="bc23-bd70-e4d0-f355" name="Chronus" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Quando esse modelo desembarca de um modelo de veículo, ele era comandando, ele tem a única capacidade operacional até o final da batalha.
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <categoryLinks>
+    <categoryLink id="f85c-ced4-9940-e445" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="d9f6-c5a-2bc7-8b59" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="c3f0-c158-976b-b67d" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="ab89-86f8-ae7a-a233" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="c10a-b88c-e429-83d1" name="Sergeant Chronus" primary="false" targetId="4e73-2f07-a391-abb7"/>
+    <categoryLink id="8a1d-dbd4-6ae-51bf" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="cd06-5b6a-f6b7-d267" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+   </categoryLinks>
+   <entryLinks>
+    <entryLink hidden="false" id="2646-9c15-cc45-2407" import="true" name="Bolt Pistol" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="7100-3533-c8fb-7d6a" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="2954-4f4e-8ac4-d474" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+    <entryLink hidden="false" id="2dde-9c9e-3c7e-f569" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="f94a-1524-9f9b-2229" import="true" name="Chronus' Servo-Arm" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="b653-53f-bd1a-94ec" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="9c0d-cb18-a37f-353d" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="c537-27a2-64d8-de9b" name="Chronus' Servo-Arm" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         3
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         3+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         8
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         3
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+   </selectionEntries>
+   <constraints>
+    <constraint field="selections" id="e779-fe81-7e20-85fe" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="696a-899e-514b-4a04" import="true" name="Sergeant Telion" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="1840-4ca-a456-8750" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="c850-9a18-e1a1-42b4" name="Stealth" targetId="bec5-4288-34a6-ccfa" type="rule"/>
+    <infoLink hidden="false" id="4373-92ca-2883-2efe" name="Scouts" targetId="ada6-bac1-ffe0-d6f7" type="rule">
+     <modifiers>
+      <modifier field="name" type="set" value='6"'/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="3b1-8218-f28e-18d0" name="Infiltrators" targetId="c05d-f4c3-f091-4938" type="rule"/>
+    <infoLink hidden="false" id="5a08-bbac-9e2-34e8" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="70"/>
+   </costs>
+   <constraints>
+    <constraint field="selections" id="68f-33d-6c0f-1954" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <profiles>
+    <profile hidden="false" id="e4-2c50-d031-d11d" name="Sergeant Telion" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       4+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       3
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="ce2f-2282-d8d5-abb9" name="Voice of Experience" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, melhore a característica de controle objetivo dos modelos nessa unidade por 1 e cada vez que um modelo nessa unidade faz um ataque, adicione 1 à jogada de acerto.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="eae6-c930-f4cc-34d1" name="Guiding Hand" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto este modelo lidera uma unidade, cada vez que a unidade é selecionada para atirar ou lutar, selecione uma das seguintes habilidades para aplicar a armas equipadas por modelos nessa unidade até o final da fase:
+
+
+■ [hits letais]
+■ [Precisão]
+■ [Sucessos sustentados 1]
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="d0c4-765-4614-5b63" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Esquadrão de escoteiros
+■ Esquadrão de atirador de escoteiros
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <entryLinks>
+    <entryLink hidden="false" id="fcdd-fac8-2b2b-334a" import="true" name="Bolt Pistol" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="79af-8465-8613-6bc9" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="b09c-86ef-c041-4b26" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+    <entryLink hidden="false" id="7069-879c-e9c8-7154" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="9b80-b34f-cdbd-2a95" import="true" name="Combat Knife" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="61c9-1af2-4ab1-2eec" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="9094-3783-7b72-8561" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="32cd-f021-acbe-3ca7" name="Combat Knife" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         4
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         3+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         0
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         1
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="4e39-8d0-ac97-29f3" import="true" name="Quietus" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="3b54-2999-3dc0-7b84" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="ff0a-4c5e-a6b3-81af" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="45b5-a0d7-1e2a-4ebd" name="Quietus" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         36"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         2
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         3
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Precision
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="a9d8-a9d6-4640-30c3" name="Precision" targetId="9143-31ae-e0a6-6007" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+   </selectionEntries>
+   <categoryLinks>
+    <categoryLink id="95f2-1f16-cbe0-49a3" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="5cf2-66b5-38c0-fd36" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="e7de-5735-7374-245f" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="dc82-9e1a-2679-a9ef" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="d7e3-5c54-7a5a-4365" name="Sergeant Telion" primary="false" targetId="6a7f-3f2d-54bb-35fc"/>
+    <categoryLink id="bae9-92f8-c18f-dc56" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="3b04-5f6e-1120-f027" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+   </categoryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="8770-b0eb-f430-1dda" import="true" name="Tyrannic War Veterans" type="unit">
+   <infoLinks>
+    <infoLink hidden="false" id="d447-7c78-2e2c-9922" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="9009-6ebf-b525-df7c" name="Infantry" primary="true" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="7c96-8922-86-359c" name="Grenades" primary="false" targetId="5a61-81ac-eb7c-a87e"/>
+    <categoryLink id="cf69-cc32-fb26-6630" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="38d2-1053-28fa-7c65" name="Tyrannic War Veterans" primary="false" targetId="db3-6ff3-87c4-ac33"/>
+    <categoryLink id="bc9-2b0b-ccb2-cb1" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="6df3-4ca7-ff93-3cac" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+   </categoryLinks>
+   <selectionEntryGroups>
+    <selectionEntryGroup defaultSelectionEntryId="3c2c-14d4-2669-7f63" hidden="false" id="e2ae-fabb-40ec-dc8c" name="Tyrannic War Veterans">
+     <constraints>
+      <constraint field="selections" id="1260-b77f-cba4-4752" scope="parent" shared="true" type="min" value="5"/>
+      <constraint field="selections" id="2051-2e42-b03-baf6" scope="parent" shared="true" type="max" value="5"/>
+     </constraints>
+     <selectionEntries>
+      <selectionEntry hidden="false" id="3c2c-14d4-2669-7f63" import="true" name="Tyrannic War Veteran" type="model">
+       <constraints>
+        <constraint field="selections" id="c1cd-4d16-8e8f-eae2" scope="parent" shared="true" type="min" value="4"/>
+       </constraints>
+       <selectionEntries>
+        <selectionEntry collective="true" hidden="false" id="447a-517f-e0ff-2716" import="true" name="Bolt Pistol" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="f789-8840-c1a9-779c" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="3500-ba4a-d378-c397" scope="parent" shared="true" type="max" value="1"/>
+         </constraints>
+         <profiles>
+          <profile hidden="false" id="7bc6-60c6-7a7-7508" name="Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+           <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+             12"
+            </characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+             1
+            </characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+             3+
+            </characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">
+             4
+            </characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">
+             0
+            </characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+             1
+            </characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+             Anti-Tyranids 4+
+            </characteristic>
+           </characteristics>
+          </profile>
+         </profiles>
+         <infoLinks>
+          <infoLink hidden="false" id="13e-5322-8798-245d" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+         </infoLinks>
+        </selectionEntry>
+        <selectionEntry collective="true" hidden="false" id="b433-5c4c-3958-e044" import="true" name="Boltgun" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="2844-51b5-d5c8-1666" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="5520-adc2-ab5b-17e5" scope="parent" shared="true" type="max" value="1"/>
+         </constraints>
+         <profiles>
+          <profile hidden="false" id="6bb4-5f4d-df41-9d3e" name="Boltgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+           <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+             24"
+            </characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+             2
+            </characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+             3+
+            </characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">
+             4
+            </characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">
+             0
+            </characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+             1
+            </characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+             Anti-Tyranids 4+
+            </characteristic>
+           </characteristics>
+          </profile>
+         </profiles>
+         <infoLinks>
+          <infoLink hidden="false" id="9a81-8d0f-30cb-3eef" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+         </infoLinks>
+        </selectionEntry>
+        <selectionEntry collective="true" hidden="false" id="bece-acd9-8433-c368" import="true" name="Close Combat Weapon" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="c039-506a-fb2-647b" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="961f-905-cd55-90c4" scope="parent" shared="true" type="max" value="1"/>
+         </constraints>
+         <profiles>
+          <profile hidden="false" id="84a-63de-5b04-3d70" name="Close Combat Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+           <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">
+             Melee
+            </characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">
+             3
+            </characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+             3+
+            </characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+             4
+            </characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+             0
+            </characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">
+             1
+            </characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+             Anti-Tyranids 4+
+            </characteristic>
+           </characteristics>
+          </profile>
+         </profiles>
+         <infoLinks>
+          <infoLink hidden="false" id="e87a-5709-1cab-285" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+         </infoLinks>
+        </selectionEntry>
+       </selectionEntries>
+      </selectionEntry>
+      <selectionEntry hidden="false" id="d290-6bc6-b898-287a" import="true" name="Veteran Sergeant" type="model">
+       <constraints>
+        <constraint field="selections" id="9b0c-dbc0-41c9-8f3b" scope="parent" shared="true" type="min" value="1"/>
+        <constraint field="selections" id="f0c0-e123-b6dd-14b0" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+       <selectionEntries>
+        <selectionEntry collective="true" hidden="false" id="ed1b-558c-4344-bea2" import="true" name="Close Combat Weapon" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="c039-506a-fb2-647b" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="961f-905-cd55-90c4" scope="parent" shared="true" type="max" value="1"/>
+         </constraints>
+         <profiles>
+          <profile hidden="false" id="9fc0-cac2-db19-99a2" name="Close Combat Weapon" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+           <characteristics>
+            <characteristic name="Range" typeId="914c-b413-91e3-a132">
+             Melee
+            </characteristic>
+            <characteristic name="A" typeId="2337-daa1-6682-b110">
+             3
+            </characteristic>
+            <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+             3+
+            </characteristic>
+            <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+             4
+            </characteristic>
+            <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+             0
+            </characteristic>
+            <characteristic name="D" typeId="3254-9fe6-d824-513e">
+             1
+            </characteristic>
+            <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+             Anti-Tyranids 4+
+            </characteristic>
+           </characteristics>
+          </profile>
+         </profiles>
+         <infoLinks>
+          <infoLink hidden="false" id="d123-29a8-6164-6b86" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+         </infoLinks>
+        </selectionEntry>
+        <selectionEntry collective="true" hidden="false" id="9e0f-eaf0-86af-8c20" import="true" name="Boltgun" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="2844-51b5-d5c8-1666" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="5520-adc2-ab5b-17e5" scope="parent" shared="true" type="max" value="1"/>
+         </constraints>
+         <profiles>
+          <profile hidden="false" id="48e-4791-dd87-8b36" name="Boltgun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+           <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+             24"
+            </characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+             2
+            </characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+             3+
+            </characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">
+             4
+            </characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">
+             0
+            </characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+             1
+            </characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+             Anti-Tyranids 4+
+            </characteristic>
+           </characteristics>
+          </profile>
+         </profiles>
+         <infoLinks>
+          <infoLink hidden="false" id="d8d2-feab-7370-aedd" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+         </infoLinks>
+        </selectionEntry>
+        <selectionEntry collective="true" hidden="false" id="dd45-56f6-dbc4-d501" import="true" name="Bolt Pistol" type="upgrade">
+         <constraints>
+          <constraint field="selections" id="f789-8840-c1a9-779c" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="3500-ba4a-d378-c397" scope="parent" shared="true" type="max" value="1"/>
+         </constraints>
+         <profiles>
+          <profile hidden="false" id="ceda-b6fc-6006-bb01" name="Bolt Pistol" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+           <characteristics>
+            <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+             12"
+            </characteristic>
+            <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+             1
+            </characteristic>
+            <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+             3+
+            </characteristic>
+            <characteristic name="S" typeId="2229-f494-25db-c5d3">
+             4
+            </characteristic>
+            <characteristic name="AP" typeId="9ead-8a10-520-de15">
+             0
+            </characteristic>
+            <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+             1
+            </characteristic>
+            <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+             Anti-Tyranids 4+
+            </characteristic>
+           </characteristics>
+          </profile>
+         </profiles>
+         <infoLinks>
+          <infoLink hidden="false" id="97c3-5d3b-c387-5a7b" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+         </infoLinks>
+        </selectionEntry>
+       </selectionEntries>
+      </selectionEntry>
+     </selectionEntries>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
+   <profiles>
+    <profile hidden="false" id="fdcb-433f-b79f-1ec1" name="Tyrannic War Veterans" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       As armas equipadas por modelos nesta unidade têm a capacidade [devastadora de feridas] ao atingir as unidades Tyranids.
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="169a-7229-ea50-1c4f" import="true" name="Uriel Ventris" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="5e12-82ba-1e40-709" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="eab4-1a23-d8ef-95d3" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="87dc-d5ed-b91e-a149" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="85"/>
+   </costs>
+   <constraints>
+    <constraint field="selections" id="8014-8e19-b03f-7e57" scope="roster" shared="true" type="max" value="1"/>
+    <constraint field="selections" id="4f31-195-9a26-533b" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <categoryLinks>
+    <categoryLink id="4540-7887-8d24-4bf1" name="Uriel Ventris" primary="false" targetId="7af0-27df-af5b-a2ff"/>
+    <categoryLink id="19e2-f55a-f90a-ba4c" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="758e-f37a-14b7-8407" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="9d8e-6181-848-f4cf" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="b256-4389-dce1-bc02" name="Captain" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+    <categoryLink id="4c4c-93e-b5eb-675a" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="dad8-14b2-4e72-b2b1" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="61b0-4a25-83ce-f9da" name="Faction: Ultramarines" primary="false" targetId="1a2d-2f00-c054-4dcb"/>
+   </categoryLinks>
+   <profiles>
+    <profile hidden="false" id="3672-effe-fc09-22c6" name="Uriel Ventris" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       3+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       5
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="fad2-9c1c-44ce-ad0e" name="Unorthodox Strategist" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Embora esse modelo esteja liderando uma unidade, você pode atingir essa unidade com um estratagema, mesmo que esse estratagema já tenha sido usado em outra unidade do seu exército nesta fase.Além disso, a unidade deste modelo ainda pode ser selecionada como alvo de um estratagema enquanto é chocado.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="4e8a-9ef1-43e4-9ab2" name="Master of the Fleet" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Durante a etapa das formações de batalha declarar, se o seu exército incluir esse modelo, selecione uma unidade de infantaria Adeptus Astartes do seu exército.Essa unidade ganha a profunda capacidade de ataque.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="2ce2-dd82-241a-a38f" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Assalto Esquadrão de Intercessor
+■ Esquadrão de intercessora
+■ Esquadrão veterano de Sternguard
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <entryLinks>
+    <entryLink hidden="false" id="9c7b-9e88-a4e2-e83" import="true" name="Bolt Pistol" targetId="b273-b85e-4018-a0cd" type="selectionEntry">
+     <constraints>
+      <constraint field="selections" id="b08b-4b21-b14-2f88" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="b71d-537b-50ec-2ea8" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </entryLink>
+    <entryLink hidden="false" id="4fcd-c61-82a1-d88b" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="c23e-8f46-8323-119a" import="true" name="Invictus" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="2674-8ea-2526-dbe3" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="506f-4781-d1cf-d8f7" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="4cb0-a88c-49d-9fed" name="Invictus" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         24"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         2
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         4
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="18ee-7f57-3498-4e48" import="true" name="Sword of Idaeus" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="411c-99d1-611d-899a" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="3d39-b082-a3be-a5b0" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="d4e6-f626-278e-7bc6" name="Sword of Idaeus" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         6
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         6
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+         Sustained Hits 1
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="f39a-42d1-5db3-31da" name="Sustained Hits" targetId="1897-c22c-9597-12b1" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+   </selectionEntries>
+  </selectionEntry>
+ </sharedSelectionEntries>
+ <categoryEntries>
+  <categoryEntry hidden="false" id="8fee-e096-4a53-3790" name="Sicarius"/>
+  <categoryEntry hidden="false" id="feca-2b5b-3c14-547f" name="Chaplain Cassius"/>
+  <categoryEntry hidden="false" id="2d6b-f80f-ac70-ecc7" name="Chief Librarian Tigurius"/>
+  <categoryEntry hidden="false" id="4623-32ee-a055-6db3" name="Marneus Calgar"/>
+  <categoryEntry hidden="false" id="4e73-2f07-a391-abb7" name="Sergeant Chronus"/>
+  <categoryEntry hidden="false" id="6a7f-3f2d-54bb-35fc" name="Sergeant Telion"/>
+  <categoryEntry hidden="false" id="7af0-27df-af5b-a2ff" name="Uriel Ventris"/>
+  <categoryEntry hidden="false" id="db3-6ff3-87c4-ac33" name="Tyrannic War Veterans"/>
+  <categoryEntry hidden="false" id="8149-45c1-62c1-ff2a" name="Roboute Guilliman"/>
+ </categoryEntries>
+</catalogue>

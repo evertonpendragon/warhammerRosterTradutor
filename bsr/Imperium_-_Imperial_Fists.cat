@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="utf-8"?>
+<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="5d6e-fd3-330a-11dd" library="false" name="Imperium - Adeptus Astartes - Imperial Fists-BR" revision="3" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+ <catalogueLinks>
+  <catalogueLink id="1781-a2e9-cb3e-1f49" importRootEntries="true" name="Imperium - Imperial Agents" targetId="b00-cd86-4b4c-97ba" type="catalogue"/>
+  <catalogueLink id="6ab-d4bf-f407-e939" importRootEntries="true" name="Imperium - Space Marines" targetId="e0af-67df-9d63-8fb7" type="catalogue"/>
+ </catalogueLinks>
+ <sharedSelectionEntries>
+  <selectionEntry hidden="false" id="eecd-6976-6410-1e42" import="true" name="Darnath Lysander" type="model">
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="115"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="590-2db8-18c9-603f" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="362c-dbeb-ce12-cc6c" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="872-4241-48c7-6aa1" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="47c8-6892-226f-c2e1" name="Captain" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+    <categoryLink id="6645-b5c0-7ca8-af7e" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="e3d5-7dc7-e6b2-4bb5" name="Terminator" primary="false" targetId="740a-892c-8958-defa"/>
+    <categoryLink id="fc48-11e2-d56f-d62c" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="85e-6a9f-3389-7391" name="Faction: Imperial Fists" primary="false" targetId="97aa-d0e4-71c7-96c3"/>
+    <categoryLink id="b0ae-251b-e86-d514" name="Darnath Lysander" primary="false" targetId="f797-f718-df7d-8545"/>
+   </categoryLinks>
+   <profiles>
+    <profile hidden="false" id="6d34-cff2-ff30-d3cc" name="Darnath Lysander" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       5"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       5
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       6
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="fd8a-2e51-e8c6-b34d" name="Icon of Obstinacy" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, cada vez que um ataque tem como alvo essa unidade, se a característica de força desse ataque for maior ou igual à característica da tenacidade dessa unidade, subtraia 1 da jogada para ferir.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="d463-8c1e-f1ef-ce55" name="Rampart" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Uma vez por batalha, no início de qualquer fase, esse modelo pode usar essa habilidade.Se isso acontecer, até o final da fase, esse modelo possui um defesa invulnerável de 2+.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="e9c8-e6ff-83d4-afee" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Esquadrão de terminador de relíquias
+■ Esquadrão de agressão do Terminator
+■ Esquadrão do Terminator
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <infoLinks>
+    <infoLink hidden="false" id="e33e-f051-a514-e459" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="7c56-1f9c-88eb-d260" name="Deep Strike" targetId="7cb5-dd6b-dd87-ad3b" type="rule"/>
+    <infoLink hidden="false" id="c344-a3d-57c7-4ff" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+    <infoLink hidden="false" id="6bff-e754-761d-a82d" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+   </infoLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="7560-433a-b4aa-94ca" import="true" name="Fist of Dorn" type="upgrade">
+     <profiles>
+      <profile hidden="false" id="2ac6-e240-55c0-1e34" name="Fist of Dorn" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         5
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         10
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -3
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         3
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+         Devastating Wounds
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <constraints>
+      <constraint field="selections" id="ee9b-1362-475d-8ca5" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="d764-d517-747d-7cc9" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <infoLinks>
+      <infoLink hidden="false" id="7982-5eb4-cdbc-802e" name="Devastating Wounds" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+   </selectionEntries>
+   <constraints>
+    <constraint field="selections" id="1a45-5d36-a6c4-aa9a" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="7709-796b-3022-31fe" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <entryLinks>
+    <entryLink hidden="false" id="5731-527b-3b65-d257" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="5936-83d6-4e30-915c" import="true" name="Tor Garadon" type="model">
+   <infoLinks>
+    <infoLink hidden="false" id="8c7d-7155-9796-3a50" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+    <infoLink hidden="false" id="cf05-d443-b96d-582d" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+    <infoLink hidden="false" id="fb43-9d11-63a9-6e64" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+   </infoLinks>
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="b01e-8ea7-e951-d692" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="54c-8499-c11c-4107" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="9aa9-71da-7af-6ea8" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="a197-fe1c-f82-33ab" name="Captain" primary="false" targetId="2d7f-1892-2fd0-e29c"/>
+    <categoryLink id="a877-5382-56a4-cc86" name="Gravis" primary="false" targetId="81f0-f40e-c36c-5a30"/>
+    <categoryLink id="8703-e89c-7352-26d2" name="Tor Garadon" primary="false" targetId="3d09-3368-9c3c-9009"/>
+    <categoryLink id="a669-4750-4427-94c9" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="de4f-4821-a3be-2040" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="27e-dc36-f978-9521" name="Faction: Imperial Fists" primary="false" targetId="97aa-d0e4-71c7-96c3"/>
+   </categoryLinks>
+   <profiles>
+    <profile hidden="false" id="7c25-2fc1-6ba6-160d" name="Tor Garadon" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       5"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       6
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       3+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       6
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="dee6-67e8-9a8b-f5cd" name="Signum Array" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto esse modelo lidera uma unidade, as armas de longo alcance equipadas por modelos nessa unidade têm as habilidades [letais] e [ignora a cobertura].
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="653d-148d-7c06-2436" name="Siege Captain" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Cada vez que esse modelo faz um ataque que tem como alvo uma unidade de monstro, veículo ou fortificação, melhore as características de força, penetração e dano da armadura desse ataque em 2.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="60a-b484-e0d7-43b7" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Esquadrão agressor
+■ Esquadrão do erradicador
+■ Esquadrão de intercessora pesada
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="660a-455b-8476-3f5d" import="true" name="Aritficer Grav Gun" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="818c-2c2b-f3af-3548" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="3d6c-c5ae-28ba-46c" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="7dfb-44c4-1d55-3e2f" name="Aritficer Grav Gun" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         18"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         2
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         5
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Anti-vehicle 2+
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="ed21-2c2-10a2-cb2" name="Anti-" targetId="4111-82e3-9444-e942" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="a5c3-5888-85cf-8686" import="true" name="Hand of Defiance" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="e723-e6fb-8763-1478" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="9ac-d4e2-3ab7-e7ad" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="870d-a10c-b215-1395" name="Hand of Defiance" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         5
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         12
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+   </selectionEntries>
+   <constraints>
+    <constraint field="selections" id="db4-f942-30e6-6e3f" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="7709-796b-3022-31fe" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <entryLinks>
+    <entryLink hidden="false" id="3a51-3c8f-f135-4372" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+  </selectionEntry>
+  <selectionEntry hidden="false" id="59e3-5a97-f36d-5b94" import="true" name="Pedro Kantor" type="model">
+   <costs>
+    <cost name="pts" typeId="51b2-306e-1021-d207" value="100"/>
+   </costs>
+   <categoryLinks>
+    <categoryLink id="a6bb-a4ac-13d0-6a52" name="Epic Hero" primary="true" targetId="4f3a-f0f7-6647-348d"/>
+    <categoryLink id="166d-3b85-183a-b6c9" name="Character" primary="false" targetId="9cfd-1c32-585f-7d5c"/>
+    <categoryLink id="a90a-36fb-f6ae-eaf6" name="Infantry" primary="false" targetId="cf47-a0d7-7207-29dc"/>
+    <categoryLink id="4029-f738-a17d-ef7c" name="Grenades" primary="false" targetId="5a61-81ac-eb7c-a87e"/>
+    <categoryLink id="5d3e-2f79-d650-ad8f" name="Imperium" primary="false" targetId="aff3-d6a3-2a95-9dc"/>
+    <categoryLink id="d083-b8e7-21ba-e587" name="Chapter Master" primary="false" targetId="5bd8-882d-302b-48f3"/>
+    <categoryLink id="271e-691a-e31b-2df7" name="Faction: Adeptus Astartes" primary="false" targetId="6e7-40c-58d9-e402"/>
+    <categoryLink id="da8b-37f5-3226-8fb2" name="Faction: Imperial Fists" primary="false" targetId="97aa-d0e4-71c7-96c3"/>
+    <categoryLink id="f1cf-c7c6-d6fa-adb3" name="Pedro Kantor" primary="false" targetId="7709-796b-3022-31fe"/>
+   </categoryLinks>
+   <constraints>
+    <constraint field="selections" id="9dfa-6dba-4c0a-a938" scope="roster" shared="true" type="max" value="1"/>
+   </constraints>
+   <infoLinks>
+    <infoLink hidden="false" id="210e-4f79-1c2d-15f5" name="Invulnerable Save" targetId="db19-dee7-9530-ef0e" type="profile"/>
+    <infoLink hidden="false" id="29f0-ce6-fe9b-5a4b" name="Feel No Pain" targetId="9bf4-280f-bbe2-6fbb" type="rule">
+     <modifiers>
+      <modifier field="name" type="append" value="6+"/>
+     </modifiers>
+    </infoLink>
+    <infoLink hidden="false" id="5235-8689-3357-5c97" name="Oath of Moment" targetId="3b76-4053-ece9-6e7d" type="rule"/>
+    <infoLink hidden="false" id="4344-cb11-9f52-95d8" name="Leader" targetId="b4dd-3e1f-41cb-218f" type="rule"/>
+   </infoLinks>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="16e9-568f-de53-22e1" import="true" name="Dorn's Arrow" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="45bb-cc8f-b03e-bba7" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="9385-306d-100f-9b69" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="49c3-48e8-5856-65d3" name="Dorn's Arrow" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         24"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         2
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         5
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -1
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         2
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         Rapid Fire 2, Sustained Hits 1
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <infoLinks>
+      <infoLink hidden="false" id="65bb-797a-e89-7afd" name="Rapid Fire" targetId="c5c8-8b58-b8b6-7786" type="rule"/>
+      <infoLink hidden="false" id="a0a2-e62d-40c5-2dbe" name="Sustained Hits" targetId="1897-c22c-9597-12b1" type="rule"/>
+     </infoLinks>
+    </selectionEntry>
+    <selectionEntry hidden="false" id="3bd3-d7d9-3f22-6ce9" import="true" name="Fist of Retribution" type="upgrade">
+     <constraints>
+      <constraint field="selections" id="18ad-3bc4-c2c5-46e5" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="37aa-187f-83e7-4f60" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+     <profiles>
+      <profile hidden="false" id="faba-867d-75d6-3747" name="Fist of Retribution" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         5
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         2+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         8
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -3
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         3
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e"/>
+       </characteristics>
+      </profile>
+     </profiles>
+    </selectionEntry>
+   </selectionEntries>
+   <profiles>
+    <profile hidden="false" id="f0d0-41c3-13ce-6595" name="Pedro Kantor" typeId="c547-1836-d8a-ff4f" typeName="Unit">
+     <characteristics>
+      <characteristic name="M" typeId="e703-ecb6-5ce7-aec1">
+       6"
+      </characteristic>
+      <characteristic name="T" typeId="d29d-cf75-fc2d-34a4">
+       4
+      </characteristic>
+      <characteristic name="SV" typeId="450-a17e-9d5e-29da">
+       2+
+      </characteristic>
+      <characteristic name="W" typeId="750a-a2ec-90d3-21fe">
+       5
+      </characteristic>
+      <characteristic name="LD" typeId="58d2-b879-49c7-43bc">
+       6+
+      </characteristic>
+      <characteristic name="OC" typeId="bef7-942a-1a23-59f8">
+       1
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="5324-763c-61f5-9e4b" name="Oath of Rynn" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Uma vez por batalha, no início da fase de comando de qualquer jogador, esse modelo pode usar essa habilidade.Quando isso acontecer, até o final do turno, adicione 1 aos ataques característicos das armas equipadas pelos modelos na unidade deste modelo.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="b20-ca96-c186-27dc" name="To the Last" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Enquanto este modelo lidera uma unidade, cada vez que um modelo nessa unidade faz um ataque, adicione 1 à jogada de acerto se essa unidade estiver abaixo da força inicial e adicione 1 à jogada para ferir também se essa unidade estiver abaixo da metade-força.
+      </characteristic>
+     </characteristics>
+    </profile>
+    <profile hidden="false" id="39c9-ff24-66c5-c3aa" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
+     <characteristics>
+      <characteristic name="Description" typeId="9b8f-694b-e5e-b573">
+       Este modelo pode ser anexado às seguintes unidades:
+
+■ Esquadrão de comando
+■ Esquadrão veterano de Sternguard
+■ Esquadrão tático
+      </characteristic>
+     </characteristics>
+    </profile>
+   </profiles>
+   <modifiers>
+    <modifier field="hidden" type="set" value="true">
+     <conditionGroups>
+      <conditionGroup type="or">
+       <conditions>
+        <condition childId="f797-f718-df7d-8545" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+        <condition childId="3d09-3368-9c3c-9009" field="selections" includeChildForces="true" includeChildSelections="true" scope="roster" shared="true" type="atLeast" value="1"/>
+       </conditions>
+      </conditionGroup>
+     </conditionGroups>
+    </modifier>
+   </modifiers>
+   <entryLinks>
+    <entryLink hidden="false" id="42b3-a452-360d-a1d1" import="true" name="Warlord" targetId="caa-f869-3cbd-b48e" type="selectionEntry"/>
+   </entryLinks>
+  </selectionEntry>
+ </sharedSelectionEntries>
+ <categoryEntries>
+  <categoryEntry hidden="false" id="f797-f718-df7d-8545" name="Darnath Lysander"/>
+  <categoryEntry hidden="false" id="3d09-3368-9c3c-9009" name="Tor Garadon"/>
+  <categoryEntry hidden="false" id="7709-796b-3022-31fe" name="Pedro Kantor"/>
+ </categoryEntries>
+ <entryLinks>
+  <entryLink hidden="false" id="1b9c-5fc3-d8c7-46fa" import="true" name="Darnath Lysander" targetId="eecd-6976-6410-1e42" type="selectionEntry"/>
+  <entryLink hidden="false" id="109d-48c6-54ac-eb81" import="true" name="Tor Garadon" targetId="5936-83d6-4e30-915c" type="selectionEntry"/>
+  <entryLink hidden="false" id="776a-7bf7-2b4c-3211" import="true" name="Pedro Kantor" targetId="59e3-5a97-f36d-5b94" type="selectionEntry"/>
+  <entryLink hidden="false" id="4703-2169-49d5-4ed4" import="true" name="Show/Hide Options" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
+   <entryLinks>
+    <entryLink hidden="false" id="b552-b1fc-5532-ba0" import="true" name="Show Titans" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
+    <entryLink hidden="false" id="3d13-635f-37f4-94c8" import="true" name="Show Imperial Knights" targetId="e82c-6f8c-2b97-a287" type="selectionEntry"/>
+    <entryLink hidden="false" id="cf34-7c1e-d9c5-97fc" import="true" name="Show Agents of the Imperium" targetId="e08b-2448-5606-fefb" type="selectionEntry"/>
+   </entryLinks>
+  </entryLink>
+ </entryLinks>
+</catalogue>
