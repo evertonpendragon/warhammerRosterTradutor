@@ -209,17 +209,19 @@ def limpaBsrDir():
 #################################vo#######################################################################################
 
 if __name__ == '__main__':
+    path = os.path.abspath(__file__)
+    rootDir = os.path.dirname(path)
     limpaBsrDir()
     backupDicionario()
 
     originPath = "./wh40k-master/"
-    destPath = "./wh40kBR-master/"
+    master_br_dir = "./wh40kBR-master/"
     catRepoDir = 'C:/Users/evert/PycharmProjects/warhammerRosterTradutor/BSDataBrasil/wh40kBR/'
     projectDir = 'C:/Users/evert/PycharmProjects/warhammerRosterTradutor'
     dic_dir = projectDir
     dic_path = os.path.join(dic_dir,"dicionario.json")
     #gameSystemId ='49b6-bc6f-0390-1e40'#8th edition
-    gameSystemId='38ec-711c-d87f-3aec'
+    gameSystemId='sys-38ec-711c-d87f-3aec'
     gameSystemRevision="1" #usado na migracao para a 9th edicao, automatizar para ler do arquivo gst
 
     print ('Download do repositório de origem')
@@ -227,22 +229,28 @@ if __name__ == '__main__':
     #downloadWh40kLatestSource()  #parou de funcionar em jan-2023
     downloadWh40kLatestSource_vjul2023()
 
-    if os.path.exists(destPath):
-        rmtree(destPath, True)
+    #Apenas para troubleshootiung
+    for arq in os.listdir(originPath):
+        if arq not in [ "Imperium - Space Wolves.cat","Warhammer 40,000.gst"]:
+            arq_full = os.path.join(originPath,arq)
+            os.remove(arq_full)
+
+    if os.path.exists(master_br_dir):
+        rmtree(master_br_dir, True)
 
 
-    if not os.path.exists(destPath):
-        os.makedirs(destPath)
+    if not os.path.exists(master_br_dir):
+        os.makedirs(master_br_dir)
 
     for f in os.listdir(originPath):
         originFileFullPath = originPath+f
         BR_file = f.replace(' ', '_').replace(',','.').replace('\'','')
         BR_zfile = BR_file + 'z'
 
-        destFileFullPath = destPath + BR_file
+        destFileFullPath = master_br_dir + BR_file
         if os.path.splitext(originFileFullPath)[1] in [".catz",'.gstz']:
             with zip.ZipFile(f, 'r') as zip_ref:
-                zip_ref.extractall(destPath)
+                zip_ref.extractall(master_br_dir)
         elif os.path.splitext(originFileFullPath)[1] in ['.cat', '.gst']:
             copyfile(originFileFullPath, destFileFullPath)
         else:
@@ -280,13 +288,14 @@ if __name__ == '__main__':
                 except Exception as e:
                     print(str(e))
                     exit(-1)
-            else:
-                print(kk,"nao esta em :", dicionario[k])
+            #comentado em 19/089/2023: saida inutil e verbosa
+            # else:
+            #     print(kk,"nao esta em :", dicionario[k])
     naoLocalizados=0
-    catz = os.listdir(destPath)
+    catz = os.listdir(master_br_dir)
     for cfile in catz:
         try:
-            destCatFileName = destPath + cfile
+            destCatFileName = master_br_dir + cfile
             with open(destCatFileName, "r", encoding="utf8") as file:
                 catFile = file.read()
                 file.close()
@@ -462,9 +471,9 @@ if __name__ == '__main__':
             exit(-1)
 
     #copia os arquivos cat para a pasta do repositorio
-    copyCatToRepoDir(destPath, catRepoDir)
+    copyCatToRepoDir(master_br_dir, catRepoDir)
     #compacta
-    compactCat(destPath)
+    compactCat(master_br_dir)
 
 
     #newFile = "{projectDir}dicionario_new.json".format(projectDir=projectDir)
@@ -510,5 +519,31 @@ if __name__ == '__main__':
         GitApi.uploadBsr('bsr')
         GitApi.uploadBsr('bsi')
         GitApi.uploadMasterFiles()
+
+
+        ########################################################################################################################
+        # gera pasta com todos os arquivos da release
+        ########################################################################################################################
+        release_dir = os.path.join(rootDir , 'Release')
+        bsi_br_dir = os.path.join(rootDir , 'BSI_BR')
+        master_br_dir = os.path.join(rootDir , 'wh40kBR-master')
+        if not os.path.exists(release_dir):
+            os.mkdir(release_dir)
+
+        for f in os.listdir(release_dir):
+            f = os.path.join(release_dir, f)
+            os.remove(f)
+
+        for f in os.listdir(bsi_br_dir):
+            dest_file = os.path.join(release_dir, f)
+            source_file = os.path.join(bsi_br_dir,f)
+            copyfile(source_file, dest_file)
+
+
+        for f in os.listdir(master_br_dir):
+            dest_file = os.path.join(release_dir, f)
+            source_file = os.path.join(master_br_dir, f)
+            copyfile(source_file, dest_file)
+
     print( "qtd_traducoes_google",qtd_traducoes_google)
     print( "qtd_traducoes_literais",qtd_traducoes_literais)

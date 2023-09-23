@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="dfcf-1214-b57-2205" library="true" name="Aeldari - Aeldari Library-BR" revision="12" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="dfcf-1214-b57-2205" library="true" name="Aeldari - Aeldari Library-BR" revision="12" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <publications>
   <publication id="442c-a37c-3908-d701" name="Index: Aeldari" publicationDate="6/15/2023" publisher="Index: Aeldari" shortName="I:Aeldari"/>
   <publication id="1427-7c5c-863f-ac94" name="Index: Drukhari" publicationDate="6/15/2023" publisher="Index: Drukhari" shortName="I:Drukhari"/>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="3bdf-a114-5035-c6ac" library="false" name="Xenos - Genestealer Cults-BR" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="3bdf-a114-5035-c6ac" library="false" name="Xenos - Genestealer Cults-BR" revision="9" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <rules>
   <rule hidden="false" id="d1a5-97a5-30da-7fd" name="Brood Brothers">
    <description>

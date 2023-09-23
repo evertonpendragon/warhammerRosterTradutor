@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<gameSystem battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="38ec-711c-d87f-3aec" name="Warhammer 40,000 10th Edition-BR" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
+<gameSystem battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="sys-38ec-711c-d87f-3aec" name="Warhammer 40,000 10th Edition-BR" revision="5" type="gameSystem" xmlns="http://www.battlescribe.net/schema/gameSystemSchema">
  <publications>
   <publication id="48fc-15aa-b307-9443" name="10th Edition Core Rules" shortName="10th Ed Core"/>
   <publication hidden="false" id="8db3-575d-91b-47f8" name="Github" publisherUrl="https://github.com/BSData/wh40k-10e" shortName="BSData/wh40k-10e"/>

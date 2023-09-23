@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="34a5-8c7e-f468-82d1" library="false" name="Aeldari - Craftworlds-BR" revision="3" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="34a5-8c7e-f468-82d1" library="false" name="Aeldari - Craftworlds-BR" revision="3" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <entryLinks>
   <entryLink collective="false" hidden="false" id="f3ea-ade3-be6-a95" import="true" name="Wraithguard" targetId="5aa4-107-d7ee-f0f3" type="selectionEntry"/>
   <entryLink collective="false" hidden="false" id="de48-1fed-57fe-c097" import="true" name="Windriders" targetId="592a-b255-6c58-19ec" type="selectionEntry"/>

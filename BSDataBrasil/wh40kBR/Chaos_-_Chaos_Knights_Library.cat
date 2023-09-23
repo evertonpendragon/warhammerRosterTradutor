@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="8106-aad2-918a-9ac" library="true" name="Chaos - Chaos Knights Library-BR" revision="8" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="8106-aad2-918a-9ac" library="true" name="Chaos - Chaos Knights Library-BR" revision="8" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <categoryEntries>
   <categoryEntry hidden="false" id="99dc-0f47-85e2-75da" name="War Dog">
    <modifiers>

@@ -38,7 +38,7 @@ def googleTranslateText(text, dest):
 
             textTransl = translator.translate(text, dest=dest).text
             textTransl = traducaoLiteral(textTransl,dicionario_termos)
-            print (textTransl)
+            #print (textTransl)
             return textTransl
         except Exception as e:
             print ("Falha na traducao do Google, {exception}, {e}".format(exception=str(Exception),e=str(e)))

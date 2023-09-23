@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="94bb-3284-ee14-57a1" library="false" name="Imperium - Adeptus Astartes - Space Wolves-BR" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="94bb-3284-ee14-57a1" library="false" name="Imperium - Adeptus Astartes - Space Wolves-BR" revision="5" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <catalogueLinks>
   <catalogueLink id="cb5b-3605-7522-c561" importRootEntries="true" name="Imperium - Space Marines" targetId="e0af-67df-9d63-8fb7" type="catalogue"/>
   <catalogueLink id="2e06-13ae-6789-b591" importRootEntries="true" name="Imperium - Imperial Knights" targetId="1b6d-dc06-5db9-c7d1" type="catalogue"/>
@@ -2956,8 +2956,18 @@ Você pode anexar esse modelo à unidade acima, mesmo que um capitão ou modelo 
      </constraints>
      <entryLinks>
       <entryLink hidden="false" id="d4a8-d5c4-25e3-6510" import="true" name="Astartes chainsword" targetId="2230-ea82-78d-707c" type="selectionEntry"/>
-      <entryLink hidden="false" id="dc76-dfce-2ea6-342c" import="true" name="Boltgun" targetId="beac-9df8-7247-c8ab" type="selectionEntry"/>
-      <entryLink hidden="false" id="d883-7029-e67f-9bb6" import="true" name="Bolt Pistol" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
+      <entryLink hidden="false" id="dc76-dfce-2ea6-342c" import="true" name="Boltgun" targetId="beac-9df8-7247-c8ab" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="7d25-33fb-7762-18fa" scope="parent" shared="true" type="min" value="1"/>
+        <constraint field="selections" id="b1d9-8bb-8c9c-c01a" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+      </entryLink>
+      <entryLink hidden="false" id="d883-7029-e67f-9bb6" import="true" name="Bolt Pistol" targetId="18b0-8c2-173f-5" type="selectionEntry">
+       <constraints>
+        <constraint field="selections" id="7089-3675-af6c-2f" scope="parent" shared="true" type="min" value="1"/>
+        <constraint field="selections" id="8396-73f3-7f3e-1c4a" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+      </entryLink>
      </entryLinks>
      <selectionEntryGroups>
       <selectionEntryGroup defaultSelectionEntryId="54ae-1f4b-f96-446b" hidden="false" id="ed88-83e7-1b7f-8fe2" name="Replace CCW">
@@ -3027,96 +3037,61 @@ Você pode anexar esse modelo à unidade acima, mesmo que um capitão ou modelo 
         </entryLink>
        </entryLinks>
       </selectionEntry>
-     </selectionEntries>
-     <selectionEntryGroups>
-      <selectionEntryGroup hidden="false" id="82e-653c-79b4-4a7c" name="Up to 2">
+      <selectionEntry hidden="false" id="47b8-df29-463f-b111" import="true" name="Grey Hunter w/Special Weapon" type="model">
        <constraints>
-        <constraint field="selections" id="f01b-b2dd-e371-d40f" scope="parent" shared="true" type="max" value="2"/>
+        <constraint field="selections" id="1a9b-d468-a162-1dd8" scope="parent" shared="true" type="max" value="2"/>
        </constraints>
-       <selectionEntries>
-        <selectionEntry hidden="false" id="4a3a-af96-3ce7-290b" import="true" name="Grey Hunter w/ flamer" type="model">
+       <entryLinks>
+        <entryLink hidden="false" id="f3b6-c0f6-1ad0-e1a7" import="true" name="Close combat weapon" targetId="c5c2-d76d-97ed-de16" type="selectionEntry"/>
+        <entryLink hidden="false" id="6dec-fbb3-6bc2-b452" import="true" name="Astartes chainsword" targetId="2230-ea82-78d-707c" type="selectionEntry"/>
+       </entryLinks>
+       <selectionEntryGroups>
+        <selectionEntryGroup hidden="false" id="9f94-eb7d-927d-db09" name="Special Weapon">
          <entryLinks>
-          <entryLink hidden="false" id="a660-1b20-52b8-b2aa" import="true" name="Close combat weapon" targetId="c5c2-d76d-97ed-de16" type="selectionEntry"/>
-          <entryLink hidden="false" id="cd22-dbec-7e6d-cbd8" import="true" name="Flamer" targetId="e550-b2bd-ee82-32a4" type="selectionEntry">
+          <entryLink hidden="false" id="5d8d-acec-67b1-1001" import="true" name="Flamer" targetId="469c-6259-59a5-64c1" type="selectionEntry"/>
+          <entryLink hidden="false" id="987d-1bcf-c250-21b2" import="true" name="Grav-gun" targetId="f2b1-745f-e386-2f1" type="selectionEntry"/>
+          <entryLink hidden="false" id="d3ac-ddff-3ed3-c239" import="true" name="Meltagun" targetId="958-24c7-8843-459f" type="selectionEntry"/>
+          <entryLink hidden="false" id="16ad-548a-8f23-3011" import="true" name="Plasma Gun" targetId="4f0e-770d-bae4-bfc3" type="selectionEntry"/>
+         </entryLinks>
+        </selectionEntryGroup>
+        <selectionEntryGroup hidden="false" id="c089-8e86-662-316a" name="Pistol">
+         <constraints>
+          <constraint field="selections" id="7603-dbcd-5988-ef2a" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="fc81-9239-f7f8-6c1b" scope="parent" shared="true" type="max" value="1"/>
+         </constraints>
+         <entryLinks>
+          <entryLink hidden="false" id="78e2-51c6-6d9d-5168" import="true" name="Bolt Pistol" targetId="18b0-8c2-173f-5" type="selectionEntry"/>
+          <entryLink hidden="false" id="51b4-e884-8156-1164" import="true" name="Plasma Pistol" targetId="25c2-104f-fa0c-809e" type="selectionEntry">
            <constraints>
-            <constraint field="selections" id="8f10-18f3-4883-ef5e" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="7bb4-31f4-65a0-7d64" scope="parent" shared="true" type="max" value="1"/>
-           </constraints>
-          </entryLink>
-          <entryLink hidden="false" id="4b30-4535-bc46-9a58" import="true" name="Bolt Pistol" targetId="18b0-8c2-173f-5" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="eed4-8f1d-a83e-260d" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="6fd4-7e48-1c18-db77" scope="parent" shared="true" type="max" value="1"/>
+            <constraint field="selections" id="4626-cca2-deb0-92ef" includeChildSelections="true" scope="60ce-47ea-50fa-53f2" shared="true" type="max" value="1"/>
            </constraints>
           </entryLink>
          </entryLinks>
+        </selectionEntryGroup>
+       </selectionEntryGroups>
+      </selectionEntry>
+      <selectionEntry hidden="false" id="f617-34bc-2a79-24bc" import="true" name="Grey Hunter w/Plasma Pistol" type="model">
+       <entryLinks>
+        <entryLink hidden="false" id="90cf-7fa8-11d9-8de2" import="true" name="Close combat weapon" targetId="c5c2-d76d-97ed-de16" type="selectionEntry"/>
+        <entryLink hidden="false" id="9941-ccbf-c8f9-b375" import="true" name="Boltgun" targetId="beac-9df8-7247-c8ab" type="selectionEntry">
          <constraints>
-          <constraint field="selections" id="7ac-fd01-1691-d43b" scope="parent" shared="true" type="max" value="2"/>
+          <constraint field="selections" id="8f10-18f3-4883-ef5e" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="7bb4-31f4-65a0-7d64" scope="parent" shared="true" type="max" value="1"/>
          </constraints>
-        </selectionEntry>
-        <selectionEntry hidden="false" id="82b0-645a-7dbe-656" import="true" name="Grey Hunter w/ meltagun" type="model">
-         <entryLinks>
-          <entryLink hidden="false" id="a643-b7b5-df4f-a462" import="true" name="Close combat weapon" targetId="c5c2-d76d-97ed-de16" type="selectionEntry"/>
-          <entryLink hidden="false" id="9871-dd43-8c55-9a35" import="true" name="Meltagun" targetId="87f2-23b-b5b5-de33" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="8f10-18f3-4883-ef5e" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="7bb4-31f4-65a0-7d64" scope="parent" shared="true" type="max" value="1"/>
-           </constraints>
-          </entryLink>
-          <entryLink hidden="false" id="b59b-736b-fddd-a83c" import="true" name="Bolt Pistol" targetId="18b0-8c2-173f-5" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="eed4-8f1d-a83e-260d" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="2bea-38f6-db87-b629" scope="parent" shared="true" type="max" value="1"/>
-           </constraints>
-          </entryLink>
-         </entryLinks>
+        </entryLink>
+        <entryLink hidden="false" id="f1c7-8a4e-e679-7e9b" import="true" name="Plasma Pistol" targetId="25c2-104f-fa0c-809e" type="selectionEntry">
          <constraints>
-          <constraint field="selections" id="7ac-fd01-1691-d43b" scope="parent" shared="true" type="max" value="2"/>
+          <constraint field="selections" id="eed4-8f1d-a83e-260d" scope="parent" shared="true" type="min" value="1"/>
+          <constraint field="selections" id="aa3c-be54-e770-556c" scope="parent" shared="true" type="max" value="1"/>
+          <constraint field="selections" id="4626-cca2-deb0-92ef" includeChildSelections="true" scope="60ce-47ea-50fa-53f2" shared="true" type="max" value="1"/>
          </constraints>
-        </selectionEntry>
-        <selectionEntry hidden="false" id="6b79-4f0a-e9a3-a575" import="true" name="Grey Hunter w/ plasma gun" type="model">
-         <entryLinks>
-          <entryLink hidden="false" id="16f9-5dd3-1ead-9336" import="true" name="Close combat weapon" targetId="c5c2-d76d-97ed-de16" type="selectionEntry"/>
-          <entryLink hidden="false" id="3c41-9e0d-9609-5e6" import="true" name="Plasma gun" targetId="6c84-62ea-477c-609c" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="8f10-18f3-4883-ef5e" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="7bb4-31f4-65a0-7d64" scope="parent" shared="true" type="max" value="1"/>
-           </constraints>
-          </entryLink>
-          <entryLink hidden="false" id="140f-5b30-f513-ed06" import="true" name="Bolt Pistol" targetId="18b0-8c2-173f-5" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="eed4-8f1d-a83e-260d" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="870d-9e9c-d756-78f2" scope="parent" shared="true" type="max" value="1"/>
-           </constraints>
-          </entryLink>
-         </entryLinks>
-         <constraints>
-          <constraint field="selections" id="7ac-fd01-1691-d43b" scope="parent" shared="true" type="max" value="2"/>
-         </constraints>
-        </selectionEntry>
-        <selectionEntry hidden="false" id="5b01-adf2-3abc-9d6a" import="true" name="Grey Hunter w/ grav-gun" type="model">
-         <entryLinks>
-          <entryLink hidden="false" id="4c24-f7a5-82df-73ce" import="true" name="Close combat weapon" targetId="c5c2-d76d-97ed-de16" type="selectionEntry"/>
-          <entryLink hidden="false" id="94d5-d1de-bfcc-3668" import="true" name="Grav-gun" targetId="fb57-2fb2-60c1-79d0" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="8f10-18f3-4883-ef5e" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="7bb4-31f4-65a0-7d64" scope="parent" shared="true" type="max" value="1"/>
-           </constraints>
-          </entryLink>
-          <entryLink hidden="false" id="a946-e79f-52f0-fdad" import="true" name="Bolt Pistol" targetId="18b0-8c2-173f-5" type="selectionEntry">
-           <constraints>
-            <constraint field="selections" id="eed4-8f1d-a83e-260d" scope="parent" shared="true" type="min" value="1"/>
-            <constraint field="selections" id="a879-78a4-b128-dea7" scope="parent" shared="true" type="max" value="1"/>
-           </constraints>
-          </entryLink>
-         </entryLinks>
-         <constraints>
-          <constraint field="selections" id="7ac-fd01-1691-d43b" scope="parent" shared="true" type="max" value="2"/>
-         </constraints>
-        </selectionEntry>
-       </selectionEntries>
-      </selectionEntryGroup>
-     </selectionEntryGroups>
+        </entryLink>
+       </entryLinks>
+       <constraints>
+        <constraint field="selections" id="7ac-fd01-1691-d43b" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+      </selectionEntry>
+     </selectionEntries>
     </selectionEntryGroup>
    </selectionEntryGroups>
    <categoryLinks>
@@ -8541,13 +8516,6 @@ Reservas estratégicas.
   <entryLink hidden="false" id="3f15-36d4-1194-be99" import="true" name="Cyberwolf" targetId="6a06-e50c-2c7d-3ec3" type="selectionEntry"/>
   <entryLink hidden="false" id="d8d3-d93e-4ead-3e95" import="true" name="Wolf Scouts" targetId="91e4-38c4-a96f-2090" type="selectionEntry"/>
   <entryLink hidden="false" id="2797-16d2-806b-6cc7" import="true" name="Space Wolves Venerable Dreadnought" targetId="c125-1106-f06d-9682" type="selectionEntry"/>
-  <entryLink hidden="false" id="661e-3b78-8544-1ba5" import="true" name="Show/Hide Options" targetId="e8ef-836a-a9d1-901d" type="selectionEntry">
-   <entryLinks>
-    <entryLink hidden="false" id="5b4-4f48-451a-6f8c" import="true" name="Show Titans" targetId="f26b-79db-80e0-3a3b" type="selectionEntry"/>
-    <entryLink hidden="false" id="fa3b-1f5d-febb-44b0" import="true" name="Show Imperial Knights" targetId="e82c-6f8c-2b97-a287" type="selectionEntry"/>
-    <entryLink hidden="false" id="bfac-db1b-3aa2-1323" import="true" name="Show Agents of the Imperium" targetId="e08b-2448-5606-fefb" type="selectionEntry"/>
-   </entryLinks>
-  </entryLink>
  </entryLinks>
  <sharedInfoGroups>
   <infoGroup hidden="false" id="976-2d16-9324-f92" name="Logan">

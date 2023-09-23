@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorContact="Dunamis55 &amp; AbonShell" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="d81a-61dd-6d27-a3ce" library="false" name="Xenos - T'au Empire-BR" revision="12" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorContact="Dunamis55 &amp; AbonShell" authorName="BSData Developers" battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="d81a-61dd-6d27-a3ce" library="false" name="Xenos - T'au Empire-BR" revision="12" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <rules>
   <rule hidden="false" id="eeb6-c42-48f7-cc21" name="For The Greater Good">
    <description>

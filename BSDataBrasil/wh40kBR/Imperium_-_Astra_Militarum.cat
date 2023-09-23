@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="b0ae-12a5-c84-ea45" library="false" name="Imperium - Astra Militarum-BR" revision="5" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="b0ae-12a5-c84-ea45" library="false" name="Imperium - Astra Militarum-BR" revision="5" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <entryLinks>
   <entryLink hidden="false" id="f38c-6b5-d8d3-32db" import="true" name="‘Iron Hand’ Straken" targetId="913f-3cb6-fb80-7f6a" type="selectionEntry"/>
   <entryLink hidden="false" id="2c5d-9f8f-b19d-53be" import="true" name="Aegis Defence Line" targetId="cb99-456-f100-40ed" type="selectionEntry"/>

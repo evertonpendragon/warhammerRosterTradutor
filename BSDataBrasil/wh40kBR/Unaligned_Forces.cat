@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue authorName="WindstormSCR" battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="581a-46b9-5b86-44b7" library="true" name="Unaligned Forces-BR" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue authorName="WindstormSCR" battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="581a-46b9-5b86-44b7" library="true" name="Unaligned Forces-BR" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <sharedSelectionEntries>
   <selectionEntry collective="false" hidden="false" id="e85b-17c7-1ad9-8375" import="true" name="Ambull" type="model">
    <costs>

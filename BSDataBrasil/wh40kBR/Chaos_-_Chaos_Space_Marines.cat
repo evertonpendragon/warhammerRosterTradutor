@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="c8da-e875-58f7-f6d6" library="false" name="Chaos - Chaos Space Marines-BR" revision="17" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="c8da-e875-58f7-f6d6" library="false" name="Chaos - Chaos Space Marines-BR" revision="17" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <profileTypes>
   <profileType id="3084-68b8-1d20-2f26" name="Marks of Chaos">
    <characteristicTypes>

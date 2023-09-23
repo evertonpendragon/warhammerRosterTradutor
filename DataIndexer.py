@@ -148,7 +148,7 @@ def createIndexBsr():
             dataType = "gameSystem"
 
         for catalogue in elements:
-            filePath = cfile#+"z"
+            filePath = cfile+"z"
             dataId = catalogue["id"]
             dataName = catalogue["name"]
             dataBattleScribeVersion = catalogue["battleScribeVersion"]

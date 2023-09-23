@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="7481-280e-b55e-7867" library="true" name="Library - Titans-BR" revision="2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="7481-280e-b55e-7867" library="true" name="Library - Titans-BR" revision="2" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <sharedSelectionEntries>
   <selectionEntry hidden="false" id="8eb5-a990-6eb0-9b41" import="true" name="Warhound Titan" type="model">
    <costs>

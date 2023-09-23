@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="4029-9237-e8db-af55" library="false" name="Imperium - Adeptus Astartes - Ultramarines-BR" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="4029-9237-e8db-af55" library="false" name="Imperium - Adeptus Astartes - Ultramarines-BR" revision="4" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <entryLinks>
   <entryLink hidden="false" id="7740-af66-ac4f-68b6" import="true" name="Captain Sicarius" targetId="2ae8-40ec-ba34-dfe5" type="selectionEntry"/>
   <entryLink hidden="false" id="e1e-1c6b-bb62-f9c8" import="true" name="Chaplain Cassius" targetId="b180-3cac-9124-b818" type="selectionEntry"/>

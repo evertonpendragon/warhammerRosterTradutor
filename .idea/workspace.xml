@@ -6,10 +6,194 @@
   <component name="ChangeListManager">
     <list default="true" id="d6e87b94-945b-42f2-bc24-db97cf190559" name="Default Changelist" comment="10th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Aeldari_Library.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Aeldari_Library.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Craftworlds.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Craftworlds.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Drukhari.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Drukhari.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Ynnari.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Aeldari_-_Ynnari.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Daemons.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Daemons.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Daemons_Library.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Daemons_Library.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Knights.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Knights.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Knights_Library.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Knights_Library.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Space_Marines.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Chaos_Space_Marines.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Death_Guard.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Death_Guard.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Thousand_Sons.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Thousand_Sons.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Titanicus_Traitoris.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_Titanicus_Traitoris.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_World_Eaters.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Chaos_-_World_Eaters.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Genestealer_Cults.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Genestealer_Cults.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adepta_Sororitas.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adepta_Sororitas.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adeptus_Custodes.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adeptus_Custodes.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adeptus_Mechanicus.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adeptus_Mechanicus.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adeptus_Titanicus.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Adeptus_Titanicus.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Agents_of_the_Imperium.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Agents_of_the_Imperium.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Astra_Militarum.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Astra_Militarum.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Astra_Militarum_-_Library.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Astra_Militarum_-_Library.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Black_Templars.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Black_Templars.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Blood_Angels.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Blood_Angels.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Dark_Angels.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Dark_Angels.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Deathwatch.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Deathwatch.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Grey_Knights.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Grey_Knights.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Imperial_Fists.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Imperial_Fists.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Imperial_Knights.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Imperial_Knights.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Imperial_Knights_-_Library.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Imperial_Knights_-_Library.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Iron_Hands.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Iron_Hands.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Raven_Guard.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Raven_Guard.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Salamanders.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Salamanders.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Space_Marines.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Space_Marines.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Space_Wolves.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Space_Wolves.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Ultramarines.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_Ultramarines.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_White_Scars.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Imperium_-_White_Scars.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Leagues_of_Votann.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Leagues_of_Votann.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Library_-_Astartes_Heresy_Legends.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Library_-_Astartes_Heresy_Legends.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Library_-_Titans.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Library_-_Titans.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Necrons.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Necrons.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Orks.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Orks.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Tau_Empire.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Tau_Empire.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Tyranids.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Tyranids.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Unaligned_Forces.cat" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Unaligned_Forces.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Warhammer_40.000.gst" beforeDir="false" afterPath="$PROJECT_DIR$/BSDataBrasil/wh40kBR/Warhammer_40.000.gst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.bsi" beforeDir="false" afterPath="$PROJECT_DIR$/BSI_BR/wh40k-10e.latest.bsi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataIndexer.py" beforeDir="false" afterPath="$PROJECT_DIR$/DataIndexer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GitApi.py" beforeDir="false" afterPath="$PROJECT_DIR$/GitApi.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WarhammerCatalogueTradutor.py" beforeDir="false" afterPath="$PROJECT_DIR$/WarhammerCatalogueTradutor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Aeldari_-_Aeldari_Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Aeldari_-_Craftworlds.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Aeldari_-_Drukhari.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Aeldari_-_Ynnari.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Chaos_Daemons.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Chaos_Daemons_Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Chaos_Knights.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Chaos_Knights_Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Chaos_Space_Marines.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Death_Guard.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Thousand_Sons.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_Titanicus_Traitoris.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Chaos_-_World_Eaters.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Genestealer_Cults.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Adepta_Sororitas.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Adeptus_Custodes.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Adeptus_Mechanicus.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Adeptus_Titanicus.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Agents_of_the_Imperium.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Astra_Militarum.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Astra_Militarum_-_Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Black_Templars.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Blood_Angels.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Dark_Angels.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Deathwatch.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Grey_Knights.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Imperial_Fists.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Imperial_Knights.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Imperial_Knights_-_Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Iron_Hands.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Raven_Guard.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Salamanders.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Space_Marines.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Space_Wolves.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_Ultramarines.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Imperium_-_White_Scars.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Leagues_of_Votann.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Library_-_Astartes_Heresy_Legends.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Library_-_Titans.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Necrons.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Orks.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Tau_Empire.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Tyranids.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Unaligned_Forces.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/Warhammer_40.000.gst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/index.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/bsr/wh40kBR.bsr" beforeDir="false" afterPath="$PROJECT_DIR$/bsr/wh40kBR.bsr" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dicionario.json" beforeDir="false" afterPath="$PROJECT_DIR$/dicionario.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/traducaoLiteral.py" beforeDir="false" afterPath="$PROJECT_DIR$/traducaoLiteral.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master.zip" beforeDir="false" afterPath="$PROJECT_DIR$/wh40k-master.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Aeldari - Aeldari Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Aeldari - Craftworlds.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Aeldari - Drukhari.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Aeldari - Ynnari.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Chaos Daemons Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Chaos Daemons.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Chaos Knights Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Chaos Knights.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Chaos Space Marines.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Death Guard.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Thousand Sons.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - Titanicus Traitoris.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Chaos - World Eaters.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Genestealer Cults.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Adepta Sororitas.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Custodes.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Mechanicus.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Adeptus Titanicus.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Agents of the Imperium.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Astra Militarum - Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Astra Militarum.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Black Templars.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Blood Angels.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Dark Angels.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Deathwatch.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Grey Knights.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Imperial Fists.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Imperial Knights - Library.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Imperial Knights.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Iron Hands.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Raven Guard.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Salamanders.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Space Marines.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Space Wolves.cat" beforeDir="false" afterPath="$PROJECT_DIR$/wh40k-master/Imperium - Space Wolves.cat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - Ultramarines.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Imperium - White Scars.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Leagues of Votann.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Library - Astartes Heresy Legends.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Library - Titans.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Necrons.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Orks.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/T'au Empire.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Tyranids.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40k-master/Unaligned Forces.cat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Aeldari_-_Aeldari_Library.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Aeldari_-_Craftworlds.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Aeldari_-_Drukhari.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Aeldari_-_Ynnari.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Chaos_Daemons.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Chaos_Daemons_Library.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Chaos_Knights.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Chaos_Knights_Library.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Chaos_Space_Marines.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Death_Guard.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Thousand_Sons.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_Titanicus_Traitoris.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Chaos_-_World_Eaters.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Genestealer_Cults.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Adepta_Sororitas.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Adeptus_Custodes.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Adeptus_Mechanicus.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Adeptus_Titanicus.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Agents_of_the_Imperium.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Astra_Militarum.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Astra_Militarum_-_Library.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Black_Templars.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Blood_Angels.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Dark_Angels.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Deathwatch.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Grey_Knights.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Imperial_Fists.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Imperial_Knights.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Imperial_Knights_-_Library.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Iron_Hands.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Raven_Guard.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Salamanders.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Space_Marines.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Space_Wolves.catz" beforeDir="false" afterPath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Space_Wolves.catz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_Ultramarines.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Imperium_-_White_Scars.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Leagues_of_Votann.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Library_-_Astartes_Heresy_Legends.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Library_-_Titans.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Necrons.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Orks.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Tau_Empire.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Tyranids.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Unaligned_Forces.catz" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/wh40kBR-master/Warhammer_40.000.gstz" beforeDir="false" afterPath="$PROJECT_DIR$/wh40kBR-master/Warhammer_40.000.gstz" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -354,7 +538,21 @@
       <option name="project" value="LOCAL" />
       <updated>1692245657138</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="10th">
+      <created>1692250300868</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1692250300868</updated>
+    </task>
+    <task id="LOCAL-00007" summary="10th">
+      <created>1692250323243</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1692250323243</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">

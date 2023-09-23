@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<catalogue battleScribeVersion="2.03" gameSystemId="38ec-711c-d87f-3aec" gameSystemRevision="1" id="b654-a18a-ea1-3bf2" library="false" name="Xenos - Necrons-BR" revision="10" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue battleScribeVersion="2.03" gameSystemId="sys-38ec-711c-d87f-3aec" gameSystemRevision="1" id="b654-a18a-ea1-3bf2" library="false" name="Xenos - Necrons-BR" revision="11" type="catalogue" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
  <sharedSelectionEntryGroups>
   <selectionEntryGroup hidden="false" id="9574-b5d1-8b0a-d95d" name="Enhancements">
    <constraints>
@@ -76,52 +76,6 @@
      </costs>
     </selectionEntry>
    </selectionEntries>
-  </selectionEntryGroup>
-  <selectionEntryGroup defaultSelectionEntryId="996f-a375-99a-30c0" hidden="false" id="3db5-9ef2-91cb-27f" name="Weapon">
-   <selectionEntries>
-    <selectionEntry hidden="false" id="fb0d-2326-8831-ea2a" import="true" name="Lord's blade" type="upgrade">
-     <profiles>
-      <profile hidden="false" id="eb77-cc03-1283-494a" name="Lord's blade" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-       <characteristics>
-        <characteristic name="Range" typeId="914c-b413-91e3-a132">
-         Melee
-        </characteristic>
-        <characteristic name="A" typeId="2337-daa1-6682-b110">
-         4
-        </characteristic>
-        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
-         2+
-        </characteristic>
-        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
-         8
-        </characteristic>
-        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
-         -3
-        </characteristic>
-        <characteristic name="D" typeId="3254-9fe6-d824-513e">
-         2
-        </characteristic>
-        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-         Devastating Wounds
-        </characteristic>
-       </characteristics>
-      </profile>
-     </profiles>
-     <infoLinks>
-      <infoLink hidden="false" id="632d-42d2-ff1-60bf" name="Devastating Wounds" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
-     </infoLinks>
-    </selectionEntry>
-   </selectionEntries>
-   <comment>
-    Lord weapons
-   </comment>
-   <entryLinks>
-    <entryLink hidden="false" id="996f-a375-99a-30c0" import="true" name="Staff of light" targetId="a201-7744-9fd4-228a" type="selectionEntry"/>
-   </entryLinks>
-   <constraints>
-    <constraint field="selections" id="a789-3c46-adb2-53e3" scope="parent" shared="true" type="min" value="1"/>
-    <constraint field="selections" id="fb55-e968-cffe-7656" scope="parent" shared="true" type="max" value="1"/>
-   </constraints>
   </selectionEntryGroup>
  </sharedSelectionEntryGroups>
  <sharedSelectionEntries>
@@ -1393,7 +1347,6 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
    <entryLinks>
     <entryLink hidden="false" id="2c7-f659-526d-7b96" import="true" name="Enhancements" targetId="9574-b5d1-8b0a-d95d" type="selectionEntryGroup"/>
     <entryLink hidden="false" id="2419-2fa2-de6b-c8d6" import="true" name="Warlord" targetId="2c98-86cf-889-2293" type="selectionEntry"/>
-    <entryLink hidden="false" id="e93-4aa1-9f9-90ad" import="true" name="Weapon" targetId="3db5-9ef2-91cb-27f" type="selectionEntryGroup"/>
    </entryLinks>
    <profiles>
     <profile hidden="false" id="e7ff-8e68-9766-247f" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -1478,6 +1431,103 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
       <entryLink hidden="false" id="600c-859b-fe5c-58f6" import="true" name="Resurrection orb" targetId="b6a2-1f8e-f187-3945" type="selectionEntry"/>
      </entryLinks>
     </selectionEntryGroup>
+    <selectionEntryGroup defaultSelectionEntryId="996f-a375-99a-30c0" hidden="false" id="151b-2df7-5a05-867d" name="Weapon">
+     <selectionEntries>
+      <selectionEntry hidden="false" id="960f-d536-c51c-f9b3" import="true" name="Lord's blade" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="3e51-82d1-9725-3333" name="Lord's blade" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           4
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           8
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -3
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           2
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+           Devastating Wounds
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <infoLinks>
+        <infoLink hidden="false" id="672a-68d3-327b-50a6" name="Devastating Wounds" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+       </infoLinks>
+      </selectionEntry>
+      <selectionEntry hidden="false" id="e3b4-5998-8b15-4d65" import="true" name="Staff of light" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="3bb9-cfd3-a1f4-1d39" name="Staff of light" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+           18"
+          </characteristic>
+          <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+           3
+          </characteristic>
+          <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="2229-f494-25db-c5d3">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="9ead-8a10-520-de15">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="7403-f6-6b4-944f" name="Staff of light" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           4
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <constraints>
+        <constraint field="selections" id="a310-e4e5-e891-37d9" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+      </selectionEntry>
+     </selectionEntries>
+     <constraints>
+      <constraint field="selections" id="a789-3c46-adb2-53e3" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="fb55-e968-cffe-7656" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </selectionEntryGroup>
    </selectionEntryGroups>
   </selectionEntry>
   <selectionEntry hidden="false" id="8005-b0eb-72ab-aed5" import="true" name="Lord" type="model">
@@ -1499,7 +1549,6 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
    <entryLinks>
     <entryLink hidden="false" id="e24f-a9c8-2ff8-1f84" import="true" name="Enhancements" targetId="9574-b5d1-8b0a-d95d" type="selectionEntryGroup"/>
     <entryLink hidden="false" id="e1e3-e232-f308-6f43" import="true" name="Warlord" targetId="2c98-86cf-889-2293" type="selectionEntry"/>
-    <entryLink hidden="false" id="b0ce-a7a2-5add-c955" import="true" name="Weapon" targetId="3db5-9ef2-91cb-27f" type="selectionEntryGroup"/>
     <entryLink hidden="false" id="6a08-254d-f6ef-17a8" import="true" name="Resurrection orb" targetId="b6a2-1f8e-f187-3945" type="selectionEntry">
      <constraints>
       <constraint field="selections" id="c2d1-f3c5-1eb4-bc0d" scope="parent" shared="true" type="max" value="1"/>
@@ -1554,6 +1603,105 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
      </characteristics>
     </profile>
    </profiles>
+   <selectionEntryGroups>
+    <selectionEntryGroup defaultSelectionEntryId="996f-a375-99a-30c0" hidden="false" id="53bf-da38-ffc0-755c" name="Weapon">
+     <selectionEntries>
+      <selectionEntry hidden="false" id="420f-bcb8-2dfa-2077" import="true" name="Lord's blade" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="2747-5a26-946b-5bac" name="Lord's blade" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           3
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           3+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           8
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -3
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           2
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+           Devastating Wounds
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <infoLinks>
+        <infoLink hidden="false" id="e425-ccbf-4808-12" name="Devastating Wounds" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
+       </infoLinks>
+      </selectionEntry>
+      <selectionEntry hidden="false" id="442d-fd64-e0d6-1457" import="true" name="Staff of light" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="6094-47a9-660d-d482" name="Staff of light" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+           18"
+          </characteristic>
+          <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+           3
+          </characteristic>
+          <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+           3+
+          </characteristic>
+          <characteristic name="S" typeId="2229-f494-25db-c5d3">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="9ead-8a10-520-de15">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="8101-4101-e60c-f5ce" name="Staff of light" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           3
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           3+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <constraints>
+        <constraint field="selections" id="a310-e4e5-e891-37d9" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+      </selectionEntry>
+     </selectionEntries>
+     <constraints>
+      <constraint field="selections" id="a789-3c46-adb2-53e3" scope="parent" shared="true" type="min" value="1"/>
+      <constraint field="selections" id="fb55-e968-cffe-7656" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </selectionEntryGroup>
+   </selectionEntryGroups>
   </selectionEntry>
   <selectionEntry hidden="false" id="b6a2-1f8e-f187-3945" import="true" name="Resurrection orb" type="upgrade">
    <profiles>
@@ -1642,9 +1790,67 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
       <constraint field="selections" id="2b7d-b72b-a83b-f668" scope="parent" shared="true" type="max" value="1"/>
      </constraints>
      <entryLinks>
-      <entryLink hidden="false" id="679f-4efe-13bb-5836" import="true" name="Staff of light" targetId="a201-7744-9fd4-228a" type="selectionEntry"/>
       <entryLink hidden="false" id="4e84-d5bc-404e-e005" import="true" name="Overlord's blade" targetId="10c5-11df-dd25-b5b0" type="selectionEntry"/>
      </entryLinks>
+     <selectionEntries>
+      <selectionEntry hidden="false" id="77f2-d4ed-87d6-9ca" import="true" name="Staff of light" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="4a5a-85ae-3c45-8954" name="Staff of light" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+           18"
+          </characteristic>
+          <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+           3
+          </characteristic>
+          <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="2229-f494-25db-c5d3">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="9ead-8a10-520-de15">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="9844-84db-6dcd-7d05" name="Staff of light" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           4
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           3+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <constraints>
+        <constraint field="selections" id="a310-e4e5-e891-37d9" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+      </selectionEntry>
+     </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup defaultSelectionEntryId="ef5a-444d-fea0-ca68" hidden="false" id="a4e2-d6d2-6176-f4bb" name="Main weapon">
      <constraints>
@@ -1735,63 +1941,6 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
      </profiles>
     </selectionEntry>
    </selectionEntries>
-  </selectionEntry>
-  <selectionEntry hidden="false" id="a201-7744-9fd4-228a" import="true" name="Staff of light" type="upgrade">
-   <profiles>
-    <profile hidden="false" id="413f-554-6821-c0d0" name="Staff of light" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
-     <characteristics>
-      <characteristic name="Range" typeId="9896-9419-16a1-92fc">
-       18"
-      </characteristic>
-      <characteristic name="A" typeId="3bb-c35f-f54-fb08">
-       3
-      </characteristic>
-      <characteristic name="BS" typeId="94d-8a98-cf90-183e">
-       2+
-      </characteristic>
-      <characteristic name="S" typeId="2229-f494-25db-c5d3">
-       5
-      </characteristic>
-      <characteristic name="AP" typeId="9ead-8a10-520-de15">
-       -2
-      </characteristic>
-      <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
-       1
-      </characteristic>
-      <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
-       -
-      </characteristic>
-     </characteristics>
-    </profile>
-    <profile hidden="false" id="335b-8a2d-13a3-a48f" name="Staff of light" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
-     <characteristics>
-      <characteristic name="Range" typeId="914c-b413-91e3-a132">
-       Melee
-      </characteristic>
-      <characteristic name="A" typeId="2337-daa1-6682-b110">
-       4
-      </characteristic>
-      <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
-       2+
-      </characteristic>
-      <characteristic name="S" typeId="ab33-d393-96ce-ccba">
-       5
-      </characteristic>
-      <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
-       -2
-      </characteristic>
-      <characteristic name="D" typeId="3254-9fe6-d824-513e">
-       1
-      </characteristic>
-      <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
-       -
-      </characteristic>
-     </characteristics>
-    </profile>
-   </profiles>
-   <constraints>
-    <constraint field="selections" id="a310-e4e5-e891-37d9" scope="parent" shared="true" type="max" value="1"/>
-   </constraints>
   </selectionEntry>
   <selectionEntry hidden="false" id="dbe5-257e-e2bd-1b40" import="true" name="Overlord" type="model">
    <costs>
@@ -1934,6 +2083,63 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
         <infoLink hidden="false" id="439-8648-4a50-94d5" name="Devastating Wounds" targetId="be1e-ac8e-1e2c-3528" type="rule"/>
        </infoLinks>
       </selectionEntry>
+      <selectionEntry hidden="false" id="697f-bd54-2688-80f3" import="true" name="Staff of light" type="upgrade">
+       <profiles>
+        <profile hidden="false" id="20d7-fc7b-d23a-1537" name="Staff of light" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+           18"
+          </characteristic>
+          <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+           3
+          </characteristic>
+          <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="2229-f494-25db-c5d3">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="9ead-8a10-520-de15">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+        <profile hidden="false" id="8f1e-30b0-111-bccf" name="Staff of light" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+         <characteristics>
+          <characteristic name="Range" typeId="914c-b413-91e3-a132">
+           Melee
+          </characteristic>
+          <characteristic name="A" typeId="2337-daa1-6682-b110">
+           4
+          </characteristic>
+          <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+           2+
+          </characteristic>
+          <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+           5
+          </characteristic>
+          <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+           -2
+          </characteristic>
+          <characteristic name="D" typeId="3254-9fe6-d824-513e">
+           1
+          </characteristic>
+          <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+           -
+          </characteristic>
+         </characteristics>
+        </profile>
+       </profiles>
+       <constraints>
+        <constraint field="selections" id="a310-e4e5-e891-37d9" scope="parent" shared="true" type="max" value="1"/>
+       </constraints>
+      </selectionEntry>
      </selectionEntries>
      <entryLinks>
       <entryLink hidden="false" id="a962-c81b-791b-c520" import="true" name="Overlord's blade" targetId="10c5-11df-dd25-b5b0" type="selectionEntry">
@@ -1941,7 +2147,6 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
         <constraint field="selections" id="72d-4fec-7054-69ac" scope="parent" shared="true" type="max" value="1"/>
        </constraints>
       </entryLink>
-      <entryLink hidden="false" id="8750-da86-480f-5ff8" import="true" name="Staff of light" targetId="a201-7744-9fd4-228a" type="selectionEntry"/>
      </entryLinks>
     </selectionEntryGroup>
    </selectionEntryGroups>
@@ -2032,11 +2237,6 @@ Em seu lugar, com todas as suas feridas restantes (se o modelo selecionado estav
    <entryLinks>
     <entryLink hidden="false" id="1ee2-5d7a-5dbb-18c3" import="true" name="Enhancements" targetId="9574-b5d1-8b0a-d95d" type="selectionEntryGroup"/>
     <entryLink hidden="false" id="5851-588f-a3b1-9c8a" import="true" name="Warlord" targetId="2c98-86cf-889-2293" type="selectionEntry"/>
-    <entryLink hidden="false" id="207d-2107-4394-6769" import="true" name="Staff of light" targetId="a201-7744-9fd4-228a" type="selectionEntry">
-     <constraints>
-      <constraint field="selections" id="3c47-ac50-de3-56b8" scope="parent" shared="true" type="min" value="1"/>
-     </constraints>
-    </entryLink>
    </entryLinks>
    <profiles>
     <profile hidden="false" id="df30-5340-9681-8ed5" name="Leader" typeId="9cc3-6d83-4dd3-9b64" typeName="Abilities">
@@ -2132,6 +2332,65 @@ Você pode anexar esse modelo a uma das unidades acima, mesmo que um diretor rea
      </selectionEntries>
     </selectionEntryGroup>
    </selectionEntryGroups>
+   <selectionEntries>
+    <selectionEntry hidden="false" id="49fe-eee5-a977-311" import="true" name="Staff of light" type="upgrade">
+     <profiles>
+      <profile hidden="false" id="542b-4858-7bca-539e" name="Staff of light" typeId="f77d-b953-8fa4-b762" typeName="Ranged Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="9896-9419-16a1-92fc">
+         18"
+        </characteristic>
+        <characteristic name="A" typeId="3bb-c35f-f54-fb08">
+         3
+        </characteristic>
+        <characteristic name="BS" typeId="94d-8a98-cf90-183e">
+         4+
+        </characteristic>
+        <characteristic name="S" typeId="2229-f494-25db-c5d3">
+         5
+        </characteristic>
+        <characteristic name="AP" typeId="9ead-8a10-520-de15">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="a354-c1c8-a745-f9e3">
+         1
+        </characteristic>
+        <characteristic name="Keywords" typeId="7f1b-8591-2fcf-d01c">
+         -
+        </characteristic>
+       </characteristics>
+      </profile>
+      <profile hidden="false" id="b711-1774-efa4-2a82" name="Staff of light" typeId="8a40-4aaa-c780-9046" typeName="Melee Weapons">
+       <characteristics>
+        <characteristic name="Range" typeId="914c-b413-91e3-a132">
+         Melee
+        </characteristic>
+        <characteristic name="A" typeId="2337-daa1-6682-b110">
+         2
+        </characteristic>
+        <characteristic name="WS" typeId="95d1-95f-45b4-11d6">
+         4+
+        </characteristic>
+        <characteristic name="S" typeId="ab33-d393-96ce-ccba">
+         5
+        </characteristic>
+        <characteristic name="AP" typeId="41a0-1301-112a-e2f2">
+         -2
+        </characteristic>
+        <characteristic name="D" typeId="3254-9fe6-d824-513e">
+         1
+        </characteristic>
+        <characteristic name="Keywords" typeId="893f-9000-ccf7-648e">
+         -
+        </characteristic>
+       </characteristics>
+      </profile>
+     </profiles>
+     <constraints>
+      <constraint field="selections" id="a310-e4e5-e891-37d9" scope="parent" shared="true" type="max" value="1"/>
+     </constraints>
+    </selectionEntry>
+   </selectionEntries>
   </selectionEntry>
   <selectionEntry hidden="false" id="aea6-b6a1-a924-d31" import="true" name="Psychomancer" type="model">
    <costs>
